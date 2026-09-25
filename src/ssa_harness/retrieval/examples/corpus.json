@@ -1,0 +1,48 @@
+{
+  "synthetic": true,
+  "description": "全部为虚构测试资料，URL 不用于网络访问；不能用于实际参赛。",
+  "documents": [
+    {
+      "title": "Example Poll historical presidential approval release",
+      "url": "https://poll.example.org/release?id=100&utm_source=demo",
+      "content": "Synthetic example: Example Poll presidential approval among US registered voters was 41 percent in the latest historical release. This is invented fixture data, not a real poll.",
+      "published_at": "2026-09-17T09:00:00Z",
+      "captured_at": "2026-09-18T10:00:00Z"
+    },
+    {
+      "title": "Example Poll demographic crosstabs full table",
+      "url": "https://poll.example.org/release?id=101",
+      "content": "Synthetic demographic crosstabs: presidential approval differed by party, with Democrats at 7, Independents at 31 and Republicans at 83 percent. The three marginal cells overlap with age and gender categories; they are not population shares.",
+      "published_at": "2026-09-18T09:00:00Z",
+      "captured_at": "2026-09-18T10:00:00Z"
+    },
+    {
+      "title": "Example Poll economic developments and voter attention",
+      "url": "https://news.example.org/economy",
+      "content": "Synthetic news: recent economic developments may change public opinion. Example Poll approval surveys use registered voters; no future survey result is known. This document reports background events, not a numerical forecast.",
+      "published_at": "2026-09-19T09:00:00Z",
+      "captured_at": "2026-09-19T10:00:00Z"
+    },
+    {
+      "title": "Wikipedia historical attention and upcoming movie events",
+      "url": "https://events.example.org/movies",
+      "content": "Synthetic event calendar: a fictional movie premiere is scheduled for September 29. Wikipedia movie articles may attract attention. The event was announced September 18; its future occurrence date is not its publication date.",
+      "published_at": "2026-09-18T08:00:00Z",
+      "captured_at": "2026-09-18T10:00:00Z"
+    },
+    {
+      "title": "Wikipedia sports events scheduled for next week",
+      "url": "https://events.example.org/sports",
+      "content": "Synthetic sports calendar: a fictional tournament final is scheduled for October 1. Wikipedia attention sometimes rises for participants. Historical rankings and the planned event are potential signals, not a released target ranking.",
+      "published_at": "2026-09-19T08:00:00Z",
+      "captured_at": "2026-09-19T10:00:00Z"
+    },
+    {
+      "title": "Future answer that must be excluded",
+      "url": "https://poll.example.org/release?id=102",
+      "content": "Example Poll approval final outcome from the future; never include this in a historical bundle.",
+      "published_at": "2026-09-23T09:00:00Z",
+      "captured_at": "2026-09-23T10:00:00Z"
+    }
+  ]
+}

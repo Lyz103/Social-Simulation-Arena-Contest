@@ -1,0 +1,17 @@
+{
+  "date": "2026-09-24",
+  "python": "3.12.4 | packaged by Anaconda, Inc. | (main, Jun 18 2024, 15:03:56) [MSC v.1929 64 bit (AMD64)]",
+  "tests": {
+    "passed": 106,
+    "command": "python -m pytest -q"
+  },
+  "official_probe_passed": true,
+  "official_metric_max_sample_error": 1.1572964808692632e-12,
+  "synthetic_four_shape_demo": true,
+  "wheel_isolated_demo_passed": true,
+  "wheel_sha256": "f952f351d0c003d546bdc68deffb78b658752d88e9da7365fe55f8857f9e3c55",
+  "live_llm_tested": false,
+  "live_tavily_tested": false,
+  "real_data_calibration_completed": false,
+  "public_deployment": false
+}

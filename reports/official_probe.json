@@ -1,0 +1,41 @@
+{
+  "commit": "e80c8b42c157dadc018441da2a9691b44b20affc",
+  "non_scored_probe": true,
+  "result": [
+    [
+      "transport",
+      true,
+      "loopback http, acceptable for a local fixture only"
+    ],
+    [
+      "round/scalar",
+      true,
+      "valid forecast"
+    ],
+    [
+      "idempotency",
+      true,
+      "same request_id, same forecast"
+    ],
+    [
+      "round/profile",
+      true,
+      "valid forecast"
+    ],
+    [
+      "round/ranking",
+      true,
+      "valid forecast"
+    ],
+    [
+      "signature",
+      true,
+      "bad signature refused; endpoint verifies"
+    ],
+    [
+      "live key",
+      true,
+      "'ssa-live' was refused as a signature, not as an unknown key id"
+    ]
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "round_id": "trump-approval-before-2026-08-snapshot",
+  "question": "查询截至2026年8月1日之前（不含8月1日），唐纳德·特朗普在指定民调口径下的最高总统工作支持率，并记录对应日期、样本人口和来源。",
+  "target_type": "continuous_normal",
+  "unit": "% approval",
+  "mode": "snapshot",
+  "asof": "2026-08-01T00:00:00Z",
+  "deadline": "2026-08-02T00:00:00Z",
+  "domain": "public-opinion",
+  "source_name": "Donald Trump presidential approval",
+  "population": "US adults or registered voters, as explicitly reported by the source",
+  "metric": "presidential job approval rating",
+  "search_terms": "Donald Trump presidential approval rating historical series highest before August 2026",
+  "source_domains": [],
+  "history": [],
+  "context": {
+    "interpretation": "before August 2026 means publication before 2026-08-01T00:00:00Z",
+    "do_not_mix_populations": true,
+    "report_source_and_population": true
+  }
+}

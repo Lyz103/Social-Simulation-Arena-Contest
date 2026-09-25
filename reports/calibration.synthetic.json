@@ -1,0 +1,282 @@
+{
+  "selected": {
+    "weights": {
+      "llm": 1.0,
+      "persistence": 0.0,
+      "recent_mean": 0.0
+    },
+    "sd_scale": 0.75,
+    "validation_loss": 0.17527123294133184
+  },
+  "validation_candidates": [
+    {
+      "weights": {
+        "llm": 1.0,
+        "persistence": 0.0,
+        "recent_mean": 0.0
+      },
+      "sd_scale": 0.75,
+      "validation_loss": 0.17527123294133184
+    },
+    {
+      "weights": {
+        "llm": 1.0,
+        "persistence": 0.0,
+        "recent_mean": 0.0
+      },
+      "sd_scale": 1.0,
+      "validation_loss": 0.23369497725510913
+    },
+    {
+      "weights": {
+        "llm": 1.0,
+        "persistence": 0.0,
+        "recent_mean": 0.0
+      },
+      "sd_scale": 1.5,
+      "validation_loss": 0.3505424658826637
+    },
+    {
+      "weights": {
+        "llm": 1.0,
+        "persistence": 0.0,
+        "recent_mean": 0.0
+      },
+      "sd_scale": 2.0,
+      "validation_loss": 0.46738995451021825
+    },
+    {
+      "weights": {
+        "llm": 0.6,
+        "persistence": 0.25,
+        "recent_mean": 0.15
+      },
+      "sd_scale": 0.75,
+      "validation_loss": 0.5653334740057118
+    },
+    {
+      "weights": {
+        "llm": 0.6,
+        "persistence": 0.25,
+        "recent_mean": 0.15
+      },
+      "sd_scale": 1.0,
+      "validation_loss": 0.5889263241698238
+    },
+    {
+      "weights": {
+        "llm": 0.6,
+        "persistence": 0.25,
+        "recent_mean": 0.15
+      },
+      "sd_scale": 1.5,
+      "validation_loss": 0.6997722017860194
+    },
+    {
+      "weights": {
+        "llm": 0.6,
+        "persistence": 0.25,
+        "recent_mean": 0.15
+      },
+      "sd_scale": 2.0,
+      "validation_loss": 0.8454027465914838
+    },
+    {
+      "weights": {
+        "llm": 0.3,
+        "persistence": 0.5,
+        "recent_mean": 0.2
+      },
+      "sd_scale": 0.75,
+      "validation_loss": 1.0445218755638273
+    },
+    {
+      "weights": {
+        "llm": 0.3,
+        "persistence": 0.5,
+        "recent_mean": 0.2
+      },
+      "sd_scale": 1.0,
+      "validation_loss": 0.9738854997245754
+    },
+    {
+      "weights": {
+        "llm": 0.3,
+        "persistence": 0.5,
+        "recent_mean": 0.2
+      },
+      "sd_scale": 1.5,
+      "validation_loss": 0.9612431931440214
+    },
+    {
+      "weights": {
+        "llm": 0.3,
+        "persistence": 0.5,
+        "recent_mean": 0.2
+      },
+      "sd_scale": 2.0,
+      "validation_loss": 1.032817763680262
+    },
+    {
+      "weights": {
+        "llm": 0.0,
+        "persistence": 1.0,
+        "recent_mean": 0.0
+      },
+      "sd_scale": 0.75,
+      "validation_loss": 1.5786302691045202
+    },
+    {
+      "weights": {
+        "llm": 0.0,
+        "persistence": 1.0,
+        "recent_mean": 0.0
+      },
+      "sd_scale": 1.0,
+      "validation_loss": 1.4527918216859033
+    },
+    {
+      "weights": {
+        "llm": 0.0,
+        "persistence": 1.0,
+        "recent_mean": 0.0
+      },
+      "sd_scale": 1.5,
+      "validation_loss": 1.2809009698028746
+    },
+    {
+      "weights": {
+        "llm": 0.0,
+        "persistence": 1.0,
+        "recent_mean": 0.0
+      },
+      "sd_scale": 2.0,
+      "validation_loss": 1.2048827152552322
+    }
+  ],
+  "validation_count": 4,
+  "test_count": 2,
+  "validation_start": "2026-08-01T00:00:00Z",
+  "test_start": "2026-09-01T00:00:00Z",
+  "dataset_hash": "sha256:85161e16a0828927aa145bb80f5c9ae0be37f218b30daf3a92ea33eddf4240f5",
+  "test": {
+    "records": [
+      {
+        "round_id": "cal-4",
+        "metric": "crps",
+        "loss": 0.17527123294133184,
+        "persistence_loss": 1.4527918216859033,
+        "skill": 0.8793555757094386,
+        "marginal_interval_coverage": {
+          "0.5": 1.0,
+          "0.8": 1.0,
+          "0.95": 1.0
+        }
+      },
+      {
+        "round_id": "cal-5",
+        "metric": "crps",
+        "loss": 0.17527123294133184,
+        "persistence_loss": 1.4527918216859033,
+        "skill": 0.8793555757094386,
+        "marginal_interval_coverage": {
+          "0.5": 1.0,
+          "0.8": 1.0,
+          "0.95": 1.0
+        }
+      }
+    ],
+    "by_metric": {
+      "crps": {
+        "count": 2,
+        "mean_loss": 0.17527123294133184,
+        "paired_count": 2,
+        "aggregate_skill": 0.8793555757094386,
+        "mean_marginal_interval_coverage": {
+          "0.5": 1.0,
+          "0.8": 1.0,
+          "0.95": 1.0
+        }
+      }
+    },
+    "record_hash": "sha256:b32c001a04340ebb5cf496c4a05c72aa2c3b6307430adfd895538e10a69bf326"
+  },
+  "test_records": [
+    {
+      "request": {
+        "asof": "2026-09-01T00:00:00Z",
+        "board_id": "topline",
+        "candidates": [],
+        "cells": [],
+        "deadline": "2026-09-02T00:00:00Z",
+        "domain": "general",
+        "forecast_for": null,
+        "history": [],
+        "maximum": null,
+        "metadata": {},
+        "metric": "",
+        "minimum": null,
+        "population": "",
+        "question": "Forecast next approval",
+        "ranking_spec": {},
+        "release_at": null,
+        "request_id": "",
+        "round_id": "cal-4",
+        "source_domains": [],
+        "source_name": "",
+        "target_end": null,
+        "target_start": null,
+        "target_type": "continuous_normal",
+        "unit": "%"
+      },
+      "prediction": {
+        "mean": 46.0,
+        "sd": 0.75
+      },
+      "truth": 46,
+      "persistence": {
+        "mean": 44,
+        "sd": 1
+      }
+    },
+    {
+      "request": {
+        "asof": "2026-09-08T00:00:00Z",
+        "board_id": "topline",
+        "candidates": [],
+        "cells": [],
+        "deadline": "2026-09-09T00:00:00Z",
+        "domain": "general",
+        "forecast_for": null,
+        "history": [],
+        "maximum": null,
+        "metadata": {},
+        "metric": "",
+        "minimum": null,
+        "population": "",
+        "question": "Forecast next approval",
+        "ranking_spec": {},
+        "release_at": null,
+        "request_id": "",
+        "round_id": "cal-5",
+        "source_domains": [],
+        "source_name": "",
+        "target_end": null,
+        "target_start": null,
+        "target_type": "continuous_normal",
+        "unit": "%"
+      },
+      "prediction": {
+        "mean": 47.0,
+        "sd": 0.75
+      },
+      "truth": 47,
+      "persistence": {
+        "mean": 45,
+        "sd": 1
+      }
+    }
+  ],
+  "note": "Synthetic software demonstration only; not evidence of real forecasting skill.",
+  "synthetic": true
+}

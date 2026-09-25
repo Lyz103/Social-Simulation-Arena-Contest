@@ -1,0 +1,33 @@
+{
+  "schema_version": "ssa-agent-api-v2",
+  "request_id": "fixture:demo-ranking-fixed",
+  "round": {
+    "round_id": "demo-ranking-fixed",
+    "board_id": "ranking",
+    "target_type": "ranking_list",
+    "question": "Example approval attention forecast for September 27, 2026.",
+    "unit": "points",
+    "lock_at": "2026-09-21T00:00:00Z",
+    "context": {
+      "recent_weeks": [
+        {
+          "date": "2026-09-13",
+          "items": [
+            "A",
+            "B",
+            "C"
+          ]
+        }
+      ]
+    },
+    "ranking": {
+      "length": 3,
+      "items": [
+        "A",
+        "B",
+        "C"
+      ]
+    }
+  },
+  "optional_crosstabs": []
+}

@@ -1,0 +1,22 @@
+{
+  "pipeline": {
+    "entrant": "demo",
+    "mode": "snapshot"
+  },
+  "run_db": "runs.sqlite3",
+  "research": {
+    "provider": "snapshot",
+    "corpus": "ranking-open-corpus.json",
+    "db": "research.sqlite3"
+  },
+  "models": [
+    {
+      "kind": "replay",
+      "member_id": "fixture",
+      "responses": "ranking-open-responses.json"
+    }
+  ],
+  "task_metadata": {
+    "forecast_for": "2026-09-27"
+  }
+}

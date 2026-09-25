@@ -1,0 +1,33 @@
+{
+  "schema_version": "ssa-agent-api-v2",
+  "request_id": "fixture:demo-profile",
+  "round": {
+    "round_id": "demo-profile",
+    "board_id": "profile",
+    "target_type": "profile_energy",
+    "question": "Example approval attention forecast for September 27, 2026.",
+    "unit": "points",
+    "lock_at": "2026-09-21T00:00:00Z",
+    "context": {
+      "history_by_cell": {
+        "a": [
+          {
+            "date": "2026-09-18",
+            "value": 10
+          }
+        ],
+        "b": [
+          {
+            "date": "2026-09-18",
+            "value": 20
+          }
+        ]
+      }
+    },
+    "cells": [
+      "a",
+      "b"
+    ]
+  },
+  "optional_crosstabs": []
+}

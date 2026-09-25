@@ -1,0 +1,47 @@
+{
+  "pipeline": {
+    "entrant": "replace-with-your-entrant",
+    "mode": "live",
+    "research_policy": "required",
+    "allow_baseline_fallback": false,
+    "repair_attempts": 1,
+    "max_elapsed_seconds": 480,
+    "sd_scale": 1.0
+  },
+  "run_db": "../data/runs/live.sqlite3",
+  "research": {
+    "provider": "tavily",
+    "db": "../data/research/live.sqlite3",
+    "config": {
+      "max_queries": 4,
+      "results_per_query": 3,
+      "max_elapsed_seconds": 150,
+      "allow_partial": false
+    }
+  },
+  "context": {
+    "strict_snapshot": false,
+    "max_chars": 14000,
+    "max_token_upper_bound": 16000
+  },
+  "models": [
+    {
+      "member_id": "llm-primary",
+      "kind": "chat_completions",
+      "model": "REPLACE_WITH_PROVIDER_MODEL_ID",
+      "endpoint": "https://provider.example/v1/chat/completions",
+      "api_key_env": "SSA_LLM_API_KEY",
+      "timeout": 90,
+      "max_attempts": 2,
+      "strict_schema": false
+    }
+  ],
+  "prompt": {"model_params": {"temperature": 0, "top_p": 1}},
+  "ensemble": {
+    "failure_policy": "drop_invalid",
+    "weights": {"llm": 0.6, "persistence": 0.25, "recent_mean": 0.15},
+    "baseline": {"recent_window": 3, "min_sd": 0.25}
+  },
+  "task_metadata": {},
+  "task_metadata_by_round": {}
+}

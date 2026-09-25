@@ -1,0 +1,115 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SSA Agent API decoded response v1",
+  "description": "The reply body a participant endpoint returns: one JSON object, no wrapper.",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "forecast"
+  ],
+  "additionalProperties": false,
+  "definitions": {
+    "distribution": {
+      "type": "object",
+      "description": "A normal: a mean and a strictly positive sd, scored with CRPS (a topline) or pooled into the energy score (a profile cell). A point guess is not a forecast and is refused. Quantile sets are not accepted from an endpoint -- schema/forecast.schema.json still allows one in a committed file, but the live contract is one shape.",
+      "additionalProperties": false,
+      "properties": {
+        "mean": {
+          "type": "number"
+        },
+        "sd": {
+          "type": "number",
+          "exclusiveMinimum": 0,
+          "maximum": 1000000000
+        }
+      },
+      "required": [
+        "mean",
+        "sd"
+      ]
+    }
+  },
+  "properties": {
+    "schema_version": {
+      "const": "ssa-agent-api-v2"
+    },
+    "forecast": {
+      "oneOf": [
+        {
+          "$ref": "#/definitions/distribution"
+        },
+        {
+          "type": "object",
+          "required": [
+            "probabilities"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "probabilities": {
+              "type": "object",
+              "minProperties": 2,
+              "additionalProperties": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 1
+              }
+            }
+          }
+        },
+        {
+          "type": "object",
+          "required": [
+            "profile"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "profile": {
+              "type": "object",
+              "minProperties": 2,
+              "additionalProperties": {
+                "$ref": "#/definitions/distribution"
+              }
+            }
+          }
+        },
+        {
+          "type": "object",
+          "required": [
+            "ranking"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "ranking": {
+              "type": "array",
+              "minItems": 2,
+              "maxItems": 50,
+              "uniqueItems": true,
+              "items": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 256
+              }
+            }
+          }
+        }
+      ]
+    },
+    "reasoning_trace": {
+      "type": "string",
+      "maxLength": 20000
+    },
+    "crosstabs": {
+      "type": "object",
+      "propertyNames": {
+        "pattern": "^[a-z][a-z0-9_]{1,63}$"
+      },
+      "additionalProperties": {
+        "type": "object",
+        "minProperties": 2,
+        "additionalProperties": {
+          "$ref": "#/definitions/distribution"
+        }
+      }
+    }
+  }
+}

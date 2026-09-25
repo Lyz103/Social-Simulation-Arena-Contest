@@ -1,0 +1,25 @@
+{
+  "schema_version": "ssa-agent-api-v2",
+  "request_id": "fixture:demo-topline",
+  "round": {
+    "round_id": "demo-topline",
+    "board_id": "topline",
+    "target_type": "continuous_normal",
+    "question": "Example approval attention forecast for September 27, 2026.",
+    "unit": "points",
+    "lock_at": "2026-09-21T00:00:00Z",
+    "context": {
+      "history": [
+        {
+          "date": "2026-09-17",
+          "value": 40
+        },
+        {
+          "date": "2026-09-18",
+          "value": 41
+        }
+      ]
+    }
+  },
+  "optional_crosstabs": []
+}

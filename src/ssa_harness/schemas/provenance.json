@@ -1,0 +1,15 @@
+{
+  "repository": "Social-Atoms/social-sim-arena",
+  "commit": "e80c8b42c157dadc018441da2a9691b44b20affc",
+  "retrieved_at": "2026-09-24",
+  "files": {
+    "agent-api-request.schema.json": {
+      "sha256": "3c4f2154f1e05cf69ed9df1c1cc1e62ba3981d9dd0187390d702bc935f429e84",
+      "source_path": "schema/agent-api-request.schema.json"
+    },
+    "agent-api-response.schema.json": {
+      "sha256": "9a1ecf1b58f34815c2e12d6621223243371ef1d1aeb0c5733ca21d1333bcf908",
+      "source_path": "schema/agent-api-response.schema.json"
+    }
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "official_commit": "e80c8b42c157dadc018441da2a9691b44b20affc",
+  "cases": [
+    {
+      "kind": "energy",
+      "cells": {
+        "a": {
+          "mean": 10,
+          "sd": 1
+        },
+        "b": {
+          "mean": 20,
+          "sd": 2
+        }
+      },
+      "truth": {
+        "a": 12,
+        "b": 19
+      },
+      "order": [
+        "a",
+        "b"
+      ],
+      "expected": 1.5398118602284443
+    },
+    {
+      "kind": "energy",
+      "cells": {
+        "a": {
+          "mean": 2,
+          "sd": 0.2
+        },
+        "b": {
+          "mean": 4,
+          "sd": 0.5
+        },
+        "c": {
+          "mean": 5,
+          "sd": 3
+        }
+      },
+      "truth": {
+        "a": 1,
+        "b": 5,
+        "c": 2
+      },
+      "order": [
+        "a",
+        "b",
+        "c"
+      ],
+      "expected": 2.187275674968838
+    },
+    {
+      "kind": "rbo",
+      "prediction": [
+        "A",
+        "B",
+        "C"
+      ],
+      "truth": [
+        "A",
+        "C",
+        "B"
+      ],
+      "p": 0.9,
+      "expected": 0.16605166051660503
+    },
+    {
+      "kind": "rbo",
+      "prediction": [
+        "D",
+        "B",
+        "A"
+      ],
+      "truth": [
+        "A",
+        "B",
+        "C"
+      ],
+      "p": 0.9,
+      "expected": 0.6346863468634686
+    },
+    {
+      "kind": "kendall",
+      "prediction": [
+        "A",
+        "C",
+        "B"
+      ],
+      "truth": [
+        "A",
+        "B",
+        "C"
+      ],
+      "expected": 0.3333333333333333
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "synthetic": true,
+  "results": [
+    {
+      "task": "topline",
+      "response": {
+        "forecast": {
+          "mean": 41.525,
+          "sd": 1.3179055353097202
+        },
+        "schema_version": "ssa-agent-api-v2"
+      },
+      "synthetic": true
+    },
+    {
+      "task": "profile",
+      "response": {
+        "forecast": {
+          "profile": {
+            "a": {
+              "mean": 10.6,
+              "sd": 0.9300537618869137
+            },
+            "b": {
+              "mean": 20.6,
+              "sd": 0.9300537618869137
+            }
+          }
+        },
+        "schema_version": "ssa-agent-api-v2"
+      },
+      "synthetic": true
+    },
+    {
+      "task": "ranking-fixed",
+      "response": {
+        "forecast": {
+          "ranking": [
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        "schema_version": "ssa-agent-api-v2"
+      },
+      "synthetic": true
+    },
+    {
+      "task": "ranking-open",
+      "response": {
+        "forecast": {
+          "ranking": [
+            "A",
+            "D",
+            "B"
+          ]
+        },
+        "schema_version": "ssa-agent-api-v2"
+      },
+      "synthetic": true
+    }
+  ]
+}

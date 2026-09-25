@@ -1,0 +1,27 @@
+{
+  "pipeline": {
+    "entrant": "your-team",
+    "mode": "live",
+    "research_policy": "required",
+    "allow_baseline_fallback": false
+  },
+  "research": {
+    "provider": "civiqs",
+    "tracker": "approve_president_trump_2025",
+    "filters": {},
+    "user_agent": "MIT-SSA-your-team/0.1 (contact: you@example.org)",
+    "config": {
+      "max_queries": 4,
+      "max_results_per_query": 3
+    }
+  },
+  "models": [
+    {
+      "member_id": "primary",
+      "kind": "chat_completions",
+      "endpoint": "https://your-provider.example/v1/chat/completions",
+      "model": "your-model",
+      "api_key_env": "SSA_LLM_API_KEY"
+    }
+  ]
+}

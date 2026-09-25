@@ -1,0 +1,338 @@
+[
+  {
+    "request": {
+      "asof": "2026-08-01T00:00:00Z",
+      "board_id": "topline",
+      "candidates": [],
+      "cells": [],
+      "deadline": "2026-08-02T00:00:00Z",
+      "domain": "general",
+      "forecast_for": null,
+      "history": [],
+      "maximum": null,
+      "metadata": {},
+      "metric": "",
+      "minimum": null,
+      "population": "",
+      "question": "Forecast next approval",
+      "ranking_spec": {},
+      "release_at": null,
+      "request_id": "",
+      "round_id": "cal-0",
+      "source_domains": [],
+      "source_name": "",
+      "target_end": null,
+      "target_start": null,
+      "target_type": "continuous_normal",
+      "unit": "%"
+    },
+    "truth": 42,
+    "truth_available_at": "2026-08-03T00:00:00Z",
+    "members": [
+      {
+        "member_id": "model",
+        "member_type": "llm",
+        "prediction": {
+          "mean": 42,
+          "sd": 1
+        }
+      },
+      {
+        "member_id": "persistence",
+        "member_type": "persistence",
+        "prediction": {
+          "mean": 40,
+          "sd": 1
+        }
+      },
+      {
+        "member_id": "recent_mean",
+        "member_type": "recent_mean",
+        "prediction": {
+          "mean": 39,
+          "sd": 1
+        }
+      }
+    ]
+  },
+  {
+    "request": {
+      "asof": "2026-08-08T00:00:00Z",
+      "board_id": "topline",
+      "candidates": [],
+      "cells": [],
+      "deadline": "2026-08-09T00:00:00Z",
+      "domain": "general",
+      "forecast_for": null,
+      "history": [],
+      "maximum": null,
+      "metadata": {},
+      "metric": "",
+      "minimum": null,
+      "population": "",
+      "question": "Forecast next approval",
+      "ranking_spec": {},
+      "release_at": null,
+      "request_id": "",
+      "round_id": "cal-1",
+      "source_domains": [],
+      "source_name": "",
+      "target_end": null,
+      "target_start": null,
+      "target_type": "continuous_normal",
+      "unit": "%"
+    },
+    "truth": 43,
+    "truth_available_at": "2026-08-10T00:00:00Z",
+    "members": [
+      {
+        "member_id": "model",
+        "member_type": "llm",
+        "prediction": {
+          "mean": 43,
+          "sd": 1
+        }
+      },
+      {
+        "member_id": "persistence",
+        "member_type": "persistence",
+        "prediction": {
+          "mean": 41,
+          "sd": 1
+        }
+      },
+      {
+        "member_id": "recent_mean",
+        "member_type": "recent_mean",
+        "prediction": {
+          "mean": 40,
+          "sd": 1
+        }
+      }
+    ]
+  },
+  {
+    "request": {
+      "asof": "2026-08-15T00:00:00Z",
+      "board_id": "topline",
+      "candidates": [],
+      "cells": [],
+      "deadline": "2026-08-16T00:00:00Z",
+      "domain": "general",
+      "forecast_for": null,
+      "history": [],
+      "maximum": null,
+      "metadata": {},
+      "metric": "",
+      "minimum": null,
+      "population": "",
+      "question": "Forecast next approval",
+      "ranking_spec": {},
+      "release_at": null,
+      "request_id": "",
+      "round_id": "cal-2",
+      "source_domains": [],
+      "source_name": "",
+      "target_end": null,
+      "target_start": null,
+      "target_type": "continuous_normal",
+      "unit": "%"
+    },
+    "truth": 44,
+    "truth_available_at": "2026-08-17T00:00:00Z",
+    "members": [
+      {
+        "member_id": "model",
+        "member_type": "llm",
+        "prediction": {
+          "mean": 44,
+          "sd": 1
+        }
+      },
+      {
+        "member_id": "persistence",
+        "member_type": "persistence",
+        "prediction": {
+          "mean": 42,
+          "sd": 1
+        }
+      },
+      {
+        "member_id": "recent_mean",
+        "member_type": "recent_mean",
+        "prediction": {
+          "mean": 41,
+          "sd": 1
+        }
+      }
+    ]
+  },
+  {
+    "request": {
+      "asof": "2026-08-22T00:00:00Z",
+      "board_id": "topline",
+      "candidates": [],
+      "cells": [],
+      "deadline": "2026-08-23T00:00:00Z",
+      "domain": "general",
+      "forecast_for": null,
+      "history": [],
+      "maximum": null,
+      "metadata": {},
+      "metric": "",
+      "minimum": null,
+      "population": "",
+      "question": "Forecast next approval",
+      "ranking_spec": {},
+      "release_at": null,
+      "request_id": "",
+      "round_id": "cal-3",
+      "source_domains": [],
+      "source_name": "",
+      "target_end": null,
+      "target_start": null,
+      "target_type": "continuous_normal",
+      "unit": "%"
+    },
+    "truth": 45,
+    "truth_available_at": "2026-08-24T00:00:00Z",
+    "members": [
+      {
+        "member_id": "model",
+        "member_type": "llm",
+        "prediction": {
+          "mean": 45,
+          "sd": 1
+        }
+      },
+      {
+        "member_id": "persistence",
+        "member_type": "persistence",
+        "prediction": {
+          "mean": 43,
+          "sd": 1
+        }
+      },
+      {
+        "member_id": "recent_mean",
+        "member_type": "recent_mean",
+        "prediction": {
+          "mean": 42,
+          "sd": 1
+        }
+      }
+    ]
+  },
+  {
+    "request": {
+      "asof": "2026-09-01T00:00:00Z",
+      "board_id": "topline",
+      "candidates": [],
+      "cells": [],
+      "deadline": "2026-09-02T00:00:00Z",
+      "domain": "general",
+      "forecast_for": null,
+      "history": [],
+      "maximum": null,
+      "metadata": {},
+      "metric": "",
+      "minimum": null,
+      "population": "",
+      "question": "Forecast next approval",
+      "ranking_spec": {},
+      "release_at": null,
+      "request_id": "",
+      "round_id": "cal-4",
+      "source_domains": [],
+      "source_name": "",
+      "target_end": null,
+      "target_start": null,
+      "target_type": "continuous_normal",
+      "unit": "%"
+    },
+    "truth": 46,
+    "truth_available_at": "2026-09-03T00:00:00Z",
+    "members": [
+      {
+        "member_id": "model",
+        "member_type": "llm",
+        "prediction": {
+          "mean": 46,
+          "sd": 1
+        }
+      },
+      {
+        "member_id": "persistence",
+        "member_type": "persistence",
+        "prediction": {
+          "mean": 44,
+          "sd": 1
+        }
+      },
+      {
+        "member_id": "recent_mean",
+        "member_type": "recent_mean",
+        "prediction": {
+          "mean": 43,
+          "sd": 1
+        }
+      }
+    ]
+  },
+  {
+    "request": {
+      "asof": "2026-09-08T00:00:00Z",
+      "board_id": "topline",
+      "candidates": [],
+      "cells": [],
+      "deadline": "2026-09-09T00:00:00Z",
+      "domain": "general",
+      "forecast_for": null,
+      "history": [],
+      "maximum": null,
+      "metadata": {},
+      "metric": "",
+      "minimum": null,
+      "population": "",
+      "question": "Forecast next approval",
+      "ranking_spec": {},
+      "release_at": null,
+      "request_id": "",
+      "round_id": "cal-5",
+      "source_domains": [],
+      "source_name": "",
+      "target_end": null,
+      "target_start": null,
+      "target_type": "continuous_normal",
+      "unit": "%"
+    },
+    "truth": 47,
+    "truth_available_at": "2026-09-10T00:00:00Z",
+    "members": [
+      {
+        "member_id": "model",
+        "member_type": "llm",
+        "prediction": {
+          "mean": 47,
+          "sd": 1
+        }
+      },
+      {
+        "member_id": "persistence",
+        "member_type": "persistence",
+        "prediction": {
+          "mean": 45,
+          "sd": 1
+        }
+      },
+      {
+        "member_id": "recent_mean",
+        "member_type": "recent_mean",
+        "prediction": {
+          "mean": 44,
+          "sd": 1
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,125 @@
+{
+  "synthetic": true,
+  "tasks": [
+    {
+      "task": "topline",
+      "synthetic": true,
+      "evaluation": {
+        "records": [
+          {
+            "round_id": "demo-topline",
+            "metric": "crps",
+            "loss": 0.583310777638737,
+            "persistence_loss": null,
+            "skill": null,
+            "marginal_interval_coverage": {
+              "0.5": 0.0,
+              "0.8": 1.0,
+              "0.95": 1.0
+            }
+          }
+        ],
+        "by_metric": {
+          "crps": {
+            "count": 1,
+            "mean_loss": 0.583310777638737,
+            "paired_count": 0,
+            "aggregate_skill": null,
+            "mean_marginal_interval_coverage": {
+              "0.5": 0.0,
+              "0.8": 1.0,
+              "0.95": 1.0
+            }
+          }
+        },
+        "record_hash": "sha256:655a7f2aa87d82182638f8d542c15b96a6c0518ca859ad6a8a6ee03d2706f2ec"
+      }
+    },
+    {
+      "task": "profile",
+      "synthetic": true,
+      "evaluation": {
+        "records": [
+          {
+            "round_id": "demo-profile",
+            "metric": "energy",
+            "loss": 1.400951542343111,
+            "persistence_loss": null,
+            "skill": null,
+            "marginal_interval_coverage": {
+              "0.5": 0.0,
+              "0.8": 0.0,
+              "0.95": 1.0
+            }
+          }
+        ],
+        "by_metric": {
+          "energy": {
+            "count": 1,
+            "mean_loss": 1.400951542343111,
+            "paired_count": 0,
+            "aggregate_skill": null,
+            "mean_marginal_interval_coverage": {
+              "0.5": 0.0,
+              "0.8": 0.0,
+              "0.95": 1.0
+            }
+          }
+        },
+        "record_hash": "sha256:c0a5ce774d66ef387aaab807a087f7c232d7438b2a1a879bd1102f665764264f"
+      }
+    },
+    {
+      "task": "ranking-fixed",
+      "synthetic": true,
+      "evaluation": {
+        "records": [
+          {
+            "round_id": "demo-ranking-fixed",
+            "metric": "kendall",
+            "loss": 0.3333333333333333,
+            "persistence_loss": null,
+            "skill": null,
+            "marginal_interval_coverage": null
+          }
+        ],
+        "by_metric": {
+          "kendall": {
+            "count": 1,
+            "mean_loss": 0.3333333333333333,
+            "paired_count": 0,
+            "aggregate_skill": null,
+            "mean_marginal_interval_coverage": null
+          }
+        },
+        "record_hash": "sha256:aa888ce6c796b45a2dbdc2d7bc76b1123b06cafe7fd5cb5cc7838ff9aa02e79f"
+      }
+    },
+    {
+      "task": "ranking-open",
+      "synthetic": true,
+      "evaluation": {
+        "records": [
+          {
+            "round_id": "demo-ranking-open",
+            "metric": "rbo_loss",
+            "loss": 0.5350553505535054,
+            "persistence_loss": null,
+            "skill": null,
+            "marginal_interval_coverage": null
+          }
+        ],
+        "by_metric": {
+          "rbo_loss": {
+            "count": 1,
+            "mean_loss": 0.5350553505535054,
+            "paired_count": 0,
+            "aggregate_skill": null,
+            "mean_marginal_interval_coverage": null
+          }
+        },
+        "record_hash": "sha256:5f8d439d0f710f8275cf289051b4d6885bd289f53cf79b347759a0f3b6df08f9"
+      }
+    }
+  ]
+}

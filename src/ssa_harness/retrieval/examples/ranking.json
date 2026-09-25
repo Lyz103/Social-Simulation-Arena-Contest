@@ -1,0 +1,12 @@
+{
+  "round_id": "demo-ranking",
+  "question": "预测未来一周英文 Wikipedia 热门文章的前三名。",
+  "target_type": "ranking_list",
+  "unit": "ordered article titles",
+  "mode": "snapshot",
+  "asof": "2026-09-20T12:00:00Z",
+  "deadline": "2026-09-22T12:00:00Z",
+  "domain": "attention",
+  "search_terms": "Wikipedia attention sports movie events",
+  "ranking_spec": {"length": 3, "week_start": "2026-09-28", "week_end": "2026-10-04"}
+}

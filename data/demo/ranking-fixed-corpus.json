@@ -1,0 +1,15 @@
+{
+  "synthetic": true,
+  "documents": [
+    {
+      "url": "https://example.org/evidence",
+      "title": "Example approval attention historical forecast",
+      "content": "Example approval attention forecast historical measurement news developments. Synthetic test evidence only.",
+      "published_at": "2026-09-18T00:00:00Z",
+      "captured_at": "2026-09-18T01:00:00Z",
+      "candidate_items": [
+        "D"
+      ]
+    }
+  ]
+}

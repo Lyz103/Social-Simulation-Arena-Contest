@@ -1,0 +1,36 @@
+{
+  "official_commit": "e80c8b42c157dadc018441da2a9691b44b20affc",
+  "tolerance": 1e-07,
+  "checks": [
+    {
+      "metric": "energy",
+      "official": 1.5398118602284443,
+      "local": 1.539811860227287,
+      "absolute_difference": 1.1572964808692632e-12
+    },
+    {
+      "metric": "energy",
+      "official": 2.187275674968838,
+      "local": 2.187275674967707,
+      "absolute_difference": 1.1306511282782594e-12
+    },
+    {
+      "metric": "rbo",
+      "official": 0.16605166051660503,
+      "local": 0.16605166051660503,
+      "absolute_difference": 0.0
+    },
+    {
+      "metric": "rbo",
+      "official": 0.6346863468634686,
+      "local": 0.6346863468634686,
+      "absolute_difference": 0.0
+    },
+    {
+      "metric": "kendall",
+      "official": 0.3333333333333333,
+      "local": 0.3333333333333333,
+      "absolute_difference": 0.0
+    }
+  ]
+}
