@@ -5,7 +5,6 @@
     approximation within 1e-7 (not claimed byte-identical).
 """
 
-from dataclasses import replace
 from functools import lru_cache
 from hashlib import sha256
 import math
@@ -117,14 +116,71 @@ def metric_name(request):
     )
 
 
+def _comparison_group(request):
+    """Raw losses are comparable only within a defined forecasting target."""
+    return {
+        "source_name": request.source_name,
+        "unit": request.unit,
+        "population": request.population,
+        "metric": request.metric,
+        "cells": list(request.cells),
+        "scoring_metric": metric_name(request),
+    }
+
+
+def _skill(loss, persistence_loss):
+    if persistence_loss is None:
+        return None
+    # The arena assigns zero skill when the null has zero loss, including
+    # imperfect predictions against a perfect ranking null.
+    return 0.0 if persistence_loss == 0 else 1 - loss / persistence_loss
+
+
+def _score_summary(rows):
+    paired = [r for r in rows if r["persistence_loss"] is not None]
+    den = sum(r["persistence_loss"] for r in paired)
+    group_count = len({digest(row["group"]) for row in rows})
+    return {
+        "count": len(rows),
+        "mean_loss": fmean(r["loss"] for r in rows),
+        "raw_loss_comparable": group_count == 1,
+        "group_count": group_count,
+        "paired_count": len(paired),
+        "mean_skill": fmean(r["skill"] for r in paired) if paired else None,
+        "aggregate_skill": (
+            1 - sum(r["loss"] for r in paired) / den if den else None
+        ),
+        "aggregate_skill_kind": "loss_weighted_legacy",
+        "mean_marginal_interval_coverage": (
+            {
+                str(level): fmean(
+                    row["marginal_interval_coverage"][str(level)] for row in rows
+                )
+                for level in (0.5, 0.8, 0.95)
+            }
+            if rows[0]["marginal_interval_coverage"] is not None
+            else None
+        ),
+    }
+
+
 def score_records(records):
-    """Evaluate held-out predictions; never calls a forecaster with the truth."""
+    """Evaluate held-out predictions; never calls a forecaster with the truth.
+
+    ``mean_skill`` is the arena's arithmetic mean of per-round skills. The
+    legacy ``aggregate_skill`` ratio weights rounds by null loss, so it is not
+    the leaderboard objective. Compare raw losses using ``by_group``; the
+    retained ``by_metric.mean_loss`` can mix targets, and is explicitly marked
+    noncomparable in that case. Missing nulls are excluded, not scored as zero.
+    """
     results = []
     for record in records:
         req = ForecastRequest.from_dict(record["request"])
         loss = score_prediction(req, record["prediction"], record["truth"])
         null = record.get("persistence")
-        null_loss = score_prediction(req, null, record["truth"]) if null else None
+        null_loss = (
+            score_prediction(req, null, record["truth"]) if null is not None else None
+        )
         interval_coverage = None
         if req.target_type != "ranking_list":
             validated = PredictionValidator().parse(record["prediction"], req)
@@ -148,42 +204,37 @@ def score_records(records):
             {
                 "round_id": req.round_id,
                 "metric": metric_name(req),
+                "group": _comparison_group(req),
                 "loss": loss,
                 "persistence_loss": null_loss,
-                "skill": (
-                    None
-                    if null_loss is None or null_loss == 0
-                    else 1 - loss / null_loss
+                "persistence_source": (
+                    record.get("persistence_source", "record.persistence")
+                    if null is not None
+                    else None
                 ),
+                "skill": _skill(loss, null_loss),
                 "marginal_interval_coverage": interval_coverage,
             }
         )
     groups = {}
     for row in results:
         groups.setdefault(row["metric"], []).append(row)
-    summary = {}
-    for metric, rows in groups.items():
-        paired = [r for r in rows if r["persistence_loss"] is not None]
-        den = sum(r["persistence_loss"] for r in paired)
-        summary[metric] = {
-            "count": len(rows),
-            "mean_loss": fmean(r["loss"] for r in rows),
-            "paired_count": len(paired),
-            "aggregate_skill": (
-                1 - sum(r["loss"] for r in paired) / den if den else None
-            ),
-            "mean_marginal_interval_coverage": (
-                {
-                    str(level): fmean(
-                        row["marginal_interval_coverage"][str(level)] for row in rows
-                    )
-                    for level in (0.5, 0.8, 0.95)
-                }
-                if rows[0]["marginal_interval_coverage"] is not None
-                else None
-            ),
-        }
-    return {"records": results, "by_metric": summary, "record_hash": digest(records)}
+    summary = {metric: _score_summary(rows) for metric, rows in groups.items()}
+    comparable = {}
+    for row in results:
+        comparable.setdefault(digest(row["group"]), []).append(row)
+    paired = [row for row in results if row["skill"] is not None]
+    return {
+        "records": results,
+        "mean_skill": fmean(row["skill"] for row in paired) if paired else None,
+        "paired_count": len(paired),
+        "by_metric": summary,
+        "by_group": [
+            {**rows[0]["group"], **_score_summary(rows)}
+            for _, rows in sorted(comparable.items())
+        ],
+        "record_hash": digest(records),
+    }
 
 
 def walk_forward(cases, predictor):
@@ -222,25 +273,33 @@ def calibrate(
     test_start,
     weight_grid=None,
     sd_scales=(0.75, 1.0, 1.5, 2.0),
+    objective="mean_loss",
 ):
     """Chronological grid selection; test truth is never used to select settings.
 
     Cases contain precomputed member forecasts. Weights/scales are selected on
     validation only, then frozen and evaluated on the held-out test partition.
-    Different metrics must be calibrated in separate calls.
+    Different target metrics must be calibrated in separate calls. The default
+    ``mean_loss`` preserves prior behavior. ``mean_skill`` maximizes official
+    mean skill and requires explicit official null forecasts in
+    ``case.persistence`` for validation and test; ensemble persistence members
+    are not silently treated as official nulls. For the legacy loss objective,
+    explicit case persistence still takes priority in test reporting.
     """
     if parse_instant(validation_start) >= parse_instant(test_start):
         raise ValueError("validation_start must precede test_start")
+    if objective not in ("mean_loss", "mean_skill"):
+        raise ValueError("objective must be mean_loss or mean_skill")
     cases = sorted(cases, key=lambda c: parse_instant(c["request"]["asof"]))
     if not cases:
         raise ValueError("calibration dataset empty")
     requests = [ForecastRequest.from_dict(c["request"]) for c in cases]
     if len({metric_name(r) for r in requests}) != 1:
         raise ValueError("calibrate each task metric separately")
-    groups = {(r.unit, r.source_name, r.population, r.cells) for r in requests}
+    groups = {digest(_comparison_group(r)) for r in requests}
     if len(groups) != 1:
         raise ValueError(
-            "calibrate compatible units, source, population and cell definitions separately"
+            "calibrate compatible units, source, population, target metric and cell definitions separately"
         )
     validation, test = [], []
     for case, req in zip(cases, requests):
@@ -256,6 +315,20 @@ def calibrate(
             test.append((case, req))
     if not validation or not test:
         raise ValueError("nonempty chronological validation and test sets required")
+    if objective == "mean_skill" and any(
+        case.get("persistence") is None for case, _ in validation + test
+    ):
+        raise ValueError(
+            "mean_skill requires explicit official case.persistence for validation and test"
+        )
+    # Only validation truth/nulls enter candidate selection. Test truth and
+    # nulls are consumed after settings have been frozen.
+    validation_null_losses = [
+        score_prediction(req, case["persistence"], case["truth"])
+        if case.get("persistence") is not None
+        else None
+        for case, req in validation
+    ]
     grids = weight_grid or [
         {"llm": 1.0, "persistence": 0.0, "recent_mean": 0.0},
         {"llm": 0.6, "persistence": 0.25, "recent_mean": 0.15},
@@ -287,35 +360,63 @@ def calibrate(
     candidates = []
     for weights in grids:
         for scale in sd_scales:
-            loss = fmean(
+            losses = [
                 score_prediction(req, predict(case, req, weights, scale), case["truth"])
                 for case, req in validation
+            ]
+            mean_skill = (
+                fmean(
+                    _skill(loss, null_loss)
+                    for loss, null_loss in zip(losses, validation_null_losses)
+                )
+                if all(loss is not None for loss in validation_null_losses)
+                else None
             )
             candidates.append(
-                {"weights": dict(weights), "sd_scale": scale, "validation_loss": loss}
+                {
+                    "weights": dict(weights),
+                    "sd_scale": scale,
+                    "validation_loss": fmean(losses),
+                    "validation_mean_skill": mean_skill,
+                }
             )
-    best = min(candidates, key=lambda c: (c["validation_loss"], digest(c)))
+    best = min(
+        candidates,
+        key=lambda c: (
+            c["validation_loss"]
+            if objective == "mean_loss"
+            else -c["validation_mean_skill"],
+            digest(c),
+        ),
+    )
     test_records = []
     for case, req in test:
         prediction = predict(case, req, best["weights"], best["sd_scale"])
-        null = next(
-            (
-                m["prediction"]
-                for m in case["members"]
-                if m["member_type"] == "persistence"
-            ),
-            None,
-        )
+        if "persistence" in case:
+            null = case["persistence"]
+            null_source = "case.persistence"
+        else:
+            null = next(
+                (
+                    m["prediction"]
+                    for m in case["members"]
+                    if m["member_type"] == "persistence"
+                ),
+                None,
+            )
+            null_source = "member.persistence (not an official null)"
         test_records.append(
             {
                 "request": req.to_dict(),
                 "prediction": prediction,
                 "truth": case["truth"],
                 "persistence": null,
+                "persistence_source": null_source if null is not None else None,
             }
         )
     return {
         "selected": best,
+        "objective": objective,
         "validation_candidates": candidates,
         "validation_count": len(validation),
         "test_count": len(test),

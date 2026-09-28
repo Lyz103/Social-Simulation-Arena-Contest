@@ -36,7 +36,7 @@ PROTOCOL = """FORECASTING PROTOCOL
 class ForecastPromptCompiler:
     """Compile request/context objects into deterministic model instructions."""
 
-    VERSION = "forecast-prompt-v2"
+    VERSION = "forecast-prompt-v3"
 
     def __init__(
         self,
@@ -128,13 +128,20 @@ class ForecastPromptCompiler:
                 "forecast_for",
                 None,
             )
-            or "See the exact target period in the question; not the submission deadline"
+            or "Measurement window not supplied. Do not infer it from the submission deadline."
         )
         start, end = field(request, "target_start", None), field(
             request, "target_end", None
         )
         if start or end:
             forecast_for = f"{start or 'unspecified'} through {end or 'unspecified'}"
+        release_at = field(request, "release_at", None)
+        release_text = release_at or "not supplied"
+        if release_at and not (field(request, "forecast_for", None) or start or end):
+            forecast_for = (
+                f"Forecast the requested indicator for the release scheduled at {release_at}. "
+                "Its measurement window is not supplied; the release date is not the observation date."
+            )
         return f"""FORECAST TASK
 
 Question:
@@ -145,6 +152,12 @@ Information cutoff:
 
 Forecast target time/window:
 {forecast_for}
+
+Scheduled publication time (not the measurement window):
+{release_text}
+
+Submission deadline (not the prediction target):
+{field(request, 'deadline', 'not supplied')}
 
 Unit:
 {field(request, 'unit', 'unspecified')}
@@ -167,6 +180,8 @@ TOPLINE RULES
 2. Adjust the baseline only when recent evidence is relevant and reliable.
 3. Return mean as the expected future value.
 4. Return sd as a strictly positive predictive standard deviation.
+5. A recent change can be a trend or measurement noise; do not automatically pull it back to the recent mean. Use the supplied sequence and evidence to distinguish them.
+6. Estimate uncertainty for the stated forecast horizon, including measurement noise and uncertainty about changes. The historical level standard deviation is not automatically the forecast-error standard deviation.
 
 OUTPUT REQUIREMENTS
 

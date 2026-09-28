@@ -1,0 +1,15 @@
+{
+  "round_id": "civiqs-2026-w38-approval",
+  "predictions": {
+    "ensemble": {
+      "mean": -24.255,
+      "sd": 1.3343533806864898
+    },
+    "llm": {
+      "mean": -24.2,
+      "sd": 1.5
+    }
+  },
+  "input_hash": "sha256:58b7141e2359ca4b80949d1716765f56252aae0a45d76bf35ce1a463f6a6f4a9",
+  "config_hash": "sha256:b502a7b465c7b5b895fee6ed99ab459c0eb25cab14824c906d23f0dcb0d2c76d"
+}

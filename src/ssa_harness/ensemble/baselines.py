@@ -11,18 +11,96 @@ from .models import ForecastMember, InvalidEnsembleMember
 
 
 class BaselineFactory:
-    """Build persistence and recent-mean baselines from common history formats."""
+    """Build deterministic baselines from history available at the request cutoff.
 
-    def __init__(self, *, recent_window: int = 3, min_sd: float = 0.25) -> None:
-        if (
-            type(recent_window) is not int
-            or recent_window < 1
-            or not math.isfinite(min_sd)
-            or min_sd <= 0
+    Numeric/profile members are opt-in; ranking keeps its two existing members.
+    ``forecast_steps`` is an explicit count of observations, not a duration inferred
+    from the request deadline or release time. Rolling residuals evaluate the same
+    strategy at that horizon using only preceding observations. Their RMSE retains
+    systematic forecast bias, unlike the standard deviation of residuals.
+    """
+
+    NUMERIC_MEMBERS = ("persistence", "recent_mean", "ewma", "local_trend")
+
+    def __init__(
+        self,
+        *,
+        recent_window: int = 3,
+        min_sd: float = 0.25,
+        numeric_members: tuple[str, ...] | list[str] = ("persistence", "recent_mean"),
+        ewma_alpha: float = 0.35,
+        trend_window: int = 6,
+        trend_damping: float = 0.8,
+        sd_method: str = "change_sd",
+        residual_window: int = 20,
+        min_residuals: int = 3,
+        forecast_steps: int = 1,
+    ) -> None:
+        for name, value, lower in (
+            ("recent_window", recent_window, 1),
+            ("trend_window", trend_window, 2),
+            ("residual_window", residual_window, 1),
+            ("min_residuals", min_residuals, 1),
+            ("forecast_steps", forecast_steps, 1),
         ):
-            raise ValueError("recent_window and min_sd must be positive")
+            if type(value) is not int or value < lower:
+                raise ValueError(f"{name} must be an integer >= {lower}")
+        for name, value in (
+            ("min_sd", min_sd),
+            ("ewma_alpha", ewma_alpha),
+            ("trend_damping", trend_damping),
+        ):
+            if (
+                isinstance(value, bool)
+                or not isinstance(value, (int, float))
+                or not math.isfinite(value)
+            ):
+                raise ValueError(f"{name} must be a finite number")
+        if min_sd <= 0:
+            raise ValueError("min_sd must be positive")
+        if not 0 < ewma_alpha <= 1:
+            raise ValueError("ewma_alpha must be in (0, 1]")
+        if not 0 <= trend_damping <= 1:
+            raise ValueError("trend_damping must be in [0, 1]")
+        if min_residuals > residual_window:
+            raise ValueError("min_residuals cannot exceed residual_window")
+        if sd_method not in ("change_sd", "rolling_residual"):
+            raise ValueError("sd_method must be change_sd or rolling_residual")
+        if (
+            not isinstance(numeric_members, (tuple, list))
+            or not numeric_members
+            or any(
+                not isinstance(name, str) or name not in self.NUMERIC_MEMBERS
+                for name in numeric_members
+            )
+            or len(set(numeric_members)) != len(numeric_members)
+        ):
+            raise ValueError("numeric_members must contain unique supported strategies")
         self.recent_window = recent_window
         self.min_sd = float(min_sd)
+        self.numeric_members = tuple(numeric_members)
+        self.ewma_alpha = float(ewma_alpha)
+        self.trend_window = trend_window
+        self.trend_damping = float(trend_damping)
+        self.sd_method = sd_method
+        self.residual_window = residual_window
+        self.min_residuals = min_residuals
+        self.forecast_steps = forecast_steps
+
+    def identity(self) -> dict[str, Any]:
+        """Return every constructor setting for cache/run identity and audit."""
+        return {
+            "recent_window": self.recent_window,
+            "min_sd": self.min_sd,
+            "numeric_members": list(self.numeric_members),
+            "ewma_alpha": self.ewma_alpha,
+            "trend_window": self.trend_window,
+            "trend_damping": self.trend_damping,
+            "sd_method": self.sd_method,
+            "residual_window": self.residual_window,
+            "min_residuals": self.min_residuals,
+            "forecast_steps": self.forecast_steps,
+        }
 
     def build(self, request: Any) -> list[ForecastMember]:
         kind = target_type(request)
@@ -52,9 +130,11 @@ class BaselineFactory:
                 ForecastRequest(**{k: v for k, v in values.items() if k in allowed})
             ).rows
         if kind == "continuous_normal":
-            return self._numeric(history)
+            return self._numeric(history, self._bounds(request))
         if kind == "profile_energy":
-            return self._profile(history, string_list(field(request, "cells"), "cells"))
+            return self._profile(
+                history, string_list(field(request, "cells"), "cells"), self._bounds(request)
+            )
         if kind == "ranking_list":
             spec = field(request, "ranking_spec", {})
             if spec and not spec.get("items"):
@@ -65,26 +145,42 @@ class BaselineFactory:
             )
         raise InvalidEnsembleMember(f"unsupported target type: {kind}")
 
-    def _numeric(self, history: Any) -> list[ForecastMember]:
+    @staticmethod
+    def _bounds(request: Any) -> tuple[float | None, float | None]:
+        minimum, maximum = field(request, "minimum", None), field(request, "maximum", None)
+        for bound in (minimum, maximum):
+            if bound is not None and (
+                isinstance(bound, bool)
+                or not isinstance(bound, (int, float))
+                or not math.isfinite(bound)
+            ):
+                raise InvalidEnsembleMember("baseline bounds must be finite numbers")
+        if minimum is not None and maximum is not None and minimum > maximum:
+            raise InvalidEnsembleMember("baseline minimum exceeds maximum")
+        return minimum, maximum
+
+    @staticmethod
+    def _bounded_mean(mean: float, bounds: tuple[float | None, float | None]) -> float:
+        minimum, maximum = bounds
+        if minimum is not None:
+            mean = max(minimum, mean)
+        if maximum is not None:
+            mean = min(maximum, mean)
+        return mean
+
+    def _numeric(self, history: Any, bounds=(None, None)) -> list[ForecastMember]:
         values = self._numeric_values(history)
         if not values:
             raise InvalidEnsembleMember("numeric baseline requires history")
-        sd = self._change_sd(values)
-        recent = values[-self.recent_window :]
-        return [
-            ForecastMember(
-                "persistence",
-                "persistence",
-                {"mean": values[-1], "sd": sd},
-            ),
-            ForecastMember(
-                "recent_mean",
-                "recent_mean",
-                {"mean": statistics.fmean(recent), "sd": sd},
-            ),
-        ]
+        members = []
+        for name in self.numeric_members:
+            prediction, metadata = self._forecast(values, name, bounds)
+            members.append(ForecastMember(name, name, prediction, metadata=metadata))
+        return members
 
-    def _profile(self, history: Any, cells: list[str]) -> list[ForecastMember]:
+    def _profile(
+        self, history: Any, cells: list[str], bounds=(None, None)
+    ) -> list[ForecastMember]:
         per_cell = {cell: [] for cell in cells}
         for row in history or []:
             values = self._row_value(row)
@@ -97,6 +193,8 @@ class BaselineFactory:
                     cell_value = values[cell]
                     if isinstance(cell_value, Mapping):
                         cell_value = cell_value.get("mean", cell_value.get("value"))
+                    if isinstance(cell_value, bool):
+                        continue
                     try:
                         number = float(cell_value)
                     except (TypeError, ValueError):
@@ -107,19 +205,97 @@ class BaselineFactory:
         if missing:
             raise InvalidEnsembleMember(f"profile history missing cells: {missing}")
 
-        persistence: dict[str, dict[str, float]] = {}
-        recent_mean: dict[str, dict[str, float]] = {}
-        for cell, values in per_cell.items():
-            sd = self._change_sd(values)
-            persistence[cell] = {"mean": values[-1], "sd": sd}
-            recent_mean[cell] = {
-                "mean": statistics.fmean(values[-self.recent_window :]),
-                "sd": sd,
-            }
-        return [
-            ForecastMember("persistence", "persistence", {"cells": persistence}),
-            ForecastMember("recent_mean", "recent_mean", {"cells": recent_mean}),
-        ]
+        members = []
+        for name in self.numeric_members:
+            predictions, details = {}, {}
+            for cell, values in per_cell.items():
+                predictions[cell], details[cell] = self._forecast(values, name, bounds)
+            members.append(
+                ForecastMember(
+                    name,
+                    name,
+                    {"cells": predictions},
+                    metadata={
+                        "forecast_steps": self.forecast_steps,
+                        "sd_method": self.sd_method,
+                        "cells": details,
+                    },
+                )
+            )
+        return members
+
+    def _predict_mean(self, values: list[float], strategy: str) -> float:
+        if strategy == "persistence":
+            return values[-1]
+        if strategy == "recent_mean":
+            return statistics.fmean(values[-self.recent_window :])
+        if strategy == "ewma":
+            level = values[0]
+            for value in values[1:]:
+                level = self.ewma_alpha * value + (1 - self.ewma_alpha) * level
+            return level
+        # Least-squares slope on a trailing window, anchored at the last value.
+        # Damping each future increment bounds long-horizon extrapolation when
+        # trend_damping < 1, while 0 explicitly disables the trend adjustment.
+        recent = values[-self.trend_window :]
+        if len(recent) < 2:
+            return values[-1]
+        center = (len(recent) - 1) / 2
+        mean = statistics.fmean(recent)
+        slope = sum((i - center) * (value - mean) for i, value in enumerate(recent))
+        slope /= sum((i - center) ** 2 for i in range(len(recent)))
+        damping = self.trend_damping
+        if damping == 1:
+            horizon = self.forecast_steps
+        else:
+            horizon = damping * (1 - damping ** self.forecast_steps) / (1 - damping)
+        return values[-1] + slope * horizon
+
+    def _forecast(self, values: list[float], strategy: str, bounds=(None, None)):
+        metadata = {
+            "mean_strategy": strategy,
+            "history_count": len(values),
+            "forecast_steps": self.forecast_steps,
+            "sd_method": self.sd_method,
+            "residual_count": 0,
+        }
+        if strategy == "local_trend" and len(values) < 2:
+            metadata["mean_fallback"] = "persistence: fewer than two observations"
+        # The legacy change scale remains the default, preserving one-step
+        # behavior. Its multi-step fallback assumes independent increments.
+        sd = self._change_sd(values) * math.sqrt(self.forecast_steps)
+        metadata["sd_source"] = "change_sd"
+        if self.forecast_steps != 1:
+            metadata["sd_scaling"] = "sqrt_forecast_steps"
+        if self.sd_method == "rolling_residual":
+            # origin is the number of observations available for a forecast;
+            # its h-step target is at origin+h-1. No target enters its own fit.
+            min_prefix = 2 if strategy == "local_trend" else 1
+            stop = len(values) - self.forecast_steps + 1
+            start = max(min_prefix, stop - self.residual_window)
+            residuals = [
+                values[origin + self.forecast_steps - 1]
+                - self._bounded_mean(self._predict_mean(values[:origin], strategy), bounds)
+                for origin in range(start, stop)
+            ]
+            metadata["residual_count"] = len(residuals)
+            if len(residuals) >= self.min_residuals:
+                sd = max(
+                    self.min_sd,
+                    math.sqrt(statistics.fmean(error * error for error in residuals)),
+                )
+                metadata["sd_source"] = "rolling_residual_rmse"
+                metadata.pop("sd_scaling", None)
+            else:
+                metadata["sd_fallback_reason"] = (
+                    f"insufficient rolling residuals: {len(residuals)} < {self.min_residuals}"
+                )
+        unbounded_mean = self._predict_mean(values, strategy)
+        mean = self._bounded_mean(unbounded_mean, bounds)
+        if mean != unbounded_mean:
+            metadata["mean_clipped_to_bounds"] = True
+            metadata["unbounded_mean"] = unbounded_mean
+        return {"mean": mean, "sd": sd}, metadata
 
     def _ranking(self, history: Any, candidates: list[str]) -> list[ForecastMember]:
         rankings: list[list[str]] = []

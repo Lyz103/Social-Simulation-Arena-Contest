@@ -45,7 +45,7 @@ class PipelineConfig:
 
 
 class ForecastPipeline:
-    VERSION = "pipeline-v1"
+    VERSION = "pipeline-v2"
 
     def __init__(
         self,
@@ -106,8 +106,8 @@ class ForecastPipeline:
                 "min_sd": self.ensemble.min_sd,
                 "max_sd": self.ensemble.max_sd,
                 "failure_policy": self.ensemble.failure_policy,
-                "baseline_window": self.ensemble.baseline_factory.recent_window,
-                "baseline_min_sd": self.ensemble.baseline_factory.min_sd,
+                "task_policies": json_copy(self.ensemble.task_policies),
+                "baseline": self.ensemble.baseline_factory.identity(),
             },
             "research": (
                 None
@@ -185,6 +185,8 @@ class ForecastPipeline:
                         "history_warnings": history.warnings,
                     },
                 )
+                selected_policy = self.ensemble.resolve_policy(clean)
+                llm_enabled = selected_policy["configured_weights"].get("llm", 0) != 0
                 research = None
                 if self.config.research_policy == "required":
                     research = self.research_engine.retrieve(
@@ -214,7 +216,17 @@ class ForecastPipeline:
                 event("prompt", asdict(compiled))
                 members, failures, model_runs = [], [], []
                 previous_events = self.archive.events(entrant, request.round_id)
-                for name, client in self.clients.items():
+                if not llm_enabled:
+                    event(
+                        "model_skip",
+                        {
+                            "reason": "selected ensemble policy assigns zero LLM weight",
+                            "policy_index": selected_policy["index"],
+                            "configured_weights": selected_policy["configured_weights"],
+                            "member_ids": list(self.clients),
+                        },
+                    )
+                for name, client in (self.clients.items() if llm_enabled else ()):
                     cache_key = digest(
                         {
                             "member": name,
@@ -288,36 +300,23 @@ class ForecastPipeline:
                                     "member_id": name,
                                     "attempt": attempt,
                                     "error": str(exc),
+                                    "transport_attempts": exc.transport_attempts,
                                 },
                             )
                             failures.append({"member_id": name, "error": str(exc)})
                         break
-                if not members and not self.config.allow_baseline_fallback:
+                if llm_enabled and not members and not self.config.allow_baseline_fallback:
                     raise ModelError("all models failed; baseline fallback is disabled")
                 remaining()
-                final = self.ensemble.combine(clean, members)
+                final = self.ensemble.combine(
+                    clean, members, sd_scale=self.config.sd_scale
+                )
                 if failures:
                     final = replace(
                         final,
                         degraded=True,
                         warnings=final.warnings
                         + [f"model failed: {f['member_id']}" for f in failures],
-                    )
-                prediction = final.prediction
-                if self.config.sd_scale != 1 and clean.target_type != "ranking_list":
-                    prediction = json_copy(prediction)
-                    normals = (
-                        prediction["cells"].values()
-                        if clean.target_type == "profile_energy"
-                        else [prediction]
-                    )
-                    for normal in normals:
-                        normal["sd"] *= self.config.sd_scale
-                    final = replace(
-                        final,
-                        prediction=prediction,
-                        warnings=final.warnings
-                        + ["sd scale applied: " + str(self.config.sd_scale)],
                     )
                 response = response_envelope(clean, final.prediction)
                 result = {

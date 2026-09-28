@@ -1,0 +1,279 @@
+{
+  "round_id": "yougov-xtab-2026-w38",
+  "predictions": {
+    "rolling_persistence": {
+      "cells": {
+        "yougov_xtab_approve_dem": {
+          "mean": 4.0,
+          "sd": 1.7580981459830651
+        },
+        "yougov_xtab_approve_ind": {
+          "mean": 23.0,
+          "sd": 3.089571903266623
+        },
+        "yougov_xtab_approve_rep": {
+          "mean": 79.0,
+          "sd": 3.089571903266623
+        },
+        "yougov_xtab_approve_age_under_30": {
+          "mean": 29.0,
+          "sd": 4.316985480212279
+        },
+        "yougov_xtab_approve_age_30_44": {
+          "mean": 31.0,
+          "sd": 1.8090680674665818
+        },
+        "yougov_xtab_approve_age_45_64": {
+          "mean": 41.0,
+          "sd": 3.9312269655344823
+        },
+        "yougov_xtab_approve_age_65_up": {
+          "mean": 43.0,
+          "sd": 3.2752515517548764
+        },
+        "yougov_xtab_approve_race_white": {
+          "mean": 43.0,
+          "sd": 1.4459976109624424
+        },
+        "yougov_xtab_approve_race_black": {
+          "mean": 12.0,
+          "sd": 2.796101181678127
+        },
+        "yougov_xtab_approve_race_hispanic": {
+          "mean": 32.0,
+          "sd": 5.0990195135927845
+        },
+        "yougov_xtab_approve_male": {
+          "mean": 42.0,
+          "sd": 1.5666989036012806
+        },
+        "yougov_xtab_approve_female": {
+          "mean": 33.0,
+          "sd": 1.6787441193290353
+        },
+        "yougov_xtab_approve_edu_hs_or_less": {
+          "mean": 44.0,
+          "sd": 3.0
+        },
+        "yougov_xtab_approve_edu_some_college": {
+          "mean": 38.0,
+          "sd": 3.692744729379982
+        },
+        "yougov_xtab_approve_edu_college_grad": {
+          "mean": 32.0,
+          "sd": 2.335496832484569
+        },
+        "yougov_xtab_approve_edu_postgrad": {
+          "mean": 33.0,
+          "sd": 4.390071442781686
+        }
+      }
+    },
+    "rolling_recent_mean": {
+      "cells": {
+        "yougov_xtab_approve_dem": {
+          "mean": 3.6666666666666665,
+          "sd": 1.4070529413628967
+        },
+        "yougov_xtab_approve_ind": {
+          "mean": 26.666666666666668,
+          "sd": 2.8744784331468316
+        },
+        "yougov_xtab_approve_rep": {
+          "mean": 81.66666666666667,
+          "sd": 2.508571165609876
+        },
+        "yougov_xtab_approve_age_under_30": {
+          "mean": 30.0,
+          "sd": 3.80854965899757
+        },
+        "yougov_xtab_approve_age_30_44": {
+          "mean": 32.0,
+          "sd": 1.9332288373014042
+        },
+        "yougov_xtab_approve_age_45_64": {
+          "mean": 44.333333333333336,
+          "sd": 2.8360058696923205
+        },
+        "yougov_xtab_approve_age_65_up": {
+          "mean": 43.666666666666664,
+          "sd": 2.458237029443925
+        },
+        "yougov_xtab_approve_race_white": {
+          "mean": 44.666666666666664,
+          "sd": 1.3530735681433148
+        },
+        "yougov_xtab_approve_race_black": {
+          "mean": 13.333333333333334,
+          "sd": 2.620817977022988
+        },
+        "yougov_xtab_approve_race_hispanic": {
+          "mean": 34.333333333333336,
+          "sd": 4.334498677803326
+        },
+        "yougov_xtab_approve_male": {
+          "mean": 44.0,
+          "sd": 1.3679225567305042
+        },
+        "yougov_xtab_approve_female": {
+          "mean": 34.666666666666664,
+          "sd": 1.5117385803615437
+        },
+        "yougov_xtab_approve_edu_hs_or_less": {
+          "mean": 47.0,
+          "sd": 2.670924630879424
+        },
+        "yougov_xtab_approve_edu_some_college": {
+          "mean": 39.0,
+          "sd": 3.259794874875201
+        },
+        "yougov_xtab_approve_edu_college_grad": {
+          "mean": 34.0,
+          "sd": 2.062165185557464
+        },
+        "yougov_xtab_approve_edu_postgrad": {
+          "mean": 32.666666666666664,
+          "sd": 4.483415004325397
+        }
+      }
+    },
+    "rolling_ewma": {
+      "cells": {
+        "yougov_xtab_approve_dem": {
+          "mean": 3.459127156528584,
+          "sd": 1.4491946828031743
+        },
+        "yougov_xtab_approve_ind": {
+          "mean": 25.759906247405176,
+          "sd": 2.650015969768779
+        },
+        "yougov_xtab_approve_rep": {
+          "mean": 81.3573093204766,
+          "sd": 2.4866725678073807
+        },
+        "yougov_xtab_approve_age_under_30": {
+          "mean": 29.90565824001694,
+          "sd": 3.7543249139323582
+        },
+        "yougov_xtab_approve_age_30_44": {
+          "mean": 32.52181519209053,
+          "sd": 2.123650086430113
+        },
+        "yougov_xtab_approve_age_45_64": {
+          "mean": 43.38302499485457,
+          "sd": 2.7403074934308
+        },
+        "yougov_xtab_approve_age_65_up": {
+          "mean": 43.1871853754576,
+          "sd": 2.3159275025316743
+        },
+        "yougov_xtab_approve_race_white": {
+          "mean": 44.67375044075516,
+          "sd": 1.2978732412533283
+        },
+        "yougov_xtab_approve_race_black": {
+          "mean": 12.177854862635684,
+          "sd": 2.4693067281254413
+        },
+        "yougov_xtab_approve_race_hispanic": {
+          "mean": 33.574878793798476,
+          "sd": 4.258456725140056
+        },
+        "yougov_xtab_approve_male": {
+          "mean": 43.789755444459715,
+          "sd": 1.4450022652794687
+        },
+        "yougov_xtab_approve_female": {
+          "mean": 34.28839371721004,
+          "sd": 1.4245036358232164
+        },
+        "yougov_xtab_approve_edu_hs_or_less": {
+          "mean": 46.612959196464104,
+          "sd": 2.5341638393425394
+        },
+        "yougov_xtab_approve_edu_some_college": {
+          "mean": 39.014894902411285,
+          "sd": 3.498889308353728
+        },
+        "yougov_xtab_approve_edu_college_grad": {
+          "mean": 33.98346554755895,
+          "sd": 1.975134403626473
+        },
+        "yougov_xtab_approve_edu_postgrad": {
+          "mean": 31.213334587492575,
+          "sd": 4.14847342669941
+        }
+      }
+    },
+    "rolling_local_trend": {
+      "cells": {
+        "yougov_xtab_approve_dem": {
+          "mean": 4.045714285714285,
+          "sd": 1.8633461233786395
+        },
+        "yougov_xtab_approve_ind": {
+          "mean": 23.228571428571428,
+          "sd": 3.419957273870836
+        },
+        "yougov_xtab_approve_rep": {
+          "mean": 78.65714285714286,
+          "sd": 3.6737360175345497
+        },
+        "yougov_xtab_approve_age_under_30": {
+          "mean": 28.405714285714286,
+          "sd": 5.152816071759961
+        },
+        "yougov_xtab_approve_age_30_44": {
+          "mean": 30.497142857142858,
+          "sd": 1.909891758873326
+        },
+        "yougov_xtab_approve_age_45_64": {
+          "mean": 41.29714285714286,
+          "sd": 4.3971630928709144
+        },
+        "yougov_xtab_approve_age_65_up": {
+          "mean": 43.137142857142855,
+          "sd": 3.8018672104262516
+        },
+        "yougov_xtab_approve_race_white": {
+          "mean": 42.77142857142857,
+          "sd": 1.684334544306106
+        },
+        "yougov_xtab_approve_race_black": {
+          "mean": 12.594285714285714,
+          "sd": 3.3272328393647084
+        },
+        "yougov_xtab_approve_race_hispanic": {
+          "mean": 31.337142857142858,
+          "sd": 5.555739374736723
+        },
+        "yougov_xtab_approve_male": {
+          "mean": 41.794285714285714,
+          "sd": 1.8326864412213917
+        },
+        "yougov_xtab_approve_female": {
+          "mean": 32.95428571428572,
+          "sd": 1.92126318990865
+        },
+        "yougov_xtab_approve_edu_hs_or_less": {
+          "mean": 43.84,
+          "sd": 3.490571791063955
+        },
+        "yougov_xtab_approve_edu_some_college": {
+          "mean": 37.68,
+          "sd": 4.3391134239752756
+        },
+        "yougov_xtab_approve_edu_college_grad": {
+          "mean": 31.65714285714286,
+          "sd": 2.5138960737046694
+        },
+        "yougov_xtab_approve_edu_postgrad": {
+          "mean": 34.02857142857143,
+          "sd": 5.077716986591352
+        }
+      }
+    }
+  },
+  "input_hash": "sha256:ca008f494f6a9bcf88bbbce374dfa82605d5434a56cb3b328dfdf503b08e5e4f",
+  "config_hash": "sha256:0dc98cc2b1cb82a9ac3b4708bbd765fa623d2563b88a38787ee6bc681c149c6a"
+}

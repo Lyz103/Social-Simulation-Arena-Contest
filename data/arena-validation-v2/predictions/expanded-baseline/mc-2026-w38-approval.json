@@ -1,0 +1,23 @@
+{
+  "round_id": "mc-2026-w38-approval",
+  "predictions": {
+    "rolling_persistence": {
+      "mean": 41.73,
+      "sd": 1.1489016494025928
+    },
+    "rolling_recent_mean": {
+      "mean": 41.96333333333333,
+      "sd": 1.0799843105856266
+    },
+    "rolling_ewma": {
+      "mean": 42.17425734461102,
+      "sd": 1.036842742609657
+    },
+    "rolling_local_trend": {
+      "mean": 41.51445714285714,
+      "sd": 1.2300096837846763
+    }
+  },
+  "input_hash": "sha256:2c05538edc10f435385d390901cdccc4fe0391cdfe1cb9049fcbf479b1e86bf4",
+  "config_hash": "sha256:0dc98cc2b1cb82a9ac3b4708bbd765fa623d2563b88a38787ee6bc681c149c6a"
+}

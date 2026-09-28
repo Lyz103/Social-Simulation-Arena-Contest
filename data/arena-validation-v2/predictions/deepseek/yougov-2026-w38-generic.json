@@ -1,0 +1,15 @@
+{
+  "round_id": "yougov-2026-w38-generic",
+  "input_hash": "sha256:bda5cf371e04c881f217c710d9a23777b9ef191fa89c15d30cd6190446ad03a9",
+  "config_hash": "sha256:464321bb2d123ec570516211229dbb4d4947f1160825489754aaa0772fa3544e",
+  "predictions": {
+    "ensemble": {
+      "mean": 8.1,
+      "sd": 3.105874873068482
+    },
+    "llm": {
+      "mean": 7.0,
+      "sd": 3.0
+    }
+  }
+}

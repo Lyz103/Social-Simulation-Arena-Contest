@@ -1,0 +1,78 @@
+{
+  "source_commit": "c36106d158ca6053c778c34495832f70c85c597d",
+  "tasks_sha256": "19dc72f1d9880689b8d552d5791aa3d96d0c499958e6a16789213ef8370a7682",
+  "covered": 14,
+  "total": 60,
+  "rounds": [
+    {
+      "round_id": "yougov-2026-w38-generic",
+      "task_metadata_match": true,
+      "history_comparison": "same"
+    },
+    {
+      "round_id": "yougov-xtab-2026-w38",
+      "task_metadata_match": true,
+      "history_comparison": "Dashboard supplies scalar history, not the per-cell frozen histories used by this archived experiment."
+    },
+    {
+      "round_id": "mc-2026-w38-approval",
+      "task_metadata_match": true,
+      "history_comparison": "same"
+    },
+    {
+      "round_id": "aaii-2026-09-17",
+      "task_metadata_match": true,
+      "history_comparison": "Archived AAII input includes one additional oldest observation."
+    },
+    {
+      "round_id": "civiqs-2026-w38-angry-share",
+      "task_metadata_match": true,
+      "history_comparison": "same"
+    },
+    {
+      "round_id": "civiqs-2026-w38-approval",
+      "task_metadata_match": true,
+      "history_comparison": "same"
+    },
+    {
+      "round_id": "civiqs-2026-w38-econ-direction",
+      "task_metadata_match": true,
+      "history_comparison": "same"
+    },
+    {
+      "round_id": "civiqs-2026-w38-econ-now",
+      "task_metadata_match": true,
+      "history_comparison": "same"
+    },
+    {
+      "round_id": "civiqs-2026-w38-family-finances",
+      "task_metadata_match": true,
+      "history_comparison": "same"
+    },
+    {
+      "round_id": "civiqs-2026-w38-inflation-concern",
+      "task_metadata_match": true,
+      "history_comparison": "same"
+    },
+    {
+      "round_id": "civiqs-profile-2026-w38",
+      "task_metadata_match": true,
+      "history_comparison": "Dashboard supplies scalar history, not the per-cell frozen histories used by this archived experiment."
+    },
+    {
+      "round_id": "yougov-2026-w39-generic",
+      "task_metadata_match": true,
+      "history_comparison": "same"
+    },
+    {
+      "round_id": "mc-2026-w39-approval",
+      "task_metadata_match": true,
+      "history_comparison": "same"
+    },
+    {
+      "round_id": "aaii-2026-09-24",
+      "task_metadata_match": true,
+      "history_comparison": "Archived AAII input includes one additional oldest observation."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "round_id": "civiqs-2026-w38-family-finances",
+  "input_hash": "sha256:e4820d01c5f1fc8eb52498e733413208f2bc856a40426c146aeab67600f386ae",
+  "config_hash": "sha256:464321bb2d123ec570516211229dbb4d4947f1160825489754aaa0772fa3544e",
+  "predictions": {
+    "ensemble": {
+      "mean": -29.934999999999995,
+      "sd": 1.259375532884944
+    },
+    "llm": {
+      "mean": -29.8,
+      "sd": 1.5
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "endpoint": "https://api.deepseek.com/chat/completions",
+  "requested_model": "deepseek-v4.1-flash",
+  "status": 400,
+  "error": "invalid_request_error: unsupported model name",
+  "available_models": [
+    "deepseek-flash",
+    "deepseek-v4-pro"
+  ],
+  "forecast_calls_completed": 0
+}

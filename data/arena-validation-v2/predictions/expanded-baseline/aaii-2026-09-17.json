@@ -1,0 +1,23 @@
+{
+  "round_id": "aaii-2026-09-17",
+  "predictions": {
+    "rolling_persistence": {
+      "mean": -1.3,
+      "sd": 11.720132251813544
+    },
+    "rolling_recent_mean": {
+      "mean": -3.5666666666666664,
+      "sd": 8.26663726473266
+    },
+    "rolling_ewma": {
+      "mean": -2.784811402444016,
+      "sd": 8.674137104914418
+    },
+    "rolling_local_trend": {
+      "mean": -1.1331428571428572,
+      "sd": 14.078939560599741
+    }
+  },
+  "input_hash": "sha256:5f2504b0c81570b55a680aafb341dfb19bb1ed529a2bee414324a31bf6131d05",
+  "config_hash": "sha256:0dc98cc2b1cb82a9ac3b4708bbd765fa623d2563b88a38787ee6bc681c149c6a"
+}

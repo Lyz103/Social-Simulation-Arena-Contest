@@ -1,0 +1,211 @@
+{
+  "round_id": "civiqs-profile-2026-w38",
+  "predictions": {
+    "persistence": {
+      "cells": {
+        "civiqs_net_approval_dem": {
+          "mean": -95.9,
+          "sd": 0.265666167203681
+        },
+        "civiqs_net_approval_ind": {
+          "mean": -35.6,
+          "sd": 1.7608694321342484
+        },
+        "civiqs_net_approval_rep": {
+          "mean": 66.8,
+          "sd": 0.6859872538150399
+        },
+        "civiqs_net_approval_age_18_34": {
+          "mean": -49.4,
+          "sd": 1.3190905958272934
+        },
+        "civiqs_net_approval_age_35_49": {
+          "mean": -35.1,
+          "sd": 1.0552505479781866
+        },
+        "civiqs_net_approval_age_50_64": {
+          "mean": -7.9,
+          "sd": 0.9109979996530732
+        },
+        "civiqs_net_approval_age_65_up": {
+          "mean": -9.0,
+          "sd": 1.376064576612691
+        },
+        "civiqs_net_approval_race_white": {
+          "mean": -10.9,
+          "sd": 0.9920343902329994
+        },
+        "civiqs_net_approval_race_black": {
+          "mean": -81.8,
+          "sd": 0.6195172740873057
+        },
+        "civiqs_net_approval_race_hispanic": {
+          "mean": -37.8,
+          "sd": 1.3316863105671943
+        },
+        "civiqs_net_approval_race_other": {
+          "mean": -40.5,
+          "sd": 0.7667684685076196
+        },
+        "civiqs_net_approval_edu_noncollege": {
+          "mean": -17.4,
+          "sd": 1.3267122104119629
+        },
+        "civiqs_net_approval_edu_college": {
+          "mean": -30.8,
+          "sd": 0.5532772383528338
+        },
+        "civiqs_net_approval_edu_postgrad": {
+          "mean": -48.5,
+          "sd": 0.9217303167735685
+        },
+        "civiqs_net_approval_male": {
+          "mean": -13.2,
+          "sd": 1.0620423175643803
+        },
+        "civiqs_net_approval_female": {
+          "mean": -35.2,
+          "sd": 0.8853257326501708
+        }
+      }
+    },
+    "recent_mean": {
+      "cells": {
+        "civiqs_net_approval_dem": {
+          "mean": -95.7,
+          "sd": 0.265666167203681
+        },
+        "civiqs_net_approval_ind": {
+          "mean": -33.53333333333333,
+          "sd": 1.7608694321342484
+        },
+        "civiqs_net_approval_rep": {
+          "mean": 67.7,
+          "sd": 0.6859872538150399
+        },
+        "civiqs_net_approval_age_18_34": {
+          "mean": -47.800000000000004,
+          "sd": 1.3190905958272934
+        },
+        "civiqs_net_approval_age_35_49": {
+          "mean": -34.86666666666667,
+          "sd": 1.0552505479781866
+        },
+        "civiqs_net_approval_age_50_64": {
+          "mean": -8.033333333333333,
+          "sd": 0.9109979996530732
+        },
+        "civiqs_net_approval_age_65_up": {
+          "mean": -6.133333333333333,
+          "sd": 1.376064576612691
+        },
+        "civiqs_net_approval_race_white": {
+          "mean": -9.700000000000001,
+          "sd": 0.9920343902329994
+        },
+        "civiqs_net_approval_race_black": {
+          "mean": -81.76666666666667,
+          "sd": 0.6195172740873057
+        },
+        "civiqs_net_approval_race_hispanic": {
+          "mean": -35.96666666666666,
+          "sd": 1.3316863105671943
+        },
+        "civiqs_net_approval_race_other": {
+          "mean": -40.766666666666666,
+          "sd": 0.7667684685076196
+        },
+        "civiqs_net_approval_edu_noncollege": {
+          "mean": -15.433333333333332,
+          "sd": 1.3267122104119629
+        },
+        "civiqs_net_approval_edu_college": {
+          "mean": -31.03333333333333,
+          "sd": 0.5532772383528338
+        },
+        "civiqs_net_approval_edu_postgrad": {
+          "mean": -48.833333333333336,
+          "sd": 0.9217303167735685
+        },
+        "civiqs_net_approval_male": {
+          "mean": -11.9,
+          "sd": 1.0620423175643803
+        },
+        "civiqs_net_approval_female": {
+          "mean": -34.1,
+          "sd": 0.8853257326501708
+        }
+      }
+    },
+    "baseline_ensemble": {
+      "cells": {
+        "civiqs_net_approval_dem": {
+          "mean": -95.82499999999999,
+          "sd": 0.2827605212838144
+        },
+        "civiqs_net_approval_ind": {
+          "mean": -34.824999999999996,
+          "sd": 2.0252661118212245
+        },
+        "civiqs_net_approval_rep": {
+          "mean": 67.13749999999999,
+          "sd": 0.8126636834488805
+        },
+        "civiqs_net_approval_age_18_34": {
+          "mean": -48.8,
+          "sd": 1.5297058540778352
+        },
+        "civiqs_net_approval_age_35_49": {
+          "mean": -35.012499999999996,
+          "sd": 1.06127948047389
+        },
+        "civiqs_net_approval_age_50_64": {
+          "mean": -7.949999999999999,
+          "sd": 0.9132820057564736
+        },
+        "civiqs_net_approval_age_65_up": {
+          "mean": -7.924999999999999,
+          "sd": 1.9543785164790703
+        },
+        "civiqs_net_approval_race_white": {
+          "mean": -10.45,
+          "sd": 1.1496226473956392
+        },
+        "civiqs_net_approval_race_black": {
+          "mean": -81.7875,
+          "sd": 0.6197274155297896
+        },
+        "civiqs_net_approval_race_hispanic": {
+          "mean": -37.1125,
+          "sd": 1.6003589742363225
+        },
+        "civiqs_net_approval_race_other": {
+          "mean": -40.599999999999994,
+          "sd": 0.777560641342003
+        },
+        "civiqs_net_approval_edu_noncollege": {
+          "mean": -16.662499999999998,
+          "sd": 1.6329959295487735
+        },
+        "civiqs_net_approval_edu_college": {
+          "mean": -30.887499999999996,
+          "sd": 0.5646911714787162
+        },
+        "civiqs_net_approval_edu_postgrad": {
+          "mean": -48.625,
+          "sd": 0.9357502035939773
+        },
+        "civiqs_net_approval_male": {
+          "mean": -12.712499999999999,
+          "sd": 1.2345151413804203
+        },
+        "civiqs_net_approval_female": {
+          "mean": -34.787499999999994,
+          "sd": 1.0331482966605339
+        }
+      }
+    }
+  },
+  "input_hash": "sha256:7e33309c0c36500a5767879847827e698705c9ff0d34180f9cc1fb230d573be4",
+  "config_hash": "sha256:0e5510c7a485b43b4323cbf214332e4a6ee6afe1bf65dac457066010a16cc69e"
+}

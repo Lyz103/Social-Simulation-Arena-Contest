@@ -267,6 +267,7 @@ def main(argv=None):
     cal.add_argument("--cases", required=True)
     cal.add_argument("--validation-start", required=True)
     cal.add_argument("--test-start", required=True)
+    cal.add_argument("--objective", choices=["mean_loss", "mean_skill"], default="mean_loss")
     cal.add_argument("--output")
     bt = sub.add_parser("backtest")
     bt.add_argument("--config", required=True)
@@ -357,6 +358,7 @@ def main(argv=None):
                 read(args.cases),
                 validation_start=args.validation_start,
                 test_start=args.test_start,
+                objective=args.objective,
             )
         elif args.command == "aggregate-wikipedia-week":
             from .sources import wikipedia_week

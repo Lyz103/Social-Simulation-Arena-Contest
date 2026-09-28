@@ -1,0 +1,4933 @@
+{
+  "strategies": {
+    "official_persistence": {
+      "records": [
+        {
+          "round_id": "yougov-2026-w38-generic",
+          "metric": "crps",
+          "group": {
+            "source_name": "economist_yougov",
+            "unit": "net points, Democratic minus Republican",
+            "population": "",
+            "metric": "yougov_generic_margin",
+            "cells": [],
+            "scoring_metric": "crps"
+          },
+          "loss": 0.6070745661515764,
+          "persistence_loss": 0.6070745661515764,
+          "persistence_source": "record.persistence",
+          "skill": 0.0,
+          "marginal_interval_coverage": {
+            "0.5": 1.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        },
+        {
+          "round_id": "yougov-xtab-2026-w38",
+          "metric": "energy",
+          "group": {
+            "source_name": "yougov_xtab",
+            "unit": "percent approving",
+            "population": "",
+            "metric": "yougov_xtab_approve_dem",
+            "cells": [
+              "yougov_xtab_approve_dem",
+              "yougov_xtab_approve_ind",
+              "yougov_xtab_approve_rep",
+              "yougov_xtab_approve_age_under_30",
+              "yougov_xtab_approve_age_30_44",
+              "yougov_xtab_approve_age_45_64",
+              "yougov_xtab_approve_age_65_up",
+              "yougov_xtab_approve_race_white",
+              "yougov_xtab_approve_race_black",
+              "yougov_xtab_approve_race_hispanic",
+              "yougov_xtab_approve_male",
+              "yougov_xtab_approve_female",
+              "yougov_xtab_approve_edu_hs_or_less",
+              "yougov_xtab_approve_edu_some_college",
+              "yougov_xtab_approve_edu_college_grad",
+              "yougov_xtab_approve_edu_postgrad"
+            ],
+            "scoring_metric": "energy"
+          },
+          "loss": 7.993213609818521,
+          "persistence_loss": 7.993213609818521,
+          "persistence_source": "record.persistence",
+          "skill": 0.0,
+          "marginal_interval_coverage": {
+            "0.5": 0.25,
+            "0.8": 0.25,
+            "0.95": 0.5625
+          }
+        },
+        {
+          "round_id": "mc-2026-w38-approval",
+          "metric": "crps",
+          "group": {
+            "source_name": "morning_consult",
+            "unit": "% approve",
+            "population": "",
+            "metric": "mc_approval",
+            "cells": [],
+            "scoring_metric": "crps"
+          },
+          "loss": 0.3622522492006801,
+          "persistence_loss": 0.3622522492006801,
+          "persistence_source": "record.persistence",
+          "skill": 0.0,
+          "marginal_interval_coverage": {
+            "0.5": 1.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        },
+        {
+          "round_id": "aaii-2026-09-17",
+          "metric": "crps",
+          "group": {
+            "source_name": "aaii",
+            "unit": "percentage points (bullish minus bearish)",
+            "population": "",
+            "metric": "aaii_bull_bear_spread",
+            "cells": [],
+            "scoring_metric": "crps"
+          },
+          "loss": 22.353715624678365,
+          "persistence_loss": 22.353715624678365,
+          "persistence_source": "record.persistence",
+          "skill": 0.0,
+          "marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 0.0,
+            "0.95": 0.0
+          }
+        },
+        {
+          "round_id": "civiqs-2026-w38-angry-share",
+          "metric": "crps",
+          "group": {
+            "source_name": "civiqs",
+            "unit": "percent",
+            "population": "",
+            "metric": "civiqs_angry_share",
+            "cells": [],
+            "scoring_metric": "crps"
+          },
+          "loss": 0.4164239675755813,
+          "persistence_loss": 0.4164239675755813,
+          "persistence_source": "record.persistence",
+          "skill": 0.0,
+          "marginal_interval_coverage": {
+            "0.5": 1.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        },
+        {
+          "round_id": "civiqs-2026-w38-approval",
+          "metric": "crps",
+          "group": {
+            "source_name": "civiqs",
+            "unit": "net points (approve minus disapprove)",
+            "population": "",
+            "metric": "civiqs_net_approval",
+            "cells": [],
+            "scoring_metric": "crps"
+          },
+          "loss": 2.08411409940455,
+          "persistence_loss": 2.08411409940455,
+          "persistence_source": "record.persistence",
+          "skill": 0.0,
+          "marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 0.0,
+            "0.95": 1.0
+          }
+        },
+        {
+          "round_id": "civiqs-2026-w38-econ-direction",
+          "metric": "crps",
+          "group": {
+            "source_name": "civiqs",
+            "unit": "net points (better minus worse)",
+            "population": "",
+            "metric": "civiqs_net_econ_direction",
+            "cells": [],
+            "scoring_metric": "crps"
+          },
+          "loss": 0.4164239675755813,
+          "persistence_loss": 0.4164239675755813,
+          "persistence_source": "record.persistence",
+          "skill": 0.0,
+          "marginal_interval_coverage": {
+            "0.5": 1.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        },
+        {
+          "round_id": "civiqs-2026-w38-econ-now",
+          "metric": "crps",
+          "group": {
+            "source_name": "civiqs",
+            "unit": "net points (good minus bad)",
+            "population": "",
+            "metric": "civiqs_net_econ_now",
+            "cells": [],
+            "scoring_metric": "crps"
+          },
+          "loss": 2.3714057395484582,
+          "persistence_loss": 2.3714057395484582,
+          "persistence_source": "record.persistence",
+          "skill": 0.0,
+          "marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 0.0,
+            "0.95": 0.0
+          }
+        },
+        {
+          "round_id": "civiqs-2026-w38-family-finances",
+          "metric": "crps",
+          "group": {
+            "source_name": "civiqs",
+            "unit": "net points (better minus worse)",
+            "population": "",
+            "metric": "civiqs_net_family_finances",
+            "cells": [],
+            "scoring_metric": "crps"
+          },
+          "loss": 0.6070745661515764,
+          "persistence_loss": 0.6070745661515764,
+          "persistence_source": "record.persistence",
+          "skill": 0.0,
+          "marginal_interval_coverage": {
+            "0.5": 1.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        },
+        {
+          "round_id": "civiqs-2026-w38-inflation-concern",
+          "metric": "crps",
+          "group": {
+            "source_name": "civiqs",
+            "unit": "net points (concerned minus not concerned)",
+            "population": "",
+            "metric": "civiqs_net_inflation_concern",
+            "cells": [],
+            "scoring_metric": "crps"
+          },
+          "loss": 0.4450321355207249,
+          "persistence_loss": 0.4450321355207249,
+          "persistence_source": "record.persistence",
+          "skill": 0.0,
+          "marginal_interval_coverage": {
+            "0.5": 1.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        },
+        {
+          "round_id": "civiqs-profile-2026-w38",
+          "metric": "energy",
+          "group": {
+            "source_name": "civiqs",
+            "unit": "net points (approve minus disapprove)",
+            "population": "",
+            "metric": "civiqs_net_approval",
+            "cells": [
+              "civiqs_net_approval_dem",
+              "civiqs_net_approval_ind",
+              "civiqs_net_approval_rep",
+              "civiqs_net_approval_age_18_34",
+              "civiqs_net_approval_age_35_49",
+              "civiqs_net_approval_age_50_64",
+              "civiqs_net_approval_age_65_up",
+              "civiqs_net_approval_race_white",
+              "civiqs_net_approval_race_black",
+              "civiqs_net_approval_race_hispanic",
+              "civiqs_net_approval_race_other",
+              "civiqs_net_approval_edu_noncollege",
+              "civiqs_net_approval_edu_college",
+              "civiqs_net_approval_edu_postgrad",
+              "civiqs_net_approval_male",
+              "civiqs_net_approval_female"
+            ],
+            "scoring_metric": "energy"
+          },
+          "loss": 9.951582534930033,
+          "persistence_loss": 9.951582534930033,
+          "persistence_source": "record.persistence",
+          "skill": 0.0,
+          "marginal_interval_coverage": {
+            "0.5": 0.0625,
+            "0.8": 0.3125,
+            "0.95": 0.5625
+          }
+        },
+        {
+          "round_id": "yougov-2026-w39-generic",
+          "metric": "crps",
+          "group": {
+            "source_name": "economist_yougov",
+            "unit": "net points, Democratic minus Republican",
+            "population": "",
+            "metric": "yougov_generic_margin",
+            "cells": [],
+            "scoring_metric": "crps"
+          },
+          "loss": 1.2809009698028746,
+          "persistence_loss": 1.2809009698028746,
+          "persistence_source": "record.persistence",
+          "skill": 0.0,
+          "marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 0.0,
+            "0.95": 1.0
+          }
+        },
+        {
+          "round_id": "mc-2026-w39-approval",
+          "metric": "crps",
+          "group": {
+            "source_name": "morning_consult",
+            "unit": "% approve",
+            "population": "",
+            "metric": "mc_approval",
+            "cells": [],
+            "scoring_metric": "crps"
+          },
+          "loss": 0.49710529688228383,
+          "persistence_loss": 0.49710529688228383,
+          "persistence_source": "record.persistence",
+          "skill": 0.0,
+          "marginal_interval_coverage": {
+            "0.5": 1.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        },
+        {
+          "round_id": "aaii-2026-09-24",
+          "metric": "crps",
+          "group": {
+            "source_name": "aaii",
+            "unit": "percentage points (bullish minus bearish)",
+            "population": "",
+            "metric": "aaii_bull_bear_spread",
+            "cells": [],
+            "scoring_metric": "crps"
+          },
+          "loss": 8.25371562498571,
+          "persistence_loss": 8.25371562498571,
+          "persistence_source": "record.persistence",
+          "skill": 0.0,
+          "marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 0.0,
+            "0.95": 0.0
+          }
+        }
+      ],
+      "mean_skill": 0.0,
+      "paired_count": 14,
+      "by_metric": {
+        "crps": {
+          "count": 12,
+          "mean_loss": 3.3079365672898304,
+          "raw_loss_comparable": false,
+          "group_count": 9,
+          "paired_count": 12,
+          "mean_skill": 0.0,
+          "aggregate_skill": 0.0,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.5833333333333334,
+            "0.8": 0.5833333333333334,
+            "0.95": 0.75
+          }
+        },
+        "energy": {
+          "count": 2,
+          "mean_loss": 8.972398072374277,
+          "raw_loss_comparable": false,
+          "group_count": 2,
+          "paired_count": 2,
+          "mean_skill": 0.0,
+          "aggregate_skill": 0.0,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.15625,
+            "0.8": 0.28125,
+            "0.95": 0.5625
+          }
+        }
+      },
+      "by_group": [
+        {
+          "source_name": "civiqs",
+          "unit": "net points (good minus bad)",
+          "population": "",
+          "metric": "civiqs_net_econ_now",
+          "cells": [],
+          "scoring_metric": "crps",
+          "count": 1,
+          "mean_loss": 2.3714057395484582,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": 0.0,
+          "aggregate_skill": 0.0,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 0.0,
+            "0.95": 0.0
+          }
+        },
+        {
+          "source_name": "yougov_xtab",
+          "unit": "percent approving",
+          "population": "",
+          "metric": "yougov_xtab_approve_dem",
+          "cells": [
+            "yougov_xtab_approve_dem",
+            "yougov_xtab_approve_ind",
+            "yougov_xtab_approve_rep",
+            "yougov_xtab_approve_age_under_30",
+            "yougov_xtab_approve_age_30_44",
+            "yougov_xtab_approve_age_45_64",
+            "yougov_xtab_approve_age_65_up",
+            "yougov_xtab_approve_race_white",
+            "yougov_xtab_approve_race_black",
+            "yougov_xtab_approve_race_hispanic",
+            "yougov_xtab_approve_male",
+            "yougov_xtab_approve_female",
+            "yougov_xtab_approve_edu_hs_or_less",
+            "yougov_xtab_approve_edu_some_college",
+            "yougov_xtab_approve_edu_college_grad",
+            "yougov_xtab_approve_edu_postgrad"
+          ],
+          "scoring_metric": "energy",
+          "count": 1,
+          "mean_loss": 7.993213609818521,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": 0.0,
+          "aggregate_skill": 0.0,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.25,
+            "0.8": 0.25,
+            "0.95": 0.5625
+          }
+        },
+        {
+          "source_name": "civiqs",
+          "unit": "net points (approve minus disapprove)",
+          "population": "",
+          "metric": "civiqs_net_approval",
+          "cells": [
+            "civiqs_net_approval_dem",
+            "civiqs_net_approval_ind",
+            "civiqs_net_approval_rep",
+            "civiqs_net_approval_age_18_34",
+            "civiqs_net_approval_age_35_49",
+            "civiqs_net_approval_age_50_64",
+            "civiqs_net_approval_age_65_up",
+            "civiqs_net_approval_race_white",
+            "civiqs_net_approval_race_black",
+            "civiqs_net_approval_race_hispanic",
+            "civiqs_net_approval_race_other",
+            "civiqs_net_approval_edu_noncollege",
+            "civiqs_net_approval_edu_college",
+            "civiqs_net_approval_edu_postgrad",
+            "civiqs_net_approval_male",
+            "civiqs_net_approval_female"
+          ],
+          "scoring_metric": "energy",
+          "count": 1,
+          "mean_loss": 9.951582534930033,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": 0.0,
+          "aggregate_skill": 0.0,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.0625,
+            "0.8": 0.3125,
+            "0.95": 0.5625
+          }
+        },
+        {
+          "source_name": "civiqs",
+          "unit": "percent",
+          "population": "",
+          "metric": "civiqs_angry_share",
+          "cells": [],
+          "scoring_metric": "crps",
+          "count": 1,
+          "mean_loss": 0.4164239675755813,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": 0.0,
+          "aggregate_skill": 0.0,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 1.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        },
+        {
+          "source_name": "aaii",
+          "unit": "percentage points (bullish minus bearish)",
+          "population": "",
+          "metric": "aaii_bull_bear_spread",
+          "cells": [],
+          "scoring_metric": "crps",
+          "count": 2,
+          "mean_loss": 15.303715624832037,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 2,
+          "mean_skill": 0.0,
+          "aggregate_skill": 0.0,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 0.0,
+            "0.95": 0.0
+          }
+        },
+        {
+          "source_name": "civiqs",
+          "unit": "net points (better minus worse)",
+          "population": "",
+          "metric": "civiqs_net_econ_direction",
+          "cells": [],
+          "scoring_metric": "crps",
+          "count": 1,
+          "mean_loss": 0.4164239675755813,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": 0.0,
+          "aggregate_skill": 0.0,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 1.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        },
+        {
+          "source_name": "morning_consult",
+          "unit": "% approve",
+          "population": "",
+          "metric": "mc_approval",
+          "cells": [],
+          "scoring_metric": "crps",
+          "count": 2,
+          "mean_loss": 0.42967877304148194,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 2,
+          "mean_skill": 0.0,
+          "aggregate_skill": 0.0,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 1.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        },
+        {
+          "source_name": "civiqs",
+          "unit": "net points (approve minus disapprove)",
+          "population": "",
+          "metric": "civiqs_net_approval",
+          "cells": [],
+          "scoring_metric": "crps",
+          "count": 1,
+          "mean_loss": 2.08411409940455,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": 0.0,
+          "aggregate_skill": 0.0,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 0.0,
+            "0.95": 1.0
+          }
+        },
+        {
+          "source_name": "economist_yougov",
+          "unit": "net points, Democratic minus Republican",
+          "population": "",
+          "metric": "yougov_generic_margin",
+          "cells": [],
+          "scoring_metric": "crps",
+          "count": 2,
+          "mean_loss": 0.9439877679772255,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 2,
+          "mean_skill": 0.0,
+          "aggregate_skill": 0.0,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.5,
+            "0.8": 0.5,
+            "0.95": 1.0
+          }
+        },
+        {
+          "source_name": "civiqs",
+          "unit": "net points (concerned minus not concerned)",
+          "population": "",
+          "metric": "civiqs_net_inflation_concern",
+          "cells": [],
+          "scoring_metric": "crps",
+          "count": 1,
+          "mean_loss": 0.4450321355207249,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": 0.0,
+          "aggregate_skill": 0.0,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 1.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        },
+        {
+          "source_name": "civiqs",
+          "unit": "net points (better minus worse)",
+          "population": "",
+          "metric": "civiqs_net_family_finances",
+          "cells": [],
+          "scoring_metric": "crps",
+          "count": 1,
+          "mean_loss": 0.6070745661515764,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": 0.0,
+          "aggregate_skill": 0.0,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 1.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        }
+      ],
+      "record_hash": "sha256:c7e29a4586edc791089c8135d6b1e48e4914f00580a450cd7801adda286d34b2"
+    },
+    "persistence": {
+      "records": [
+        {
+          "round_id": "yougov-2026-w38-generic",
+          "metric": "crps",
+          "group": {
+            "source_name": "economist_yougov",
+            "unit": "net points, Democratic minus Republican",
+            "population": "",
+            "metric": "yougov_generic_margin",
+            "cells": [],
+            "scoring_metric": "crps"
+          },
+          "loss": 0.6446425200803009,
+          "persistence_loss": 0.6070745661515764,
+          "persistence_source": "record.persistence",
+          "skill": -0.06188359062195392,
+          "marginal_interval_coverage": {
+            "0.5": 1.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        },
+        {
+          "round_id": "yougov-xtab-2026-w38",
+          "metric": "energy",
+          "group": {
+            "source_name": "yougov_xtab",
+            "unit": "percent approving",
+            "population": "",
+            "metric": "yougov_xtab_approve_dem",
+            "cells": [
+              "yougov_xtab_approve_dem",
+              "yougov_xtab_approve_ind",
+              "yougov_xtab_approve_rep",
+              "yougov_xtab_approve_age_under_30",
+              "yougov_xtab_approve_age_30_44",
+              "yougov_xtab_approve_age_45_64",
+              "yougov_xtab_approve_age_65_up",
+              "yougov_xtab_approve_race_white",
+              "yougov_xtab_approve_race_black",
+              "yougov_xtab_approve_race_hispanic",
+              "yougov_xtab_approve_male",
+              "yougov_xtab_approve_female",
+              "yougov_xtab_approve_edu_hs_or_less",
+              "yougov_xtab_approve_edu_some_college",
+              "yougov_xtab_approve_edu_college_grad",
+              "yougov_xtab_approve_edu_postgrad"
+            ],
+            "scoring_metric": "energy"
+          },
+          "loss": 7.561593787573166,
+          "persistence_loss": 7.993213609818521,
+          "persistence_source": "record.persistence",
+          "skill": 0.05399828445910315,
+          "marginal_interval_coverage": {
+            "0.5": 0.5,
+            "0.8": 0.625,
+            "0.95": 0.9375
+          }
+        },
+        {
+          "round_id": "mc-2026-w38-approval",
+          "metric": "crps",
+          "group": {
+            "source_name": "morning_consult",
+            "unit": "% approve",
+            "population": "",
+            "metric": "mc_approval",
+            "cells": [],
+            "scoring_metric": "crps"
+          },
+          "loss": 0.30500021687389,
+          "persistence_loss": 0.3622522492006801,
+          "persistence_source": "record.persistence",
+          "skill": 0.1580446565980428,
+          "marginal_interval_coverage": {
+            "0.5": 1.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        },
+        {
+          "round_id": "aaii-2026-09-17",
+          "metric": "crps",
+          "group": {
+            "source_name": "aaii",
+            "unit": "percentage points (bullish minus bearish)",
+            "population": "",
+            "metric": "aaii_bull_bear_spread",
+            "cells": [],
+            "scoring_metric": "crps"
+          },
+          "loss": 16.47599824068043,
+          "persistence_loss": 22.353715624678365,
+          "persistence_source": "record.persistence",
+          "skill": 0.26294140458282345,
+          "marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 0.0,
+            "0.95": 1.0
+          }
+        },
+        {
+          "round_id": "civiqs-2026-w38-angry-share",
+          "metric": "crps",
+          "group": {
+            "source_name": "civiqs",
+            "unit": "percent",
+            "population": "",
+            "metric": "civiqs_angry_share",
+            "cells": [],
+            "scoring_metric": "crps"
+          },
+          "loss": 0.3631979554214758,
+          "persistence_loss": 0.4164239675755813,
+          "persistence_source": "record.persistence",
+          "skill": 0.12781687966710253,
+          "marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 0.0,
+            "0.95": 0.0
+          }
+        },
+        {
+          "round_id": "civiqs-2026-w38-approval",
+          "metric": "crps",
+          "group": {
+            "source_name": "civiqs",
+            "unit": "net points (approve minus disapprove)",
+            "population": "",
+            "metric": "civiqs_net_approval",
+            "cells": [],
+            "scoring_metric": "crps"
+          },
+          "loss": 2.4252657236818718,
+          "persistence_loss": 2.08411409940455,
+          "persistence_source": "record.persistence",
+          "skill": -0.16369143338879177,
+          "marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 0.0,
+            "0.95": 0.0
+          }
+        },
+        {
+          "round_id": "civiqs-2026-w38-econ-direction",
+          "metric": "crps",
+          "group": {
+            "source_name": "civiqs",
+            "unit": "net points (better minus worse)",
+            "population": "",
+            "metric": "civiqs_net_econ_direction",
+            "cells": [],
+            "scoring_metric": "crps"
+          },
+          "loss": 0.34127187240366585,
+          "persistence_loss": 0.4164239675755813,
+          "persistence_source": "record.persistence",
+          "skill": 0.18047014827088526,
+          "marginal_interval_coverage": {
+            "0.5": 1.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        },
+        {
+          "round_id": "civiqs-2026-w38-econ-now",
+          "metric": "crps",
+          "group": {
+            "source_name": "civiqs",
+            "unit": "net points (good minus bad)",
+            "population": "",
+            "metric": "civiqs_net_econ_now",
+            "cells": [],
+            "scoring_metric": "crps"
+          },
+          "loss": 2.698624735326204,
+          "persistence_loss": 2.3714057395484582,
+          "persistence_source": "record.persistence",
+          "skill": -0.13798524239046994,
+          "marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 0.0,
+            "0.95": 0.0
+          }
+        },
+        {
+          "round_id": "civiqs-2026-w38-family-finances",
+          "metric": "crps",
+          "group": {
+            "source_name": "civiqs",
+            "unit": "net points (better minus worse)",
+            "population": "",
+            "metric": "civiqs_net_family_finances",
+            "cells": [],
+            "scoring_metric": "crps"
+          },
+          "loss": 0.6668858912916509,
+          "persistence_loss": 0.6070745661515764,
+          "persistence_source": "record.persistence",
+          "skill": -0.098523852710938,
+          "marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 0.0,
+            "0.95": 1.0
+          }
+        },
+        {
+          "round_id": "civiqs-2026-w38-inflation-concern",
+          "metric": "crps",
+          "group": {
+            "source_name": "civiqs",
+            "unit": "net points (concerned minus not concerned)",
+            "population": "",
+            "metric": "civiqs_net_inflation_concern",
+            "cells": [],
+            "scoring_metric": "crps"
+          },
+          "loss": 0.38871650572979277,
+          "persistence_loss": 0.4450321355207249,
+          "persistence_source": "record.persistence",
+          "skill": 0.12654283881104034,
+          "marginal_interval_coverage": {
+            "0.5": 1.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        },
+        {
+          "round_id": "civiqs-profile-2026-w38",
+          "metric": "energy",
+          "group": {
+            "source_name": "civiqs",
+            "unit": "net points (approve minus disapprove)",
+            "population": "",
+            "metric": "civiqs_net_approval",
+            "cells": [
+              "civiqs_net_approval_dem",
+              "civiqs_net_approval_ind",
+              "civiqs_net_approval_rep",
+              "civiqs_net_approval_age_18_34",
+              "civiqs_net_approval_age_35_49",
+              "civiqs_net_approval_age_50_64",
+              "civiqs_net_approval_age_65_up",
+              "civiqs_net_approval_race_white",
+              "civiqs_net_approval_race_black",
+              "civiqs_net_approval_race_hispanic",
+              "civiqs_net_approval_race_other",
+              "civiqs_net_approval_edu_noncollege",
+              "civiqs_net_approval_edu_college",
+              "civiqs_net_approval_edu_postgrad",
+              "civiqs_net_approval_male",
+              "civiqs_net_approval_female"
+            ],
+            "scoring_metric": "energy"
+          },
+          "loss": 10.577119646916007,
+          "persistence_loss": 9.951582534930033,
+          "persistence_source": "record.persistence",
+          "skill": -0.06285805396180355,
+          "marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 0.0625,
+            "0.95": 0.25
+          }
+        },
+        {
+          "round_id": "yougov-2026-w39-generic",
+          "metric": "crps",
+          "group": {
+            "source_name": "economist_yougov",
+            "unit": "net points, Democratic minus Republican",
+            "population": "",
+            "metric": "yougov_generic_margin",
+            "cells": [],
+            "scoring_metric": "crps"
+          },
+          "loss": 1.252013987363007,
+          "persistence_loss": 1.2809009698028746,
+          "persistence_source": "record.persistence",
+          "skill": 0.02255208101240902,
+          "marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        },
+        {
+          "round_id": "mc-2026-w39-approval",
+          "metric": "crps",
+          "group": {
+            "source_name": "morning_consult",
+            "unit": "% approve",
+            "population": "",
+            "metric": "mc_approval",
+            "cells": [],
+            "scoring_metric": "crps"
+          },
+          "loss": 0.46606564441790344,
+          "persistence_loss": 0.49710529688228383,
+          "persistence_source": "record.persistence",
+          "skill": 0.06244080008612474,
+          "marginal_interval_coverage": {
+            "0.5": 1.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        },
+        {
+          "round_id": "aaii-2026-09-24",
+          "metric": "crps",
+          "group": {
+            "source_name": "aaii",
+            "unit": "percentage points (bullish minus bearish)",
+            "population": "",
+            "metric": "aaii_bull_bear_spread",
+            "cells": [],
+            "scoring_metric": "crps"
+          },
+          "loss": 5.448133361427431,
+          "persistence_loss": 8.25371562498571,
+          "persistence_source": "record.persistence",
+          "skill": 0.3399174857763696,
+          "marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        }
+      ],
+      "mean_skill": 0.05784160044213883,
+      "paired_count": 14,
+      "by_metric": {
+        "crps": {
+          "count": 12,
+          "mean_loss": 2.622984721224802,
+          "raw_loss_comparable": false,
+          "group_count": 9,
+          "paired_count": 12,
+          "mean_skill": 0.06822018130772034,
+          "aggregate_skill": 0.20706317431782117,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.4166666666666667,
+            "0.8": 0.5833333333333334,
+            "0.95": 0.75
+          }
+        },
+        "energy": {
+          "count": 2,
+          "mean_loss": 9.069356717244586,
+          "raw_loss_comparable": false,
+          "group_count": 2,
+          "paired_count": 2,
+          "mean_skill": -0.004429884751350199,
+          "aggregate_skill": -0.010806324472923512,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.25,
+            "0.8": 0.34375,
+            "0.95": 0.59375
+          }
+        }
+      },
+      "by_group": [
+        {
+          "source_name": "civiqs",
+          "unit": "net points (good minus bad)",
+          "population": "",
+          "metric": "civiqs_net_econ_now",
+          "cells": [],
+          "scoring_metric": "crps",
+          "count": 1,
+          "mean_loss": 2.698624735326204,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": -0.13798524239046994,
+          "aggregate_skill": -0.13798524239046994,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 0.0,
+            "0.95": 0.0
+          }
+        },
+        {
+          "source_name": "yougov_xtab",
+          "unit": "percent approving",
+          "population": "",
+          "metric": "yougov_xtab_approve_dem",
+          "cells": [
+            "yougov_xtab_approve_dem",
+            "yougov_xtab_approve_ind",
+            "yougov_xtab_approve_rep",
+            "yougov_xtab_approve_age_under_30",
+            "yougov_xtab_approve_age_30_44",
+            "yougov_xtab_approve_age_45_64",
+            "yougov_xtab_approve_age_65_up",
+            "yougov_xtab_approve_race_white",
+            "yougov_xtab_approve_race_black",
+            "yougov_xtab_approve_race_hispanic",
+            "yougov_xtab_approve_male",
+            "yougov_xtab_approve_female",
+            "yougov_xtab_approve_edu_hs_or_less",
+            "yougov_xtab_approve_edu_some_college",
+            "yougov_xtab_approve_edu_college_grad",
+            "yougov_xtab_approve_edu_postgrad"
+          ],
+          "scoring_metric": "energy",
+          "count": 1,
+          "mean_loss": 7.561593787573166,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": 0.05399828445910315,
+          "aggregate_skill": 0.05399828445910315,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.5,
+            "0.8": 0.625,
+            "0.95": 0.9375
+          }
+        },
+        {
+          "source_name": "civiqs",
+          "unit": "net points (approve minus disapprove)",
+          "population": "",
+          "metric": "civiqs_net_approval",
+          "cells": [
+            "civiqs_net_approval_dem",
+            "civiqs_net_approval_ind",
+            "civiqs_net_approval_rep",
+            "civiqs_net_approval_age_18_34",
+            "civiqs_net_approval_age_35_49",
+            "civiqs_net_approval_age_50_64",
+            "civiqs_net_approval_age_65_up",
+            "civiqs_net_approval_race_white",
+            "civiqs_net_approval_race_black",
+            "civiqs_net_approval_race_hispanic",
+            "civiqs_net_approval_race_other",
+            "civiqs_net_approval_edu_noncollege",
+            "civiqs_net_approval_edu_college",
+            "civiqs_net_approval_edu_postgrad",
+            "civiqs_net_approval_male",
+            "civiqs_net_approval_female"
+          ],
+          "scoring_metric": "energy",
+          "count": 1,
+          "mean_loss": 10.577119646916007,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": -0.06285805396180355,
+          "aggregate_skill": -0.06285805396180355,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 0.0625,
+            "0.95": 0.25
+          }
+        },
+        {
+          "source_name": "civiqs",
+          "unit": "percent",
+          "population": "",
+          "metric": "civiqs_angry_share",
+          "cells": [],
+          "scoring_metric": "crps",
+          "count": 1,
+          "mean_loss": 0.3631979554214758,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": 0.12781687966710253,
+          "aggregate_skill": 0.12781687966710253,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 0.0,
+            "0.95": 0.0
+          }
+        },
+        {
+          "source_name": "aaii",
+          "unit": "percentage points (bullish minus bearish)",
+          "population": "",
+          "metric": "aaii_bull_bear_spread",
+          "cells": [],
+          "scoring_metric": "crps",
+          "count": 2,
+          "mean_loss": 10.96206580105393,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 2,
+          "mean_skill": 0.3014294451795965,
+          "aggregate_skill": 0.2836990656526106,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 0.5,
+            "0.95": 1.0
+          }
+        },
+        {
+          "source_name": "civiqs",
+          "unit": "net points (better minus worse)",
+          "population": "",
+          "metric": "civiqs_net_econ_direction",
+          "cells": [],
+          "scoring_metric": "crps",
+          "count": 1,
+          "mean_loss": 0.34127187240366585,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": 0.18047014827088526,
+          "aggregate_skill": 0.18047014827088526,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 1.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        },
+        {
+          "source_name": "morning_consult",
+          "unit": "% approve",
+          "population": "",
+          "metric": "mc_approval",
+          "cells": [],
+          "scoring_metric": "crps",
+          "count": 2,
+          "mean_loss": 0.3855329306458967,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 2,
+          "mean_skill": 0.11024272834208376,
+          "aggregate_skill": 0.1027415017109149,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 1.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        },
+        {
+          "source_name": "civiqs",
+          "unit": "net points (approve minus disapprove)",
+          "population": "",
+          "metric": "civiqs_net_approval",
+          "cells": [],
+          "scoring_metric": "crps",
+          "count": 1,
+          "mean_loss": 2.4252657236818718,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": -0.16369143338879177,
+          "aggregate_skill": -0.16369143338879177,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 0.0,
+            "0.95": 0.0
+          }
+        },
+        {
+          "source_name": "economist_yougov",
+          "unit": "net points, Democratic minus Republican",
+          "population": "",
+          "metric": "yougov_generic_margin",
+          "cells": [],
+          "scoring_metric": "crps",
+          "count": 2,
+          "mean_loss": 0.948328253721654,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 2,
+          "mean_skill": -0.01966575480477245,
+          "aggregate_skill": -0.004598031766586574,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.5,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        },
+        {
+          "source_name": "civiqs",
+          "unit": "net points (concerned minus not concerned)",
+          "population": "",
+          "metric": "civiqs_net_inflation_concern",
+          "cells": [],
+          "scoring_metric": "crps",
+          "count": 1,
+          "mean_loss": 0.38871650572979277,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": 0.12654283881104034,
+          "aggregate_skill": 0.12654283881104034,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 1.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        },
+        {
+          "source_name": "civiqs",
+          "unit": "net points (better minus worse)",
+          "population": "",
+          "metric": "civiqs_net_family_finances",
+          "cells": [],
+          "scoring_metric": "crps",
+          "count": 1,
+          "mean_loss": 0.6668858912916509,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": -0.098523852710938,
+          "aggregate_skill": -0.098523852710938,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 0.0,
+            "0.95": 1.0
+          }
+        }
+      ],
+      "record_hash": "sha256:b07305f1033e326e55b1a70c53d044a74d0b8b61da11ac78ed602a5d0037a592"
+    },
+    "recent_mean": {
+      "records": [
+        {
+          "round_id": "yougov-2026-w38-generic",
+          "metric": "crps",
+          "group": {
+            "source_name": "economist_yougov",
+            "unit": "net points, Democratic minus Republican",
+            "population": "",
+            "metric": "yougov_generic_margin",
+            "cells": [],
+            "scoring_metric": "crps"
+          },
+          "loss": 3.2943787672007536,
+          "persistence_loss": 0.6070745661515764,
+          "persistence_source": "record.persistence",
+          "skill": -4.426646001799723,
+          "marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 0.0,
+            "0.95": 0.0
+          }
+        },
+        {
+          "round_id": "yougov-xtab-2026-w38",
+          "metric": "energy",
+          "group": {
+            "source_name": "yougov_xtab",
+            "unit": "percent approving",
+            "population": "",
+            "metric": "yougov_xtab_approve_dem",
+            "cells": [
+              "yougov_xtab_approve_dem",
+              "yougov_xtab_approve_ind",
+              "yougov_xtab_approve_rep",
+              "yougov_xtab_approve_age_under_30",
+              "yougov_xtab_approve_age_30_44",
+              "yougov_xtab_approve_age_45_64",
+              "yougov_xtab_approve_age_65_up",
+              "yougov_xtab_approve_race_white",
+              "yougov_xtab_approve_race_black",
+              "yougov_xtab_approve_race_hispanic",
+              "yougov_xtab_approve_male",
+              "yougov_xtab_approve_female",
+              "yougov_xtab_approve_edu_hs_or_less",
+              "yougov_xtab_approve_edu_some_college",
+              "yougov_xtab_approve_edu_college_grad",
+              "yougov_xtab_approve_edu_postgrad"
+            ],
+            "scoring_metric": "energy"
+          },
+          "loss": 4.546510746249535,
+          "persistence_loss": 7.993213609818521,
+          "persistence_source": "record.persistence",
+          "skill": 0.4312036474710502,
+          "marginal_interval_coverage": {
+            "0.5": 0.8125,
+            "0.8": 0.9375,
+            "0.95": 1.0
+          }
+        },
+        {
+          "round_id": "mc-2026-w38-approval",
+          "metric": "crps",
+          "group": {
+            "source_name": "morning_consult",
+            "unit": "% approve",
+            "population": "",
+            "metric": "mc_approval",
+            "cells": [],
+            "scoring_metric": "crps"
+          },
+          "loss": 0.2910744779067946,
+          "persistence_loss": 0.3622522492006801,
+          "persistence_source": "record.persistence",
+          "skill": 0.19648676150649524,
+          "marginal_interval_coverage": {
+            "0.5": 1.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        },
+        {
+          "round_id": "aaii-2026-09-17",
+          "metric": "crps",
+          "group": {
+            "source_name": "aaii",
+            "unit": "percentage points (bullish minus bearish)",
+            "population": "",
+            "metric": "aaii_bull_bear_spread",
+            "cells": [],
+            "scoring_metric": "crps"
+          },
+          "loss": 14.383550192812546,
+          "persistence_loss": 22.353715624678365,
+          "persistence_source": "record.persistence",
+          "skill": 0.35654767939638654,
+          "marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 0.0,
+            "0.95": 1.0
+          }
+        },
+        {
+          "round_id": "civiqs-2026-w38-angry-share",
+          "metric": "crps",
+          "group": {
+            "source_name": "civiqs",
+            "unit": "percent",
+            "population": "",
+            "metric": "civiqs_angry_share",
+            "cells": [],
+            "scoring_metric": "crps"
+          },
+          "loss": 0.39523428992474186,
+          "persistence_loss": 0.4164239675755813,
+          "persistence_source": "record.persistence",
+          "skill": 0.05088486566756878,
+          "marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 0.0,
+            "0.95": 0.0
+          }
+        },
+        {
+          "round_id": "civiqs-2026-w38-approval",
+          "metric": "crps",
+          "group": {
+            "source_name": "civiqs",
+            "unit": "net points (approve minus disapprove)",
+            "population": "",
+            "metric": "civiqs_net_approval",
+            "cells": [],
+            "scoring_metric": "crps"
+          },
+          "loss": 3.6584771236223013,
+          "persistence_loss": 2.08411409940455,
+          "persistence_source": "record.persistence",
+          "skill": -0.7554111479153474,
+          "marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 0.0,
+            "0.95": 0.0
+          }
+        },
+        {
+          "round_id": "civiqs-2026-w38-econ-direction",
+          "metric": "crps",
+          "group": {
+            "source_name": "civiqs",
+            "unit": "net points (better minus worse)",
+            "population": "",
+            "metric": "civiqs_net_econ_direction",
+            "cells": [],
+            "scoring_metric": "crps"
+          },
+          "loss": 0.3086273209741792,
+          "persistence_loss": 0.4164239675755813,
+          "persistence_source": "record.persistence",
+          "skill": 0.258862733643776,
+          "marginal_interval_coverage": {
+            "0.5": 1.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        },
+        {
+          "round_id": "civiqs-2026-w38-econ-now",
+          "metric": "crps",
+          "group": {
+            "source_name": "civiqs",
+            "unit": "net points (good minus bad)",
+            "population": "",
+            "metric": "civiqs_net_econ_now",
+            "cells": [],
+            "scoring_metric": "crps"
+          },
+          "loss": 2.49872479752722,
+          "persistence_loss": 2.3714057395484582,
+          "persistence_source": "record.persistence",
+          "skill": -0.05368927630368514,
+          "marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 0.0,
+            "0.95": 0.0
+          }
+        },
+        {
+          "round_id": "civiqs-2026-w38-family-finances",
+          "metric": "crps",
+          "group": {
+            "source_name": "civiqs",
+            "unit": "net points (better minus worse)",
+            "population": "",
+            "metric": "civiqs_net_family_finances",
+            "cells": [],
+            "scoring_metric": "crps"
+          },
+          "loss": 0.23276523837800067,
+          "persistence_loss": 0.6070745661515764,
+          "persistence_source": "record.persistence",
+          "skill": 0.6165788333819225,
+          "marginal_interval_coverage": {
+            "0.5": 1.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        },
+        {
+          "round_id": "civiqs-2026-w38-inflation-concern",
+          "metric": "crps",
+          "group": {
+            "source_name": "civiqs",
+            "unit": "net points (concerned minus not concerned)",
+            "population": "",
+            "metric": "civiqs_net_inflation_concern",
+            "cells": [],
+            "scoring_metric": "crps"
+          },
+          "loss": 0.2963803649103463,
+          "persistence_loss": 0.4450321355207249,
+          "persistence_source": "record.persistence",
+          "skill": 0.3340248012347323,
+          "marginal_interval_coverage": {
+            "0.5": 1.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        },
+        {
+          "round_id": "civiqs-profile-2026-w38",
+          "metric": "energy",
+          "group": {
+            "source_name": "civiqs",
+            "unit": "net points (approve minus disapprove)",
+            "population": "",
+            "metric": "civiqs_net_approval",
+            "cells": [
+              "civiqs_net_approval_dem",
+              "civiqs_net_approval_ind",
+              "civiqs_net_approval_rep",
+              "civiqs_net_approval_age_18_34",
+              "civiqs_net_approval_age_35_49",
+              "civiqs_net_approval_age_50_64",
+              "civiqs_net_approval_age_65_up",
+              "civiqs_net_approval_race_white",
+              "civiqs_net_approval_race_black",
+              "civiqs_net_approval_race_hispanic",
+              "civiqs_net_approval_race_other",
+              "civiqs_net_approval_edu_noncollege",
+              "civiqs_net_approval_edu_college",
+              "civiqs_net_approval_edu_postgrad",
+              "civiqs_net_approval_male",
+              "civiqs_net_approval_female"
+            ],
+            "scoring_metric": "energy"
+          },
+          "loss": 14.26515292092525,
+          "persistence_loss": 9.951582534930033,
+          "persistence_source": "record.persistence",
+          "skill": -0.43345572132418075,
+          "marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 0.0,
+            "0.95": 0.0625
+          }
+        },
+        {
+          "round_id": "yougov-2026-w39-generic",
+          "metric": "crps",
+          "group": {
+            "source_name": "economist_yougov",
+            "unit": "net points, Democratic minus Republican",
+            "population": "",
+            "metric": "yougov_generic_margin",
+            "cells": [],
+            "scoring_metric": "crps"
+          },
+          "loss": 3.4137506340063974,
+          "persistence_loss": 1.2809009698028746,
+          "persistence_source": "record.persistence",
+          "skill": -1.6651167533519469,
+          "marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 0.0,
+            "0.95": 0.0
+          }
+        },
+        {
+          "round_id": "mc-2026-w39-approval",
+          "metric": "crps",
+          "group": {
+            "source_name": "morning_consult",
+            "unit": "% approve",
+            "population": "",
+            "metric": "mc_approval",
+            "cells": [],
+            "scoring_metric": "crps"
+          },
+          "loss": 0.33711768355297933,
+          "persistence_loss": 0.49710529688228383,
+          "persistence_source": "record.persistence",
+          "skill": 0.3218384803636283,
+          "marginal_interval_coverage": {
+            "0.5": 1.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        },
+        {
+          "round_id": "aaii-2026-09-24",
+          "metric": "crps",
+          "group": {
+            "source_name": "aaii",
+            "unit": "percentage points (bullish minus bearish)",
+            "population": "",
+            "metric": "aaii_bull_bear_spread",
+            "cells": [],
+            "scoring_metric": "crps"
+          },
+          "loss": 4.653251235472289,
+          "persistence_loss": 8.25371562498571,
+          "persistence_source": "record.persistence",
+          "skill": 0.43622346020912917,
+          "marginal_interval_coverage": {
+            "0.5": 1.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        }
+      ],
+      "mean_skill": -0.30940483127287105,
+      "paired_count": 14,
+      "by_metric": {
+        "crps": {
+          "count": 12,
+          "mean_loss": 2.8136110105240455,
+          "raw_loss_comparable": false,
+          "group_count": 9,
+          "paired_count": 12,
+          "mean_skill": -0.3607846303305886,
+          "aggregate_skill": 0.14943622609147633,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.5,
+            "0.8": 0.5,
+            "0.95": 0.5833333333333334
+          }
+        },
+        "energy": {
+          "count": 2,
+          "mean_loss": 9.405831833587392,
+          "raw_loss_comparable": false,
+          "group_count": 2,
+          "paired_count": 2,
+          "mean_skill": -0.0011260369265652659,
+          "aggregate_skill": -0.04830746002539099,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.40625,
+            "0.8": 0.46875,
+            "0.95": 0.53125
+          }
+        }
+      },
+      "by_group": [
+        {
+          "source_name": "civiqs",
+          "unit": "net points (good minus bad)",
+          "population": "",
+          "metric": "civiqs_net_econ_now",
+          "cells": [],
+          "scoring_metric": "crps",
+          "count": 1,
+          "mean_loss": 2.49872479752722,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": -0.05368927630368514,
+          "aggregate_skill": -0.05368927630368514,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 0.0,
+            "0.95": 0.0
+          }
+        },
+        {
+          "source_name": "yougov_xtab",
+          "unit": "percent approving",
+          "population": "",
+          "metric": "yougov_xtab_approve_dem",
+          "cells": [
+            "yougov_xtab_approve_dem",
+            "yougov_xtab_approve_ind",
+            "yougov_xtab_approve_rep",
+            "yougov_xtab_approve_age_under_30",
+            "yougov_xtab_approve_age_30_44",
+            "yougov_xtab_approve_age_45_64",
+            "yougov_xtab_approve_age_65_up",
+            "yougov_xtab_approve_race_white",
+            "yougov_xtab_approve_race_black",
+            "yougov_xtab_approve_race_hispanic",
+            "yougov_xtab_approve_male",
+            "yougov_xtab_approve_female",
+            "yougov_xtab_approve_edu_hs_or_less",
+            "yougov_xtab_approve_edu_some_college",
+            "yougov_xtab_approve_edu_college_grad",
+            "yougov_xtab_approve_edu_postgrad"
+          ],
+          "scoring_metric": "energy",
+          "count": 1,
+          "mean_loss": 4.546510746249535,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": 0.4312036474710502,
+          "aggregate_skill": 0.4312036474710502,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.8125,
+            "0.8": 0.9375,
+            "0.95": 1.0
+          }
+        },
+        {
+          "source_name": "civiqs",
+          "unit": "net points (approve minus disapprove)",
+          "population": "",
+          "metric": "civiqs_net_approval",
+          "cells": [
+            "civiqs_net_approval_dem",
+            "civiqs_net_approval_ind",
+            "civiqs_net_approval_rep",
+            "civiqs_net_approval_age_18_34",
+            "civiqs_net_approval_age_35_49",
+            "civiqs_net_approval_age_50_64",
+            "civiqs_net_approval_age_65_up",
+            "civiqs_net_approval_race_white",
+            "civiqs_net_approval_race_black",
+            "civiqs_net_approval_race_hispanic",
+            "civiqs_net_approval_race_other",
+            "civiqs_net_approval_edu_noncollege",
+            "civiqs_net_approval_edu_college",
+            "civiqs_net_approval_edu_postgrad",
+            "civiqs_net_approval_male",
+            "civiqs_net_approval_female"
+          ],
+          "scoring_metric": "energy",
+          "count": 1,
+          "mean_loss": 14.26515292092525,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": -0.43345572132418075,
+          "aggregate_skill": -0.43345572132418075,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 0.0,
+            "0.95": 0.0625
+          }
+        },
+        {
+          "source_name": "civiqs",
+          "unit": "percent",
+          "population": "",
+          "metric": "civiqs_angry_share",
+          "cells": [],
+          "scoring_metric": "crps",
+          "count": 1,
+          "mean_loss": 0.39523428992474186,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": 0.05088486566756878,
+          "aggregate_skill": 0.05088486566756878,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 0.0,
+            "0.95": 0.0
+          }
+        },
+        {
+          "source_name": "aaii",
+          "unit": "percentage points (bullish minus bearish)",
+          "population": "",
+          "metric": "aaii_bull_bear_spread",
+          "cells": [],
+          "scoring_metric": "crps",
+          "count": 2,
+          "mean_loss": 9.518400714142418,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 2,
+          "mean_skill": 0.39638556980275785,
+          "aggregate_skill": 0.3780333516719483,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.5,
+            "0.8": 0.5,
+            "0.95": 1.0
+          }
+        },
+        {
+          "source_name": "civiqs",
+          "unit": "net points (better minus worse)",
+          "population": "",
+          "metric": "civiqs_net_econ_direction",
+          "cells": [],
+          "scoring_metric": "crps",
+          "count": 1,
+          "mean_loss": 0.3086273209741792,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": 0.258862733643776,
+          "aggregate_skill": 0.258862733643776,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 1.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        },
+        {
+          "source_name": "morning_consult",
+          "unit": "% approve",
+          "population": "",
+          "metric": "mc_approval",
+          "cells": [],
+          "scoring_metric": "crps",
+          "count": 2,
+          "mean_loss": 0.31409608072988693,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 2,
+          "mean_skill": 0.25916262093506176,
+          "aggregate_skill": 0.26899791091247705,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 1.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        },
+        {
+          "source_name": "civiqs",
+          "unit": "net points (approve minus disapprove)",
+          "population": "",
+          "metric": "civiqs_net_approval",
+          "cells": [],
+          "scoring_metric": "crps",
+          "count": 1,
+          "mean_loss": 3.6584771236223013,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": -0.7554111479153474,
+          "aggregate_skill": -0.7554111479153474,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 0.0,
+            "0.95": 0.0
+          }
+        },
+        {
+          "source_name": "economist_yougov",
+          "unit": "net points, Democratic minus Republican",
+          "population": "",
+          "metric": "yougov_generic_margin",
+          "cells": [],
+          "scoring_metric": "crps",
+          "count": 2,
+          "mean_loss": 3.3540647006035753,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 2,
+          "mean_skill": -3.045881377575835,
+          "aggregate_skill": -2.5530806800501837,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 0.0,
+            "0.95": 0.0
+          }
+        },
+        {
+          "source_name": "civiqs",
+          "unit": "net points (concerned minus not concerned)",
+          "population": "",
+          "metric": "civiqs_net_inflation_concern",
+          "cells": [],
+          "scoring_metric": "crps",
+          "count": 1,
+          "mean_loss": 0.2963803649103463,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": 0.3340248012347323,
+          "aggregate_skill": 0.3340248012347323,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 1.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        },
+        {
+          "source_name": "civiqs",
+          "unit": "net points (better minus worse)",
+          "population": "",
+          "metric": "civiqs_net_family_finances",
+          "cells": [],
+          "scoring_metric": "crps",
+          "count": 1,
+          "mean_loss": 0.23276523837800067,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": 0.6165788333819225,
+          "aggregate_skill": 0.6165788333819225,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 1.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        }
+      ],
+      "record_hash": "sha256:a2e7da0aa13f880d8da449b56fbca7bac78c49659480bfcd1f225202a2a6f68b"
+    },
+    "baseline_ensemble": {
+      "records": [
+        {
+          "round_id": "yougov-2026-w38-generic",
+          "metric": "crps",
+          "group": {
+            "source_name": "economist_yougov",
+            "unit": "net points, Democratic minus Republican",
+            "population": "",
+            "metric": "yougov_generic_margin",
+            "cells": [],
+            "scoring_metric": "crps"
+          },
+          "loss": 1.3428903760745319,
+          "persistence_loss": 0.6070745661515764,
+          "persistence_source": "record.persistence",
+          "skill": -1.212068254790359,
+          "marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        },
+        {
+          "round_id": "yougov-xtab-2026-w38",
+          "metric": "energy",
+          "group": {
+            "source_name": "yougov_xtab",
+            "unit": "percent approving",
+            "population": "",
+            "metric": "yougov_xtab_approve_dem",
+            "cells": [
+              "yougov_xtab_approve_dem",
+              "yougov_xtab_approve_ind",
+              "yougov_xtab_approve_rep",
+              "yougov_xtab_approve_age_under_30",
+              "yougov_xtab_approve_age_30_44",
+              "yougov_xtab_approve_age_45_64",
+              "yougov_xtab_approve_age_65_up",
+              "yougov_xtab_approve_race_white",
+              "yougov_xtab_approve_race_black",
+              "yougov_xtab_approve_race_hispanic",
+              "yougov_xtab_approve_male",
+              "yougov_xtab_approve_female",
+              "yougov_xtab_approve_edu_hs_or_less",
+              "yougov_xtab_approve_edu_some_college",
+              "yougov_xtab_approve_edu_college_grad",
+              "yougov_xtab_approve_edu_postgrad"
+            ],
+            "scoring_metric": "energy"
+          },
+          "loss": 6.067655118544852,
+          "persistence_loss": 7.993213609818521,
+          "persistence_source": "record.persistence",
+          "skill": 0.24089916587596194,
+          "marginal_interval_coverage": {
+            "0.5": 0.625,
+            "0.8": 0.8125,
+            "0.95": 0.9375
+          }
+        },
+        {
+          "round_id": "mc-2026-w38-approval",
+          "metric": "crps",
+          "group": {
+            "source_name": "morning_consult",
+            "unit": "% approve",
+            "population": "",
+            "metric": "mc_approval",
+            "cells": [],
+            "scoring_metric": "crps"
+          },
+          "loss": 0.29688120793476513,
+          "persistence_loss": 0.3622522492006801,
+          "persistence_source": "record.persistence",
+          "skill": 0.18045724052827283,
+          "marginal_interval_coverage": {
+            "0.5": 1.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        },
+        {
+          "round_id": "aaii-2026-09-17",
+          "metric": "crps",
+          "group": {
+            "source_name": "aaii",
+            "unit": "percentage points (bullish minus bearish)",
+            "population": "",
+            "metric": "aaii_bull_bear_spread",
+            "cells": [],
+            "scoring_metric": "crps"
+          },
+          "loss": 15.663920031762094,
+          "persistence_loss": 22.353715624678365,
+          "persistence_source": "record.persistence",
+          "skill": 0.2992699605398388,
+          "marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 0.0,
+            "0.95": 1.0
+          }
+        },
+        {
+          "round_id": "civiqs-2026-w38-angry-share",
+          "metric": "crps",
+          "group": {
+            "source_name": "civiqs",
+            "unit": "percent",
+            "population": "",
+            "metric": "civiqs_angry_share",
+            "cells": [],
+            "scoring_metric": "crps"
+          },
+          "loss": 0.37491929372747074,
+          "persistence_loss": 0.4164239675755813,
+          "persistence_source": "record.persistence",
+          "skill": 0.0996692723758208,
+          "marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 0.0,
+            "0.95": 0.0
+          }
+        },
+        {
+          "round_id": "civiqs-2026-w38-approval",
+          "metric": "crps",
+          "group": {
+            "source_name": "civiqs",
+            "unit": "net points (approve minus disapprove)",
+            "population": "",
+            "metric": "civiqs_net_approval",
+            "cells": [],
+            "scoring_metric": "crps"
+          },
+          "loss": 2.7805966308547103,
+          "persistence_loss": 2.08411409940455,
+          "persistence_source": "record.persistence",
+          "skill": -0.334186372833019,
+          "marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 0.0,
+            "0.95": 0.0
+          }
+        },
+        {
+          "round_id": "civiqs-2026-w38-econ-direction",
+          "metric": "crps",
+          "group": {
+            "source_name": "civiqs",
+            "unit": "net points (better minus worse)",
+            "population": "",
+            "metric": "civiqs_net_econ_direction",
+            "cells": [],
+            "scoring_metric": "crps"
+          },
+          "loss": 0.3284084168110008,
+          "persistence_loss": 0.4164239675755813,
+          "persistence_source": "record.persistence",
+          "skill": 0.2113604345998783,
+          "marginal_interval_coverage": {
+            "0.5": 1.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        },
+        {
+          "round_id": "civiqs-2026-w38-econ-now",
+          "metric": "crps",
+          "group": {
+            "source_name": "civiqs",
+            "unit": "net points (good minus bad)",
+            "population": "",
+            "metric": "civiqs_net_econ_now",
+            "cells": [],
+            "scoring_metric": "crps"
+          },
+          "loss": 2.6206950694802615,
+          "persistence_loss": 2.3714057395484582,
+          "persistence_source": "record.persistence",
+          "skill": -0.10512301871179197,
+          "marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 0.0,
+            "0.95": 0.0
+          }
+        },
+        {
+          "round_id": "civiqs-2026-w38-family-finances",
+          "metric": "crps",
+          "group": {
+            "source_name": "civiqs",
+            "unit": "net points (better minus worse)",
+            "population": "",
+            "metric": "civiqs_net_family_finances",
+            "cells": [],
+            "scoring_metric": "crps"
+          },
+          "loss": 0.46311841406930293,
+          "persistence_loss": 0.6070745661515764,
+          "persistence_source": "record.persistence",
+          "skill": 0.2371309228038554,
+          "marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        },
+        {
+          "round_id": "civiqs-2026-w38-inflation-concern",
+          "metric": "crps",
+          "group": {
+            "source_name": "civiqs",
+            "unit": "net points (concerned minus not concerned)",
+            "population": "",
+            "metric": "civiqs_net_inflation_concern",
+            "cells": [],
+            "scoring_metric": "crps"
+          },
+          "loss": 0.3063336570781771,
+          "persistence_loss": 0.4450321355207249,
+          "persistence_source": "record.persistence",
+          "skill": 0.31165946764778896,
+          "marginal_interval_coverage": {
+            "0.5": 1.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        },
+        {
+          "round_id": "civiqs-profile-2026-w38",
+          "metric": "energy",
+          "group": {
+            "source_name": "civiqs",
+            "unit": "net points (approve minus disapprove)",
+            "population": "",
+            "metric": "civiqs_net_approval",
+            "cells": [
+              "civiqs_net_approval_dem",
+              "civiqs_net_approval_ind",
+              "civiqs_net_approval_rep",
+              "civiqs_net_approval_age_18_34",
+              "civiqs_net_approval_age_35_49",
+              "civiqs_net_approval_age_50_64",
+              "civiqs_net_approval_age_65_up",
+              "civiqs_net_approval_race_white",
+              "civiqs_net_approval_race_black",
+              "civiqs_net_approval_race_hispanic",
+              "civiqs_net_approval_race_other",
+              "civiqs_net_approval_edu_noncollege",
+              "civiqs_net_approval_edu_college",
+              "civiqs_net_approval_edu_postgrad",
+              "civiqs_net_approval_male",
+              "civiqs_net_approval_female"
+            ],
+            "scoring_metric": "energy"
+          },
+          "loss": 11.56617174815122,
+          "persistence_loss": 9.951582534930033,
+          "persistence_source": "record.persistence",
+          "skill": -0.16224446790789138,
+          "marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 0.0,
+            "0.95": 0.1875
+          }
+        },
+        {
+          "round_id": "yougov-2026-w39-generic",
+          "metric": "crps",
+          "group": {
+            "source_name": "economist_yougov",
+            "unit": "net points, Democratic minus Republican",
+            "population": "",
+            "metric": "yougov_generic_margin",
+            "cells": [],
+            "scoring_metric": "crps"
+          },
+          "loss": 1.8846621595989612,
+          "persistence_loss": 1.2809009698028746,
+          "persistence_source": "record.persistence",
+          "skill": -0.4713566497564625,
+          "marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 0.0,
+            "0.95": 1.0
+          }
+        },
+        {
+          "round_id": "mc-2026-w39-approval",
+          "metric": "crps",
+          "group": {
+            "source_name": "morning_consult",
+            "unit": "% approve",
+            "population": "",
+            "metric": "mc_approval",
+            "cells": [],
+            "scoring_metric": "crps"
+          },
+          "loss": 0.4103544371010572,
+          "persistence_loss": 0.49710529688228383,
+          "persistence_source": "record.persistence",
+          "skill": 0.17451204065880144,
+          "marginal_interval_coverage": {
+            "0.5": 1.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        },
+        {
+          "round_id": "aaii-2026-09-24",
+          "metric": "crps",
+          "group": {
+            "source_name": "aaii",
+            "unit": "percentage points (bullish minus bearish)",
+            "population": "",
+            "metric": "aaii_bull_bear_spread",
+            "cells": [],
+            "scoring_metric": "crps"
+          },
+          "loss": 3.6736913439177417,
+          "persistence_loss": 8.25371562498571,
+          "persistence_source": "record.persistence",
+          "skill": 0.5549045410776311,
+          "marginal_interval_coverage": {
+            "0.5": 1.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        }
+      ],
+      "mean_skill": 0.0017774487220232654,
+      "paired_count": 14,
+      "by_metric": {
+        "crps": {
+          "count": 12,
+          "mean_loss": 2.512205919867506,
+          "raw_loss_comparable": false,
+          "group_count": 9,
+          "paired_count": 12,
+          "mean_skill": -0.0044808679883120706,
+          "aggregate_skill": 0.2405519668335906,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.4166666666666667,
+            "0.8": 0.5833333333333334,
+            "0.95": 0.75
+          }
+        },
+        "energy": {
+          "count": 2,
+          "mean_loss": 8.816913433348036,
+          "raw_loss_comparable": false,
+          "group_count": 2,
+          "paired_count": 2,
+          "mean_skill": 0.03932734898403528,
+          "aggregate_skill": 0.017329217648620943,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.3125,
+            "0.8": 0.40625,
+            "0.95": 0.5625
+          }
+        }
+      },
+      "by_group": [
+        {
+          "source_name": "civiqs",
+          "unit": "net points (good minus bad)",
+          "population": "",
+          "metric": "civiqs_net_econ_now",
+          "cells": [],
+          "scoring_metric": "crps",
+          "count": 1,
+          "mean_loss": 2.6206950694802615,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": -0.10512301871179197,
+          "aggregate_skill": -0.10512301871179197,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 0.0,
+            "0.95": 0.0
+          }
+        },
+        {
+          "source_name": "yougov_xtab",
+          "unit": "percent approving",
+          "population": "",
+          "metric": "yougov_xtab_approve_dem",
+          "cells": [
+            "yougov_xtab_approve_dem",
+            "yougov_xtab_approve_ind",
+            "yougov_xtab_approve_rep",
+            "yougov_xtab_approve_age_under_30",
+            "yougov_xtab_approve_age_30_44",
+            "yougov_xtab_approve_age_45_64",
+            "yougov_xtab_approve_age_65_up",
+            "yougov_xtab_approve_race_white",
+            "yougov_xtab_approve_race_black",
+            "yougov_xtab_approve_race_hispanic",
+            "yougov_xtab_approve_male",
+            "yougov_xtab_approve_female",
+            "yougov_xtab_approve_edu_hs_or_less",
+            "yougov_xtab_approve_edu_some_college",
+            "yougov_xtab_approve_edu_college_grad",
+            "yougov_xtab_approve_edu_postgrad"
+          ],
+          "scoring_metric": "energy",
+          "count": 1,
+          "mean_loss": 6.067655118544852,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": 0.24089916587596194,
+          "aggregate_skill": 0.24089916587596194,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.625,
+            "0.8": 0.8125,
+            "0.95": 0.9375
+          }
+        },
+        {
+          "source_name": "civiqs",
+          "unit": "net points (approve minus disapprove)",
+          "population": "",
+          "metric": "civiqs_net_approval",
+          "cells": [
+            "civiqs_net_approval_dem",
+            "civiqs_net_approval_ind",
+            "civiqs_net_approval_rep",
+            "civiqs_net_approval_age_18_34",
+            "civiqs_net_approval_age_35_49",
+            "civiqs_net_approval_age_50_64",
+            "civiqs_net_approval_age_65_up",
+            "civiqs_net_approval_race_white",
+            "civiqs_net_approval_race_black",
+            "civiqs_net_approval_race_hispanic",
+            "civiqs_net_approval_race_other",
+            "civiqs_net_approval_edu_noncollege",
+            "civiqs_net_approval_edu_college",
+            "civiqs_net_approval_edu_postgrad",
+            "civiqs_net_approval_male",
+            "civiqs_net_approval_female"
+          ],
+          "scoring_metric": "energy",
+          "count": 1,
+          "mean_loss": 11.56617174815122,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": -0.16224446790789138,
+          "aggregate_skill": -0.16224446790789138,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 0.0,
+            "0.95": 0.1875
+          }
+        },
+        {
+          "source_name": "civiqs",
+          "unit": "percent",
+          "population": "",
+          "metric": "civiqs_angry_share",
+          "cells": [],
+          "scoring_metric": "crps",
+          "count": 1,
+          "mean_loss": 0.37491929372747074,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": 0.0996692723758208,
+          "aggregate_skill": 0.0996692723758208,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 0.0,
+            "0.95": 0.0
+          }
+        },
+        {
+          "source_name": "aaii",
+          "unit": "percentage points (bullish minus bearish)",
+          "population": "",
+          "metric": "aaii_bull_bear_spread",
+          "cells": [],
+          "scoring_metric": "crps",
+          "count": 2,
+          "mean_loss": 9.668805687839917,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 2,
+          "mean_skill": 0.42708725080873494,
+          "aggregate_skill": 0.3682053479776396,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.5,
+            "0.8": 0.5,
+            "0.95": 1.0
+          }
+        },
+        {
+          "source_name": "civiqs",
+          "unit": "net points (better minus worse)",
+          "population": "",
+          "metric": "civiqs_net_econ_direction",
+          "cells": [],
+          "scoring_metric": "crps",
+          "count": 1,
+          "mean_loss": 0.3284084168110008,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": 0.2113604345998783,
+          "aggregate_skill": 0.2113604345998783,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 1.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        },
+        {
+          "source_name": "morning_consult",
+          "unit": "% approve",
+          "population": "",
+          "metric": "mc_approval",
+          "cells": [],
+          "scoring_metric": "crps",
+          "count": 2,
+          "mean_loss": 0.3536178225179112,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 2,
+          "mean_skill": 0.17748464059353714,
+          "aggregate_skill": 0.17701817100522144,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 1.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        },
+        {
+          "source_name": "civiqs",
+          "unit": "net points (approve minus disapprove)",
+          "population": "",
+          "metric": "civiqs_net_approval",
+          "cells": [],
+          "scoring_metric": "crps",
+          "count": 1,
+          "mean_loss": 2.7805966308547103,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": -0.334186372833019,
+          "aggregate_skill": -0.334186372833019,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 0.0,
+            "0.95": 0.0
+          }
+        },
+        {
+          "source_name": "economist_yougov",
+          "unit": "net points, Democratic minus Republican",
+          "population": "",
+          "metric": "yougov_generic_margin",
+          "cells": [],
+          "scoring_metric": "crps",
+          "count": 2,
+          "mean_loss": 1.6137762678367467,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 2,
+          "mean_skill": -0.8417124522734107,
+          "aggregate_skill": -0.7095309098069589,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 0.5,
+            "0.95": 1.0
+          }
+        },
+        {
+          "source_name": "civiqs",
+          "unit": "net points (concerned minus not concerned)",
+          "population": "",
+          "metric": "civiqs_net_inflation_concern",
+          "cells": [],
+          "scoring_metric": "crps",
+          "count": 1,
+          "mean_loss": 0.3063336570781771,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": 0.31165946764778896,
+          "aggregate_skill": 0.31165946764778896,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 1.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        },
+        {
+          "source_name": "civiqs",
+          "unit": "net points (better minus worse)",
+          "population": "",
+          "metric": "civiqs_net_family_finances",
+          "cells": [],
+          "scoring_metric": "crps",
+          "count": 1,
+          "mean_loss": 0.46311841406930293,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": 0.2371309228038554,
+          "aggregate_skill": 0.2371309228038554,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        }
+      ],
+      "record_hash": "sha256:3b9d5c79bf75f59149a153e54501e377e6d5ca5fb07ea9316f19e2584d785ee4"
+    },
+    "ensemble": {
+      "records": [
+        {
+          "round_id": "yougov-2026-w38-generic",
+          "metric": "crps",
+          "group": {
+            "source_name": "economist_yougov",
+            "unit": "net points, Democratic minus Republican",
+            "population": "",
+            "metric": "yougov_generic_margin",
+            "cells": [],
+            "scoring_metric": "crps"
+          },
+          "loss": 2.2124620495109752,
+          "persistence_loss": 0.6070745661515764,
+          "persistence_source": "record.persistence",
+          "skill": -2.644465067176872,
+          "marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 0.0,
+            "0.95": 1.0
+          }
+        },
+        {
+          "round_id": "yougov-xtab-2026-w38",
+          "metric": "energy",
+          "group": {
+            "source_name": "yougov_xtab",
+            "unit": "percent approving",
+            "population": "",
+            "metric": "yougov_xtab_approve_dem",
+            "cells": [
+              "yougov_xtab_approve_dem",
+              "yougov_xtab_approve_ind",
+              "yougov_xtab_approve_rep",
+              "yougov_xtab_approve_age_under_30",
+              "yougov_xtab_approve_age_30_44",
+              "yougov_xtab_approve_age_45_64",
+              "yougov_xtab_approve_age_65_up",
+              "yougov_xtab_approve_race_white",
+              "yougov_xtab_approve_race_black",
+              "yougov_xtab_approve_race_hispanic",
+              "yougov_xtab_approve_male",
+              "yougov_xtab_approve_female",
+              "yougov_xtab_approve_edu_hs_or_less",
+              "yougov_xtab_approve_edu_some_college",
+              "yougov_xtab_approve_edu_college_grad",
+              "yougov_xtab_approve_edu_postgrad"
+            ],
+            "scoring_metric": "energy"
+          },
+          "loss": 5.516429009846555,
+          "persistence_loss": 7.993213609818521,
+          "persistence_source": "record.persistence",
+          "skill": 0.30986092964281475,
+          "marginal_interval_coverage": {
+            "0.5": 0.6875,
+            "0.8": 0.9375,
+            "0.95": 1.0
+          }
+        },
+        {
+          "round_id": "mc-2026-w38-approval",
+          "metric": "crps",
+          "group": {
+            "source_name": "morning_consult",
+            "unit": "% approve",
+            "population": "",
+            "metric": "mc_approval",
+            "cells": [],
+            "scoring_metric": "crps"
+          },
+          "loss": 0.34421219860190555,
+          "persistence_loss": 0.3622522492006801,
+          "persistence_source": "record.persistence",
+          "skill": 0.04979969244795701,
+          "marginal_interval_coverage": {
+            "0.5": 1.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        },
+        {
+          "round_id": "aaii-2026-09-17",
+          "metric": "crps",
+          "group": {
+            "source_name": "aaii",
+            "unit": "percentage points (bullish minus bearish)",
+            "population": "",
+            "metric": "aaii_bull_bear_spread",
+            "cells": [],
+            "scoring_metric": "crps"
+          },
+          "loss": 16.388545977403453,
+          "persistence_loss": 22.353715624678365,
+          "persistence_source": "record.persistence",
+          "skill": 0.2668536071331874,
+          "marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 0.0,
+            "0.95": 0.0
+          }
+        },
+        {
+          "round_id": "civiqs-2026-w38-angry-share",
+          "metric": "crps",
+          "group": {
+            "source_name": "civiqs",
+            "unit": "percent",
+            "population": "",
+            "metric": "civiqs_angry_share",
+            "cells": [],
+            "scoring_metric": "crps"
+          },
+          "loss": 0.3152037731551652,
+          "persistence_loss": 0.4164239675755813,
+          "persistence_source": "record.persistence",
+          "skill": 0.24307004952121203,
+          "marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        },
+        {
+          "round_id": "civiqs-2026-w38-approval",
+          "metric": "crps",
+          "group": {
+            "source_name": "civiqs",
+            "unit": "net points (approve minus disapprove)",
+            "population": "",
+            "metric": "civiqs_net_approval",
+            "cells": [],
+            "scoring_metric": "crps"
+          },
+          "loss": 2.6963112144063093,
+          "persistence_loss": 2.08411409940455,
+          "persistence_source": "record.persistence",
+          "skill": -0.2937445292350691,
+          "marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 0.0,
+            "0.95": 0.0
+          }
+        },
+        {
+          "round_id": "civiqs-2026-w38-econ-direction",
+          "metric": "crps",
+          "group": {
+            "source_name": "civiqs",
+            "unit": "net points (better minus worse)",
+            "population": "",
+            "metric": "civiqs_net_econ_direction",
+            "cells": [],
+            "scoring_metric": "crps"
+          },
+          "loss": 0.38322964285733674,
+          "persistence_loss": 0.4164239675755813,
+          "persistence_source": "record.persistence",
+          "skill": 0.07971281026762655,
+          "marginal_interval_coverage": {
+            "0.5": 1.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        },
+        {
+          "round_id": "civiqs-2026-w38-econ-now",
+          "metric": "crps",
+          "group": {
+            "source_name": "civiqs",
+            "unit": "net points (good minus bad)",
+            "population": "",
+            "metric": "civiqs_net_econ_now",
+            "cells": [],
+            "scoring_metric": "crps"
+          },
+          "loss": 2.569187585917638,
+          "persistence_loss": 2.3714057395484582,
+          "persistence_source": "record.persistence",
+          "skill": -0.08340278640248178,
+          "marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 0.0,
+            "0.95": 0.0
+          }
+        },
+        {
+          "round_id": "civiqs-2026-w38-family-finances",
+          "metric": "crps",
+          "group": {
+            "source_name": "civiqs",
+            "unit": "net points (better minus worse)",
+            "population": "",
+            "metric": "civiqs_net_family_finances",
+            "cells": [],
+            "scoring_metric": "crps"
+          },
+          "loss": 0.538760840118541,
+          "persistence_loss": 0.6070745661515764,
+          "persistence_source": "record.persistence",
+          "skill": 0.11252938245477184,
+          "marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        },
+        {
+          "round_id": "civiqs-2026-w38-inflation-concern",
+          "metric": "crps",
+          "group": {
+            "source_name": "civiqs",
+            "unit": "net points (concerned minus not concerned)",
+            "population": "",
+            "metric": "civiqs_net_inflation_concern",
+            "cells": [],
+            "scoring_metric": "crps"
+          },
+          "loss": 0.35918384637497186,
+          "persistence_loss": 0.4450321355207249,
+          "persistence_source": "record.persistence",
+          "skill": 0.19290357323365726,
+          "marginal_interval_coverage": {
+            "0.5": 1.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        },
+        {
+          "round_id": "civiqs-profile-2026-w38",
+          "metric": "energy",
+          "group": {
+            "source_name": "civiqs",
+            "unit": "net points (approve minus disapprove)",
+            "population": "",
+            "metric": "civiqs_net_approval",
+            "cells": [
+              "civiqs_net_approval_dem",
+              "civiqs_net_approval_ind",
+              "civiqs_net_approval_rep",
+              "civiqs_net_approval_age_18_34",
+              "civiqs_net_approval_age_35_49",
+              "civiqs_net_approval_age_50_64",
+              "civiqs_net_approval_age_65_up",
+              "civiqs_net_approval_race_white",
+              "civiqs_net_approval_race_black",
+              "civiqs_net_approval_race_hispanic",
+              "civiqs_net_approval_race_other",
+              "civiqs_net_approval_edu_noncollege",
+              "civiqs_net_approval_edu_college",
+              "civiqs_net_approval_edu_postgrad",
+              "civiqs_net_approval_male",
+              "civiqs_net_approval_female"
+            ],
+            "scoring_metric": "energy"
+          },
+          "loss": 8.752961613568711,
+          "persistence_loss": 9.951582534930033,
+          "persistence_source": "record.persistence",
+          "skill": 0.12044525754111612,
+          "marginal_interval_coverage": {
+            "0.5": 0.1875,
+            "0.8": 0.375,
+            "0.95": 0.5625
+          }
+        },
+        {
+          "round_id": "yougov-2026-w39-generic",
+          "metric": "crps",
+          "group": {
+            "source_name": "economist_yougov",
+            "unit": "net points, Democratic minus Republican",
+            "population": "",
+            "metric": "yougov_generic_margin",
+            "cells": [],
+            "scoring_metric": "crps"
+          },
+          "loss": 1.8418829433513038,
+          "persistence_loss": 1.2809009698028746,
+          "persistence_source": "record.persistence",
+          "skill": -0.4379588951632709,
+          "marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        },
+        {
+          "round_id": "mc-2026-w39-approval",
+          "metric": "crps",
+          "group": {
+            "source_name": "morning_consult",
+            "unit": "% approve",
+            "population": "",
+            "metric": "mc_approval",
+            "cells": [],
+            "scoring_metric": "crps"
+          },
+          "loss": 0.4619324019327475,
+          "persistence_loss": 0.49710529688228383,
+          "persistence_source": "record.persistence",
+          "skill": 0.07075542177911132,
+          "marginal_interval_coverage": {
+            "0.5": 1.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        },
+        {
+          "round_id": "aaii-2026-09-24",
+          "metric": "crps",
+          "group": {
+            "source_name": "aaii",
+            "unit": "percentage points (bullish minus bearish)",
+            "population": "",
+            "metric": "aaii_bull_bear_spread",
+            "cells": [],
+            "scoring_metric": "crps"
+          },
+          "loss": 3.593175949670845,
+          "persistence_loss": 8.25371562498571,
+          "persistence_source": "record.persistence",
+          "skill": 0.5646595893377335,
+          "marginal_interval_coverage": {
+            "0.5": 1.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        }
+      ],
+      "mean_skill": -0.10349864032989328,
+      "paired_count": 14,
+      "by_metric": {
+        "crps": {
+          "count": 12,
+          "mean_loss": 2.6420073686084327,
+          "raw_loss_comparable": false,
+          "group_count": 9,
+          "paired_count": 12,
+          "mean_skill": -0.15660726265020306,
+          "aggregate_skill": 0.20131256604687242,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.4166666666666667,
+            "0.8": 0.6666666666666666,
+            "0.95": 0.75
+          }
+        },
+        "energy": {
+          "count": 2,
+          "mean_loss": 7.134695311707633,
+          "raw_loss_comparable": false,
+          "group_count": 2,
+          "paired_count": 2,
+          "mean_skill": 0.21515309359196544,
+          "aggregate_skill": 0.20481734602534762,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.4375,
+            "0.8": 0.65625,
+            "0.95": 0.78125
+          }
+        }
+      },
+      "by_group": [
+        {
+          "source_name": "civiqs",
+          "unit": "net points (good minus bad)",
+          "population": "",
+          "metric": "civiqs_net_econ_now",
+          "cells": [],
+          "scoring_metric": "crps",
+          "count": 1,
+          "mean_loss": 2.569187585917638,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": -0.08340278640248178,
+          "aggregate_skill": -0.08340278640248178,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 0.0,
+            "0.95": 0.0
+          }
+        },
+        {
+          "source_name": "yougov_xtab",
+          "unit": "percent approving",
+          "population": "",
+          "metric": "yougov_xtab_approve_dem",
+          "cells": [
+            "yougov_xtab_approve_dem",
+            "yougov_xtab_approve_ind",
+            "yougov_xtab_approve_rep",
+            "yougov_xtab_approve_age_under_30",
+            "yougov_xtab_approve_age_30_44",
+            "yougov_xtab_approve_age_45_64",
+            "yougov_xtab_approve_age_65_up",
+            "yougov_xtab_approve_race_white",
+            "yougov_xtab_approve_race_black",
+            "yougov_xtab_approve_race_hispanic",
+            "yougov_xtab_approve_male",
+            "yougov_xtab_approve_female",
+            "yougov_xtab_approve_edu_hs_or_less",
+            "yougov_xtab_approve_edu_some_college",
+            "yougov_xtab_approve_edu_college_grad",
+            "yougov_xtab_approve_edu_postgrad"
+          ],
+          "scoring_metric": "energy",
+          "count": 1,
+          "mean_loss": 5.516429009846555,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": 0.30986092964281475,
+          "aggregate_skill": 0.30986092964281475,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.6875,
+            "0.8": 0.9375,
+            "0.95": 1.0
+          }
+        },
+        {
+          "source_name": "civiqs",
+          "unit": "net points (approve minus disapprove)",
+          "population": "",
+          "metric": "civiqs_net_approval",
+          "cells": [
+            "civiqs_net_approval_dem",
+            "civiqs_net_approval_ind",
+            "civiqs_net_approval_rep",
+            "civiqs_net_approval_age_18_34",
+            "civiqs_net_approval_age_35_49",
+            "civiqs_net_approval_age_50_64",
+            "civiqs_net_approval_age_65_up",
+            "civiqs_net_approval_race_white",
+            "civiqs_net_approval_race_black",
+            "civiqs_net_approval_race_hispanic",
+            "civiqs_net_approval_race_other",
+            "civiqs_net_approval_edu_noncollege",
+            "civiqs_net_approval_edu_college",
+            "civiqs_net_approval_edu_postgrad",
+            "civiqs_net_approval_male",
+            "civiqs_net_approval_female"
+          ],
+          "scoring_metric": "energy",
+          "count": 1,
+          "mean_loss": 8.752961613568711,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": 0.12044525754111612,
+          "aggregate_skill": 0.12044525754111612,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.1875,
+            "0.8": 0.375,
+            "0.95": 0.5625
+          }
+        },
+        {
+          "source_name": "civiqs",
+          "unit": "percent",
+          "population": "",
+          "metric": "civiqs_angry_share",
+          "cells": [],
+          "scoring_metric": "crps",
+          "count": 1,
+          "mean_loss": 0.3152037731551652,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": 0.24307004952121203,
+          "aggregate_skill": 0.24307004952121203,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        },
+        {
+          "source_name": "aaii",
+          "unit": "percentage points (bullish minus bearish)",
+          "population": "",
+          "metric": "aaii_bull_bear_spread",
+          "cells": [],
+          "scoring_metric": "crps",
+          "count": 2,
+          "mean_loss": 9.990860963537148,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 2,
+          "mean_skill": 0.41575659823546046,
+          "aggregate_skill": 0.3471610941772971,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.5,
+            "0.8": 0.5,
+            "0.95": 0.5
+          }
+        },
+        {
+          "source_name": "civiqs",
+          "unit": "net points (better minus worse)",
+          "population": "",
+          "metric": "civiqs_net_econ_direction",
+          "cells": [],
+          "scoring_metric": "crps",
+          "count": 1,
+          "mean_loss": 0.38322964285733674,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": 0.07971281026762655,
+          "aggregate_skill": 0.07971281026762655,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 1.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        },
+        {
+          "source_name": "morning_consult",
+          "unit": "% approve",
+          "population": "",
+          "metric": "mc_approval",
+          "cells": [],
+          "scoring_metric": "crps",
+          "count": 2,
+          "mean_loss": 0.40307230026732654,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 2,
+          "mean_skill": 0.060277557113534164,
+          "aggregate_skill": 0.06192177608826577,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 1.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        },
+        {
+          "source_name": "civiqs",
+          "unit": "net points (approve minus disapprove)",
+          "population": "",
+          "metric": "civiqs_net_approval",
+          "cells": [],
+          "scoring_metric": "crps",
+          "count": 1,
+          "mean_loss": 2.6963112144063093,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": -0.2937445292350691,
+          "aggregate_skill": -0.2937445292350691,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 0.0,
+            "0.95": 0.0
+          }
+        },
+        {
+          "source_name": "economist_yougov",
+          "unit": "net points, Democratic minus Republican",
+          "population": "",
+          "metric": "yougov_generic_margin",
+          "cells": [],
+          "scoring_metric": "crps",
+          "count": 2,
+          "mean_loss": 2.0271724964311395,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 2,
+          "mean_skill": -1.5412119811700715,
+          "aggregate_skill": -1.1474563179721695,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 0.5,
+            "0.95": 1.0
+          }
+        },
+        {
+          "source_name": "civiqs",
+          "unit": "net points (concerned minus not concerned)",
+          "population": "",
+          "metric": "civiqs_net_inflation_concern",
+          "cells": [],
+          "scoring_metric": "crps",
+          "count": 1,
+          "mean_loss": 0.35918384637497186,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": 0.19290357323365726,
+          "aggregate_skill": 0.19290357323365726,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 1.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        },
+        {
+          "source_name": "civiqs",
+          "unit": "net points (better minus worse)",
+          "population": "",
+          "metric": "civiqs_net_family_finances",
+          "cells": [],
+          "scoring_metric": "crps",
+          "count": 1,
+          "mean_loss": 0.538760840118541,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": 0.11252938245477184,
+          "aggregate_skill": 0.11252938245477184,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        }
+      ],
+      "record_hash": "sha256:f5dd67e392b4fc27458c55c0b4e13e280cc3349e45e9e5a2544cd02b38af5cd0"
+    },
+    "llm": {
+      "records": [
+        {
+          "round_id": "yougov-2026-w38-generic",
+          "metric": "crps",
+          "group": {
+            "source_name": "economist_yougov",
+            "unit": "net points, Democratic minus Republican",
+            "population": "",
+            "metric": "yougov_generic_margin",
+            "cells": [],
+            "scoring_metric": "crps"
+          },
+          "loss": 2.976601437406594,
+          "persistence_loss": 0.6070745661515764,
+          "persistence_source": "record.persistence",
+          "skill": -3.903189168797077,
+          "marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 0.0,
+            "0.95": 1.0
+          }
+        },
+        {
+          "round_id": "yougov-xtab-2026-w38",
+          "metric": "energy",
+          "group": {
+            "source_name": "yougov_xtab",
+            "unit": "percent approving",
+            "population": "",
+            "metric": "yougov_xtab_approve_dem",
+            "cells": [
+              "yougov_xtab_approve_dem",
+              "yougov_xtab_approve_ind",
+              "yougov_xtab_approve_rep",
+              "yougov_xtab_approve_age_under_30",
+              "yougov_xtab_approve_age_30_44",
+              "yougov_xtab_approve_age_45_64",
+              "yougov_xtab_approve_age_65_up",
+              "yougov_xtab_approve_race_white",
+              "yougov_xtab_approve_race_black",
+              "yougov_xtab_approve_race_hispanic",
+              "yougov_xtab_approve_male",
+              "yougov_xtab_approve_female",
+              "yougov_xtab_approve_edu_hs_or_less",
+              "yougov_xtab_approve_edu_some_college",
+              "yougov_xtab_approve_edu_college_grad",
+              "yougov_xtab_approve_edu_postgrad"
+            ],
+            "scoring_metric": "energy"
+          },
+          "loss": 5.1465554715410216,
+          "persistence_loss": 7.993213609818521,
+          "persistence_source": "record.persistence",
+          "skill": 0.3561343756384524,
+          "marginal_interval_coverage": {
+            "0.5": 0.75,
+            "0.8": 0.9375,
+            "0.95": 1.0
+          }
+        },
+        {
+          "round_id": "mc-2026-w38-approval",
+          "metric": "crps",
+          "group": {
+            "source_name": "morning_consult",
+            "unit": "% approve",
+            "population": "",
+            "metric": "mc_approval",
+            "cells": [],
+            "scoring_metric": "crps"
+          },
+          "loss": 0.3748094785640092,
+          "persistence_loss": 0.3622522492006801,
+          "persistence_source": "record.persistence",
+          "skill": -0.03466432407538389,
+          "marginal_interval_coverage": {
+            "0.5": 1.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        },
+        {
+          "round_id": "aaii-2026-09-17",
+          "metric": "crps",
+          "group": {
+            "source_name": "aaii",
+            "unit": "percentage points (bullish minus bearish)",
+            "population": "",
+            "metric": "aaii_bull_bear_spread",
+            "cells": [],
+            "scoring_metric": "crps"
+          },
+          "loss": 17.277687375092487,
+          "persistence_loss": 22.353715624678365,
+          "persistence_source": "record.persistence",
+          "skill": 0.22707760690942913,
+          "marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 0.0,
+            "0.95": 0.0
+          }
+        },
+        {
+          "round_id": "civiqs-2026-w38-angry-share",
+          "metric": "crps",
+          "group": {
+            "source_name": "civiqs",
+            "unit": "percent",
+            "population": "",
+            "metric": "civiqs_angry_share",
+            "cells": [],
+            "scoring_metric": "crps"
+          },
+          "loss": 0.30122067881380815,
+          "persistence_loss": 0.4164239675755813,
+          "persistence_source": "record.persistence",
+          "skill": 0.2766490349546551,
+          "marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        },
+        {
+          "round_id": "civiqs-2026-w38-approval",
+          "metric": "crps",
+          "group": {
+            "source_name": "civiqs",
+            "unit": "net points (approve minus disapprove)",
+            "population": "",
+            "metric": "civiqs_net_approval",
+            "cells": [],
+            "scoring_metric": "crps"
+          },
+          "loss": 2.6636739915589773,
+          "persistence_loss": 2.08411409940455,
+          "persistence_source": "record.persistence",
+          "skill": -0.2780845311300437,
+          "marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 0.0,
+            "0.95": 0.0
+          }
+        },
+        {
+          "round_id": "civiqs-2026-w38-econ-direction",
+          "metric": "crps",
+          "group": {
+            "source_name": "civiqs",
+            "unit": "net points (better minus worse)",
+            "population": "",
+            "metric": "civiqs_net_econ_direction",
+            "cells": [],
+            "scoring_metric": "crps"
+          },
+          "loss": 0.4164239675755813,
+          "persistence_loss": 0.4164239675755813,
+          "persistence_source": "record.persistence",
+          "skill": 0.0,
+          "marginal_interval_coverage": {
+            "0.5": 1.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        },
+        {
+          "round_id": "civiqs-2026-w38-econ-now",
+          "metric": "crps",
+          "group": {
+            "source_name": "civiqs",
+            "unit": "net points (good minus bad)",
+            "population": "",
+            "metric": "civiqs_net_econ_now",
+            "cells": [],
+            "scoring_metric": "crps"
+          },
+          "loss": 2.5363449146426875,
+          "persistence_loss": 2.3714057395484582,
+          "persistence_source": "record.persistence",
+          "skill": -0.06955333384899176,
+          "marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 0.0,
+            "0.95": 0.0
+          }
+        },
+        {
+          "round_id": "civiqs-2026-w38-family-finances",
+          "metric": "crps",
+          "group": {
+            "source_name": "civiqs",
+            "unit": "net points (better minus worse)",
+            "population": "",
+            "metric": "civiqs_net_family_finances",
+            "cells": [],
+            "scoring_metric": "crps"
+          },
+          "loss": 0.5949042388001325,
+          "persistence_loss": 0.6070745661515764,
+          "persistence_source": "record.persistence",
+          "skill": 0.020047499977795313,
+          "marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        },
+        {
+          "round_id": "civiqs-2026-w38-inflation-concern",
+          "metric": "crps",
+          "group": {
+            "source_name": "civiqs",
+            "unit": "net points (concerned minus not concerned)",
+            "population": "",
+            "metric": "civiqs_net_inflation_concern",
+            "cells": [],
+            "scoring_metric": "crps"
+          },
+          "loss": 0.39962750418623905,
+          "persistence_loss": 0.4450321355207249,
+          "persistence_source": "record.persistence",
+          "skill": 0.10202551166638474,
+          "marginal_interval_coverage": {
+            "0.5": 1.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        },
+        {
+          "round_id": "civiqs-profile-2026-w38",
+          "metric": "energy",
+          "group": {
+            "source_name": "civiqs",
+            "unit": "net points (approve minus disapprove)",
+            "population": "",
+            "metric": "civiqs_net_approval",
+            "cells": [
+              "civiqs_net_approval_dem",
+              "civiqs_net_approval_ind",
+              "civiqs_net_approval_rep",
+              "civiqs_net_approval_age_18_34",
+              "civiqs_net_approval_age_35_49",
+              "civiqs_net_approval_age_50_64",
+              "civiqs_net_approval_age_65_up",
+              "civiqs_net_approval_race_white",
+              "civiqs_net_approval_race_black",
+              "civiqs_net_approval_race_hispanic",
+              "civiqs_net_approval_race_other",
+              "civiqs_net_approval_edu_noncollege",
+              "civiqs_net_approval_edu_college",
+              "civiqs_net_approval_edu_postgrad",
+              "civiqs_net_approval_male",
+              "civiqs_net_approval_female"
+            ],
+            "scoring_metric": "energy"
+          },
+          "loss": 7.624994224771718,
+          "persistence_loss": 9.951582534930033,
+          "persistence_source": "record.persistence",
+          "skill": 0.23379078674090226,
+          "marginal_interval_coverage": {
+            "0.5": 0.25,
+            "0.8": 0.5,
+            "0.95": 0.8125
+          }
+        },
+        {
+          "round_id": "yougov-2026-w39-generic",
+          "metric": "crps",
+          "group": {
+            "source_name": "economist_yougov",
+            "unit": "net points, Democratic minus Republican",
+            "population": "",
+            "metric": "yougov_generic_margin",
+            "cells": [],
+            "scoring_metric": "crps"
+          },
+          "loss": 1.8391658364223928,
+          "persistence_loss": 1.2809009698028746,
+          "persistence_source": "record.persistence",
+          "skill": -0.43583764848381135,
+          "marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        },
+        {
+          "round_id": "mc-2026-w39-approval",
+          "metric": "crps",
+          "group": {
+            "source_name": "morning_consult",
+            "unit": "% approve",
+            "population": "",
+            "metric": "mc_approval",
+            "cells": [],
+            "scoring_metric": "crps"
+          },
+          "loss": 0.4988770808887558,
+          "persistence_loss": 0.49710529688228383,
+          "persistence_source": "record.persistence",
+          "skill": -0.0035642026298736695,
+          "marginal_interval_coverage": {
+            "0.5": 1.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        },
+        {
+          "round_id": "aaii-2026-09-24",
+          "metric": "crps",
+          "group": {
+            "source_name": "aaii",
+            "unit": "percentage points (bullish minus bearish)",
+            "population": "",
+            "metric": "aaii_bull_bear_spread",
+            "cells": [],
+            "scoring_metric": "crps"
+          },
+          "loss": 4.0925187577188105,
+          "persistence_loss": 8.25371562498571,
+          "persistence_source": "record.persistence",
+          "skill": 0.5041604358975118,
+          "marginal_interval_coverage": {
+            "0.5": 1.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        }
+      ],
+      "mean_skill": -0.21464342551286078,
+      "paired_count": 14,
+      "by_metric": {
+        "crps": {
+          "count": 12,
+          "mean_loss": 2.8309879384725396,
+          "raw_loss_comparable": false,
+          "group_count": 9,
+          "paired_count": 12,
+          "mean_skill": -0.2995777599632838,
+          "aggregate_skill": 0.1441831241667526,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.4166666666666667,
+            "0.8": 0.6666666666666666,
+            "0.95": 0.75
+          }
+        },
+        "energy": {
+          "count": 2,
+          "mean_loss": 6.38577484815637,
+          "raw_loss_comparable": false,
+          "group_count": 2,
+          "paired_count": 2,
+          "mean_skill": 0.29496258118967733,
+          "aggregate_skill": 0.288286721493336,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.5,
+            "0.8": 0.71875,
+            "0.95": 0.90625
+          }
+        }
+      },
+      "by_group": [
+        {
+          "source_name": "civiqs",
+          "unit": "net points (good minus bad)",
+          "population": "",
+          "metric": "civiqs_net_econ_now",
+          "cells": [],
+          "scoring_metric": "crps",
+          "count": 1,
+          "mean_loss": 2.5363449146426875,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": -0.06955333384899176,
+          "aggregate_skill": -0.06955333384899176,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 0.0,
+            "0.95": 0.0
+          }
+        },
+        {
+          "source_name": "yougov_xtab",
+          "unit": "percent approving",
+          "population": "",
+          "metric": "yougov_xtab_approve_dem",
+          "cells": [
+            "yougov_xtab_approve_dem",
+            "yougov_xtab_approve_ind",
+            "yougov_xtab_approve_rep",
+            "yougov_xtab_approve_age_under_30",
+            "yougov_xtab_approve_age_30_44",
+            "yougov_xtab_approve_age_45_64",
+            "yougov_xtab_approve_age_65_up",
+            "yougov_xtab_approve_race_white",
+            "yougov_xtab_approve_race_black",
+            "yougov_xtab_approve_race_hispanic",
+            "yougov_xtab_approve_male",
+            "yougov_xtab_approve_female",
+            "yougov_xtab_approve_edu_hs_or_less",
+            "yougov_xtab_approve_edu_some_college",
+            "yougov_xtab_approve_edu_college_grad",
+            "yougov_xtab_approve_edu_postgrad"
+          ],
+          "scoring_metric": "energy",
+          "count": 1,
+          "mean_loss": 5.1465554715410216,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": 0.3561343756384524,
+          "aggregate_skill": 0.3561343756384524,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.75,
+            "0.8": 0.9375,
+            "0.95": 1.0
+          }
+        },
+        {
+          "source_name": "civiqs",
+          "unit": "net points (approve minus disapprove)",
+          "population": "",
+          "metric": "civiqs_net_approval",
+          "cells": [
+            "civiqs_net_approval_dem",
+            "civiqs_net_approval_ind",
+            "civiqs_net_approval_rep",
+            "civiqs_net_approval_age_18_34",
+            "civiqs_net_approval_age_35_49",
+            "civiqs_net_approval_age_50_64",
+            "civiqs_net_approval_age_65_up",
+            "civiqs_net_approval_race_white",
+            "civiqs_net_approval_race_black",
+            "civiqs_net_approval_race_hispanic",
+            "civiqs_net_approval_race_other",
+            "civiqs_net_approval_edu_noncollege",
+            "civiqs_net_approval_edu_college",
+            "civiqs_net_approval_edu_postgrad",
+            "civiqs_net_approval_male",
+            "civiqs_net_approval_female"
+          ],
+          "scoring_metric": "energy",
+          "count": 1,
+          "mean_loss": 7.624994224771718,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": 0.23379078674090226,
+          "aggregate_skill": 0.23379078674090226,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.25,
+            "0.8": 0.5,
+            "0.95": 0.8125
+          }
+        },
+        {
+          "source_name": "civiqs",
+          "unit": "percent",
+          "population": "",
+          "metric": "civiqs_angry_share",
+          "cells": [],
+          "scoring_metric": "crps",
+          "count": 1,
+          "mean_loss": 0.30122067881380815,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": 0.2766490349546551,
+          "aggregate_skill": 0.2766490349546551,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        },
+        {
+          "source_name": "aaii",
+          "unit": "percentage points (bullish minus bearish)",
+          "population": "",
+          "metric": "aaii_bull_bear_spread",
+          "cells": [],
+          "scoring_metric": "crps",
+          "count": 2,
+          "mean_loss": 10.685103066405649,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 2,
+          "mean_skill": 0.36561902140347047,
+          "aggregate_skill": 0.3017968101114058,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.5,
+            "0.8": 0.5,
+            "0.95": 0.5
+          }
+        },
+        {
+          "source_name": "civiqs",
+          "unit": "net points (better minus worse)",
+          "population": "",
+          "metric": "civiqs_net_econ_direction",
+          "cells": [],
+          "scoring_metric": "crps",
+          "count": 1,
+          "mean_loss": 0.4164239675755813,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": 0.0,
+          "aggregate_skill": 0.0,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 1.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        },
+        {
+          "source_name": "morning_consult",
+          "unit": "% approve",
+          "population": "",
+          "metric": "mc_approval",
+          "cells": [],
+          "scoring_metric": "crps",
+          "count": 2,
+          "mean_loss": 0.4368432797263825,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 2,
+          "mean_skill": -0.01911426335262878,
+          "aggregate_skill": -0.016674099663305686,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 1.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        },
+        {
+          "source_name": "civiqs",
+          "unit": "net points (approve minus disapprove)",
+          "population": "",
+          "metric": "civiqs_net_approval",
+          "cells": [],
+          "scoring_metric": "crps",
+          "count": 1,
+          "mean_loss": 2.6636739915589773,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": -0.2780845311300437,
+          "aggregate_skill": -0.2780845311300437,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 0.0,
+            "0.95": 0.0
+          }
+        },
+        {
+          "source_name": "economist_yougov",
+          "unit": "net points, Democratic minus Republican",
+          "population": "",
+          "metric": "yougov_generic_margin",
+          "cells": [],
+          "scoring_metric": "crps",
+          "count": 2,
+          "mean_loss": 2.4078836369144936,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 2,
+          "mean_skill": -2.1695134086404444,
+          "aggregate_skill": -1.5507572434694787,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 0.5,
+            "0.95": 1.0
+          }
+        },
+        {
+          "source_name": "civiqs",
+          "unit": "net points (concerned minus not concerned)",
+          "population": "",
+          "metric": "civiqs_net_inflation_concern",
+          "cells": [],
+          "scoring_metric": "crps",
+          "count": 1,
+          "mean_loss": 0.39962750418623905,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": 0.10202551166638474,
+          "aggregate_skill": 0.10202551166638474,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 1.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        },
+        {
+          "source_name": "civiqs",
+          "unit": "net points (better minus worse)",
+          "population": "",
+          "metric": "civiqs_net_family_finances",
+          "cells": [],
+          "scoring_metric": "crps",
+          "count": 1,
+          "mean_loss": 0.5949042388001325,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": 0.020047499977795313,
+          "aggregate_skill": 0.020047499977795313,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        }
+      ],
+      "record_hash": "sha256:1252423adbda0d013dcd7cef569c0bed69e8937d59b87de46aa68a5ed1dcbf77"
+    }
+  },
+  "by_series": {
+    "official_persistence": {
+      "yougov_generic_margin": {
+        "crps": {
+          "count": 2,
+          "mean_loss": 0.9439877679772255,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 2,
+          "mean_skill": 0.0,
+          "aggregate_skill": 0.0,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.5,
+            "0.8": 0.5,
+            "0.95": 1.0
+          }
+        }
+      },
+      "yougov_xtab_approve_dem": {
+        "energy": {
+          "count": 1,
+          "mean_loss": 7.993213609818521,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": 0.0,
+          "aggregate_skill": 0.0,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.25,
+            "0.8": 0.25,
+            "0.95": 0.5625
+          }
+        }
+      },
+      "mc_approval": {
+        "crps": {
+          "count": 2,
+          "mean_loss": 0.42967877304148194,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 2,
+          "mean_skill": 0.0,
+          "aggregate_skill": 0.0,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 1.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        }
+      },
+      "aaii_bull_bear_spread": {
+        "crps": {
+          "count": 2,
+          "mean_loss": 15.303715624832037,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 2,
+          "mean_skill": 0.0,
+          "aggregate_skill": 0.0,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 0.0,
+            "0.95": 0.0
+          }
+        }
+      },
+      "civiqs_angry_share": {
+        "crps": {
+          "count": 1,
+          "mean_loss": 0.4164239675755813,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": 0.0,
+          "aggregate_skill": 0.0,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 1.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        }
+      },
+      "civiqs_net_approval": {
+        "crps": {
+          "count": 1,
+          "mean_loss": 2.08411409940455,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": 0.0,
+          "aggregate_skill": 0.0,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 0.0,
+            "0.95": 1.0
+          }
+        },
+        "energy": {
+          "count": 1,
+          "mean_loss": 9.951582534930033,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": 0.0,
+          "aggregate_skill": 0.0,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.0625,
+            "0.8": 0.3125,
+            "0.95": 0.5625
+          }
+        }
+      },
+      "civiqs_net_econ_direction": {
+        "crps": {
+          "count": 1,
+          "mean_loss": 0.4164239675755813,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": 0.0,
+          "aggregate_skill": 0.0,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 1.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        }
+      },
+      "civiqs_net_econ_now": {
+        "crps": {
+          "count": 1,
+          "mean_loss": 2.3714057395484582,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": 0.0,
+          "aggregate_skill": 0.0,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 0.0,
+            "0.95": 0.0
+          }
+        }
+      },
+      "civiqs_net_family_finances": {
+        "crps": {
+          "count": 1,
+          "mean_loss": 0.6070745661515764,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": 0.0,
+          "aggregate_skill": 0.0,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 1.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        }
+      },
+      "civiqs_net_inflation_concern": {
+        "crps": {
+          "count": 1,
+          "mean_loss": 0.4450321355207249,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": 0.0,
+          "aggregate_skill": 0.0,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 1.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        }
+      }
+    },
+    "persistence": {
+      "yougov_generic_margin": {
+        "crps": {
+          "count": 2,
+          "mean_loss": 0.948328253721654,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 2,
+          "mean_skill": -0.01966575480477245,
+          "aggregate_skill": -0.004598031766586574,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.5,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        }
+      },
+      "yougov_xtab_approve_dem": {
+        "energy": {
+          "count": 1,
+          "mean_loss": 7.561593787573166,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": 0.05399828445910315,
+          "aggregate_skill": 0.05399828445910315,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.5,
+            "0.8": 0.625,
+            "0.95": 0.9375
+          }
+        }
+      },
+      "mc_approval": {
+        "crps": {
+          "count": 2,
+          "mean_loss": 0.3855329306458967,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 2,
+          "mean_skill": 0.11024272834208376,
+          "aggregate_skill": 0.1027415017109149,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 1.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        }
+      },
+      "aaii_bull_bear_spread": {
+        "crps": {
+          "count": 2,
+          "mean_loss": 10.96206580105393,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 2,
+          "mean_skill": 0.3014294451795965,
+          "aggregate_skill": 0.2836990656526106,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 0.5,
+            "0.95": 1.0
+          }
+        }
+      },
+      "civiqs_angry_share": {
+        "crps": {
+          "count": 1,
+          "mean_loss": 0.3631979554214758,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": 0.12781687966710253,
+          "aggregate_skill": 0.12781687966710253,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 0.0,
+            "0.95": 0.0
+          }
+        }
+      },
+      "civiqs_net_approval": {
+        "crps": {
+          "count": 1,
+          "mean_loss": 2.4252657236818718,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": -0.16369143338879177,
+          "aggregate_skill": -0.16369143338879177,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 0.0,
+            "0.95": 0.0
+          }
+        },
+        "energy": {
+          "count": 1,
+          "mean_loss": 10.577119646916007,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": -0.06285805396180355,
+          "aggregate_skill": -0.06285805396180355,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 0.0625,
+            "0.95": 0.25
+          }
+        }
+      },
+      "civiqs_net_econ_direction": {
+        "crps": {
+          "count": 1,
+          "mean_loss": 0.34127187240366585,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": 0.18047014827088526,
+          "aggregate_skill": 0.18047014827088526,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 1.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        }
+      },
+      "civiqs_net_econ_now": {
+        "crps": {
+          "count": 1,
+          "mean_loss": 2.698624735326204,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": -0.13798524239046994,
+          "aggregate_skill": -0.13798524239046994,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 0.0,
+            "0.95": 0.0
+          }
+        }
+      },
+      "civiqs_net_family_finances": {
+        "crps": {
+          "count": 1,
+          "mean_loss": 0.6668858912916509,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": -0.098523852710938,
+          "aggregate_skill": -0.098523852710938,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 0.0,
+            "0.95": 1.0
+          }
+        }
+      },
+      "civiqs_net_inflation_concern": {
+        "crps": {
+          "count": 1,
+          "mean_loss": 0.38871650572979277,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": 0.12654283881104034,
+          "aggregate_skill": 0.12654283881104034,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 1.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        }
+      }
+    },
+    "recent_mean": {
+      "yougov_generic_margin": {
+        "crps": {
+          "count": 2,
+          "mean_loss": 3.3540647006035753,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 2,
+          "mean_skill": -3.045881377575835,
+          "aggregate_skill": -2.5530806800501837,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 0.0,
+            "0.95": 0.0
+          }
+        }
+      },
+      "yougov_xtab_approve_dem": {
+        "energy": {
+          "count": 1,
+          "mean_loss": 4.546510746249535,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": 0.4312036474710502,
+          "aggregate_skill": 0.4312036474710502,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.8125,
+            "0.8": 0.9375,
+            "0.95": 1.0
+          }
+        }
+      },
+      "mc_approval": {
+        "crps": {
+          "count": 2,
+          "mean_loss": 0.31409608072988693,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 2,
+          "mean_skill": 0.25916262093506176,
+          "aggregate_skill": 0.26899791091247705,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 1.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        }
+      },
+      "aaii_bull_bear_spread": {
+        "crps": {
+          "count": 2,
+          "mean_loss": 9.518400714142418,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 2,
+          "mean_skill": 0.39638556980275785,
+          "aggregate_skill": 0.3780333516719483,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.5,
+            "0.8": 0.5,
+            "0.95": 1.0
+          }
+        }
+      },
+      "civiqs_angry_share": {
+        "crps": {
+          "count": 1,
+          "mean_loss": 0.39523428992474186,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": 0.05088486566756878,
+          "aggregate_skill": 0.05088486566756878,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 0.0,
+            "0.95": 0.0
+          }
+        }
+      },
+      "civiqs_net_approval": {
+        "crps": {
+          "count": 1,
+          "mean_loss": 3.6584771236223013,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": -0.7554111479153474,
+          "aggregate_skill": -0.7554111479153474,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 0.0,
+            "0.95": 0.0
+          }
+        },
+        "energy": {
+          "count": 1,
+          "mean_loss": 14.26515292092525,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": -0.43345572132418075,
+          "aggregate_skill": -0.43345572132418075,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 0.0,
+            "0.95": 0.0625
+          }
+        }
+      },
+      "civiqs_net_econ_direction": {
+        "crps": {
+          "count": 1,
+          "mean_loss": 0.3086273209741792,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": 0.258862733643776,
+          "aggregate_skill": 0.258862733643776,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 1.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        }
+      },
+      "civiqs_net_econ_now": {
+        "crps": {
+          "count": 1,
+          "mean_loss": 2.49872479752722,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": -0.05368927630368514,
+          "aggregate_skill": -0.05368927630368514,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 0.0,
+            "0.95": 0.0
+          }
+        }
+      },
+      "civiqs_net_family_finances": {
+        "crps": {
+          "count": 1,
+          "mean_loss": 0.23276523837800067,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": 0.6165788333819225,
+          "aggregate_skill": 0.6165788333819225,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 1.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        }
+      },
+      "civiqs_net_inflation_concern": {
+        "crps": {
+          "count": 1,
+          "mean_loss": 0.2963803649103463,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": 0.3340248012347323,
+          "aggregate_skill": 0.3340248012347323,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 1.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        }
+      }
+    },
+    "baseline_ensemble": {
+      "yougov_generic_margin": {
+        "crps": {
+          "count": 2,
+          "mean_loss": 1.6137762678367467,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 2,
+          "mean_skill": -0.8417124522734107,
+          "aggregate_skill": -0.7095309098069589,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 0.5,
+            "0.95": 1.0
+          }
+        }
+      },
+      "yougov_xtab_approve_dem": {
+        "energy": {
+          "count": 1,
+          "mean_loss": 6.067655118544852,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": 0.24089916587596194,
+          "aggregate_skill": 0.24089916587596194,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.625,
+            "0.8": 0.8125,
+            "0.95": 0.9375
+          }
+        }
+      },
+      "mc_approval": {
+        "crps": {
+          "count": 2,
+          "mean_loss": 0.3536178225179112,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 2,
+          "mean_skill": 0.17748464059353714,
+          "aggregate_skill": 0.17701817100522144,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 1.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        }
+      },
+      "aaii_bull_bear_spread": {
+        "crps": {
+          "count": 2,
+          "mean_loss": 9.668805687839917,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 2,
+          "mean_skill": 0.42708725080873494,
+          "aggregate_skill": 0.3682053479776396,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.5,
+            "0.8": 0.5,
+            "0.95": 1.0
+          }
+        }
+      },
+      "civiqs_angry_share": {
+        "crps": {
+          "count": 1,
+          "mean_loss": 0.37491929372747074,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": 0.0996692723758208,
+          "aggregate_skill": 0.0996692723758208,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 0.0,
+            "0.95": 0.0
+          }
+        }
+      },
+      "civiqs_net_approval": {
+        "crps": {
+          "count": 1,
+          "mean_loss": 2.7805966308547103,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": -0.334186372833019,
+          "aggregate_skill": -0.334186372833019,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 0.0,
+            "0.95": 0.0
+          }
+        },
+        "energy": {
+          "count": 1,
+          "mean_loss": 11.56617174815122,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": -0.16224446790789138,
+          "aggregate_skill": -0.16224446790789138,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 0.0,
+            "0.95": 0.1875
+          }
+        }
+      },
+      "civiqs_net_econ_direction": {
+        "crps": {
+          "count": 1,
+          "mean_loss": 0.3284084168110008,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": 0.2113604345998783,
+          "aggregate_skill": 0.2113604345998783,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 1.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        }
+      },
+      "civiqs_net_econ_now": {
+        "crps": {
+          "count": 1,
+          "mean_loss": 2.6206950694802615,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": -0.10512301871179197,
+          "aggregate_skill": -0.10512301871179197,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 0.0,
+            "0.95": 0.0
+          }
+        }
+      },
+      "civiqs_net_family_finances": {
+        "crps": {
+          "count": 1,
+          "mean_loss": 0.46311841406930293,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": 0.2371309228038554,
+          "aggregate_skill": 0.2371309228038554,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        }
+      },
+      "civiqs_net_inflation_concern": {
+        "crps": {
+          "count": 1,
+          "mean_loss": 0.3063336570781771,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": 0.31165946764778896,
+          "aggregate_skill": 0.31165946764778896,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 1.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        }
+      }
+    },
+    "ensemble": {
+      "yougov_generic_margin": {
+        "crps": {
+          "count": 2,
+          "mean_loss": 2.0271724964311395,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 2,
+          "mean_skill": -1.5412119811700715,
+          "aggregate_skill": -1.1474563179721695,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 0.5,
+            "0.95": 1.0
+          }
+        }
+      },
+      "yougov_xtab_approve_dem": {
+        "energy": {
+          "count": 1,
+          "mean_loss": 5.516429009846555,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": 0.30986092964281475,
+          "aggregate_skill": 0.30986092964281475,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.6875,
+            "0.8": 0.9375,
+            "0.95": 1.0
+          }
+        }
+      },
+      "mc_approval": {
+        "crps": {
+          "count": 2,
+          "mean_loss": 0.40307230026732654,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 2,
+          "mean_skill": 0.060277557113534164,
+          "aggregate_skill": 0.06192177608826577,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 1.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        }
+      },
+      "aaii_bull_bear_spread": {
+        "crps": {
+          "count": 2,
+          "mean_loss": 9.990860963537148,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 2,
+          "mean_skill": 0.41575659823546046,
+          "aggregate_skill": 0.3471610941772971,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.5,
+            "0.8": 0.5,
+            "0.95": 0.5
+          }
+        }
+      },
+      "civiqs_angry_share": {
+        "crps": {
+          "count": 1,
+          "mean_loss": 0.3152037731551652,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": 0.24307004952121203,
+          "aggregate_skill": 0.24307004952121203,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        }
+      },
+      "civiqs_net_approval": {
+        "crps": {
+          "count": 1,
+          "mean_loss": 2.6963112144063093,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": -0.2937445292350691,
+          "aggregate_skill": -0.2937445292350691,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 0.0,
+            "0.95": 0.0
+          }
+        },
+        "energy": {
+          "count": 1,
+          "mean_loss": 8.752961613568711,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": 0.12044525754111612,
+          "aggregate_skill": 0.12044525754111612,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.1875,
+            "0.8": 0.375,
+            "0.95": 0.5625
+          }
+        }
+      },
+      "civiqs_net_econ_direction": {
+        "crps": {
+          "count": 1,
+          "mean_loss": 0.38322964285733674,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": 0.07971281026762655,
+          "aggregate_skill": 0.07971281026762655,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 1.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        }
+      },
+      "civiqs_net_econ_now": {
+        "crps": {
+          "count": 1,
+          "mean_loss": 2.569187585917638,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": -0.08340278640248178,
+          "aggregate_skill": -0.08340278640248178,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 0.0,
+            "0.95": 0.0
+          }
+        }
+      },
+      "civiqs_net_family_finances": {
+        "crps": {
+          "count": 1,
+          "mean_loss": 0.538760840118541,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": 0.11252938245477184,
+          "aggregate_skill": 0.11252938245477184,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        }
+      },
+      "civiqs_net_inflation_concern": {
+        "crps": {
+          "count": 1,
+          "mean_loss": 0.35918384637497186,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": 0.19290357323365726,
+          "aggregate_skill": 0.19290357323365726,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 1.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        }
+      }
+    },
+    "llm": {
+      "yougov_generic_margin": {
+        "crps": {
+          "count": 2,
+          "mean_loss": 2.4078836369144936,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 2,
+          "mean_skill": -2.1695134086404444,
+          "aggregate_skill": -1.5507572434694787,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 0.5,
+            "0.95": 1.0
+          }
+        }
+      },
+      "yougov_xtab_approve_dem": {
+        "energy": {
+          "count": 1,
+          "mean_loss": 5.1465554715410216,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": 0.3561343756384524,
+          "aggregate_skill": 0.3561343756384524,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.75,
+            "0.8": 0.9375,
+            "0.95": 1.0
+          }
+        }
+      },
+      "mc_approval": {
+        "crps": {
+          "count": 2,
+          "mean_loss": 0.4368432797263825,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 2,
+          "mean_skill": -0.01911426335262878,
+          "aggregate_skill": -0.016674099663305686,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 1.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        }
+      },
+      "aaii_bull_bear_spread": {
+        "crps": {
+          "count": 2,
+          "mean_loss": 10.685103066405649,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 2,
+          "mean_skill": 0.36561902140347047,
+          "aggregate_skill": 0.3017968101114058,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.5,
+            "0.8": 0.5,
+            "0.95": 0.5
+          }
+        }
+      },
+      "civiqs_angry_share": {
+        "crps": {
+          "count": 1,
+          "mean_loss": 0.30122067881380815,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": 0.2766490349546551,
+          "aggregate_skill": 0.2766490349546551,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        }
+      },
+      "civiqs_net_approval": {
+        "crps": {
+          "count": 1,
+          "mean_loss": 2.6636739915589773,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": -0.2780845311300437,
+          "aggregate_skill": -0.2780845311300437,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 0.0,
+            "0.95": 0.0
+          }
+        },
+        "energy": {
+          "count": 1,
+          "mean_loss": 7.624994224771718,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": 0.23379078674090226,
+          "aggregate_skill": 0.23379078674090226,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.25,
+            "0.8": 0.5,
+            "0.95": 0.8125
+          }
+        }
+      },
+      "civiqs_net_econ_direction": {
+        "crps": {
+          "count": 1,
+          "mean_loss": 0.4164239675755813,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": 0.0,
+          "aggregate_skill": 0.0,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 1.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        }
+      },
+      "civiqs_net_econ_now": {
+        "crps": {
+          "count": 1,
+          "mean_loss": 2.5363449146426875,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": -0.06955333384899176,
+          "aggregate_skill": -0.06955333384899176,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 0.0,
+            "0.95": 0.0
+          }
+        }
+      },
+      "civiqs_net_family_finances": {
+        "crps": {
+          "count": 1,
+          "mean_loss": 0.5949042388001325,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": 0.020047499977795313,
+          "aggregate_skill": 0.020047499977795313,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        }
+      },
+      "civiqs_net_inflation_concern": {
+        "crps": {
+          "count": 1,
+          "mean_loss": 0.39962750418623905,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": 0.10202551166638474,
+          "aggregate_skill": 0.10202551166638474,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 1.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        }
+      }
+    }
+  },
+  "warning": "Do not interpret cross-series mean CRPS as an official leaderboard score; units and target definitions differ."
+}

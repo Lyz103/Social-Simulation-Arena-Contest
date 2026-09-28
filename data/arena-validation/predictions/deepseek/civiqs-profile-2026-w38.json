@@ -1,0 +1,143 @@
+{
+  "round_id": "civiqs-profile-2026-w38",
+  "predictions": {
+    "ensemble": {
+      "cells": {
+        "civiqs_net_approval_age_18_34": {
+          "mean": -49.699999999999996,
+          "sd": 1.8493242008906923
+        },
+        "civiqs_net_approval_age_35_49": {
+          "mean": -35.125,
+          "sd": 1.278656777352692
+        },
+        "civiqs_net_approval_age_50_64": {
+          "mean": -8.04,
+          "sd": 2.022135902657244
+        },
+        "civiqs_net_approval_age_65_up": {
+          "mean": -9.65,
+          "sd": 2.7509249634023054
+        },
+        "civiqs_net_approval_dem": {
+          "mean": -95.92999999999999,
+          "sd": 0.36787417000745976
+        },
+        "civiqs_net_approval_edu_college": {
+          "mean": -30.714999999999996,
+          "sd": 1.5960538674049825
+        },
+        "civiqs_net_approval_edu_noncollege": {
+          "mean": -17.945,
+          "sd": 2.080674838212148
+        },
+        "civiqs_net_approval_edu_postgrad": {
+          "mean": -48.49,
+          "sd": 1.5186840940137842
+        },
+        "civiqs_net_approval_female": {
+          "mean": -35.515,
+          "sd": 1.5217738534871152
+        },
+        "civiqs_net_approval_ind": {
+          "mean": -35.83,
+          "sd": 2.284301015513626
+        },
+        "civiqs_net_approval_male": {
+          "mean": -13.665,
+          "sd": 2.029396105672574
+        },
+        "civiqs_net_approval_race_black": {
+          "mean": -81.795,
+          "sd": 0.7332546132304202
+        },
+        "civiqs_net_approval_race_hispanic": {
+          "mean": -38.24499999999999,
+          "sd": 2.0113420988403483
+        },
+        "civiqs_net_approval_race_other": {
+          "mean": -40.72,
+          "sd": 1.4817017987387593
+        },
+        "civiqs_net_approval_race_white": {
+          "mean": -11.379999999999999,
+          "sd": 1.8722320616210968
+        },
+        "civiqs_net_approval_rep": {
+          "mean": 66.335,
+          "sd": 2.614862597720707
+        }
+      }
+    },
+    "llm": {
+      "cells": {
+        "civiqs_net_approval_age_18_34": {
+          "mean": -50.3,
+          "sd": 1.8
+        },
+        "civiqs_net_approval_age_35_49": {
+          "mean": -35.2,
+          "sd": 1.4
+        },
+        "civiqs_net_approval_age_50_64": {
+          "mean": -8.1,
+          "sd": 2.5
+        },
+        "civiqs_net_approval_age_65_up": {
+          "mean": -10.8,
+          "sd": 2.6
+        },
+        "civiqs_net_approval_dem": {
+          "mean": -96.0,
+          "sd": 0.4
+        },
+        "civiqs_net_approval_edu_college": {
+          "mean": -30.6,
+          "sd": 2.0
+        },
+        "civiqs_net_approval_edu_noncollege": {
+          "mean": -18.8,
+          "sd": 1.9
+        },
+        "civiqs_net_approval_edu_postgrad": {
+          "mean": -48.4,
+          "sd": 1.8
+        },
+        "civiqs_net_approval_female": {
+          "mean": -36.0,
+          "sd": 1.6
+        },
+        "civiqs_net_approval_ind": {
+          "mean": -36.5,
+          "sd": 2.2
+        },
+        "civiqs_net_approval_male": {
+          "mean": -14.3,
+          "sd": 2.2
+        },
+        "civiqs_net_approval_race_black": {
+          "mean": -81.8,
+          "sd": 0.8
+        },
+        "civiqs_net_approval_race_hispanic": {
+          "mean": -39.0,
+          "sd": 1.9
+        },
+        "civiqs_net_approval_race_other": {
+          "mean": -40.8,
+          "sd": 1.8
+        },
+        "civiqs_net_approval_race_white": {
+          "mean": -12.0,
+          "sd": 2.0
+        },
+        "civiqs_net_approval_rep": {
+          "mean": 65.8,
+          "sd": 3.2
+        }
+      }
+    }
+  },
+  "input_hash": "sha256:7e33309c0c36500a5767879847827e698705c9ff0d34180f9cc1fb230d573be4",
+  "config_hash": "sha256:b502a7b465c7b5b895fee6ed99ab459c0eb25cab14824c906d23f0dcb0d2c76d"
+}

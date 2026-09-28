@@ -1,0 +1,234 @@
+{
+  "name": "local-trend-rolling-residual-archive-14-20260925",
+  "model": "deterministic local_trend (no LLM)",
+  "strategy": "Archived local_trend candidate on the same 14 frozen-input cases: trailing 6-point OLS slope anchored at latest value; damping 0.8; forecast_steps 1. Per-strategy/per-cell residual RMSE over up to 20 rolling prefix forecasts (minimum 3 residuals); min_sd 0.25; insufficient residuals use change-sd fallback. Same algorithm applied to scalar and profile cells.",
+  "notes": "Historical experiment import, not a new /api/tasks-only run or prospective entry. Coverage 14/60: 12 scalar, 2 profile, 0 ranking. Same official source commit. Inputs used frozen answer-window histories (up to 24 scalar / 12 per cell). Dashboard context differs: AAII omits one oldest observation and profiles omit per-cell histories. This set has been used for development/error analysis; not an independent test. No live search; no answer labels were supplied to the original predictor. Candidate comparison was observed on this development set; no claim of out-of-sample superiority. No grid tuning on these labels.",
+  "forecasts": [
+    {
+      "round_id": "yougov-2026-w38-generic",
+      "forecast": {
+        "mean": 11.777142857142858,
+        "sd": 1.6995653706108487
+      }
+    },
+    {
+      "round_id": "yougov-xtab-2026-w38",
+      "forecast": {
+        "profile": {
+          "yougov_xtab_approve_dem": {
+            "mean": 4.045714285714285,
+            "sd": 1.8633461233786395
+          },
+          "yougov_xtab_approve_ind": {
+            "mean": 23.228571428571428,
+            "sd": 3.419957273870836
+          },
+          "yougov_xtab_approve_rep": {
+            "mean": 78.65714285714286,
+            "sd": 3.6737360175345497
+          },
+          "yougov_xtab_approve_age_under_30": {
+            "mean": 28.405714285714286,
+            "sd": 5.152816071759961
+          },
+          "yougov_xtab_approve_age_30_44": {
+            "mean": 30.497142857142858,
+            "sd": 1.909891758873326
+          },
+          "yougov_xtab_approve_age_45_64": {
+            "mean": 41.29714285714286,
+            "sd": 4.3971630928709144
+          },
+          "yougov_xtab_approve_age_65_up": {
+            "mean": 43.137142857142855,
+            "sd": 3.8018672104262516
+          },
+          "yougov_xtab_approve_race_white": {
+            "mean": 42.77142857142857,
+            "sd": 1.684334544306106
+          },
+          "yougov_xtab_approve_race_black": {
+            "mean": 12.594285714285714,
+            "sd": 3.3272328393647084
+          },
+          "yougov_xtab_approve_race_hispanic": {
+            "mean": 31.337142857142858,
+            "sd": 5.555739374736723
+          },
+          "yougov_xtab_approve_male": {
+            "mean": 41.794285714285714,
+            "sd": 1.8326864412213917
+          },
+          "yougov_xtab_approve_female": {
+            "mean": 32.95428571428572,
+            "sd": 1.92126318990865
+          },
+          "yougov_xtab_approve_edu_hs_or_less": {
+            "mean": 43.84,
+            "sd": 3.490571791063955
+          },
+          "yougov_xtab_approve_edu_some_college": {
+            "mean": 37.68,
+            "sd": 4.3391134239752756
+          },
+          "yougov_xtab_approve_edu_college_grad": {
+            "mean": 31.65714285714286,
+            "sd": 2.5138960737046694
+          },
+          "yougov_xtab_approve_edu_postgrad": {
+            "mean": 34.02857142857143,
+            "sd": 5.077716986591352
+          }
+        }
+      }
+    },
+    {
+      "round_id": "mc-2026-w38-approval",
+      "forecast": {
+        "mean": 41.51445714285714,
+        "sd": 1.2300096837846763
+      }
+    },
+    {
+      "round_id": "aaii-2026-09-17",
+      "forecast": {
+        "mean": -1.1331428571428572,
+        "sd": 14.078939560599741
+      }
+    },
+    {
+      "round_id": "civiqs-2026-w38-angry-share",
+      "forecast": {
+        "mean": 29.729714285714284,
+        "sd": 0.25
+      }
+    },
+    {
+      "round_id": "civiqs-2026-w38-approval",
+      "forecast": {
+        "mean": -24.950857142857142,
+        "sd": 0.9191879646109999
+      }
+    },
+    {
+      "round_id": "civiqs-2026-w38-econ-direction",
+      "forecast": {
+        "mean": -38.55771428571428,
+        "sd": 1.0940160130156662
+      }
+    },
+    {
+      "round_id": "civiqs-2026-w38-econ-now",
+      "forecast": {
+        "mean": -31.506285714285717,
+        "sd": 0.7626982606081482
+      }
+    },
+    {
+      "round_id": "civiqs-2026-w38-family-finances",
+      "forecast": {
+        "mean": -30.169714285714285,
+        "sd": 0.6173015801181193
+      }
+    },
+    {
+      "round_id": "civiqs-2026-w38-inflation-concern",
+      "forecast": {
+        "mean": 59.6,
+        "sd": 1.302583367225079
+      }
+    },
+    {
+      "round_id": "civiqs-profile-2026-w38",
+      "forecast": {
+        "profile": {
+          "civiqs_net_approval_dem": {
+            "mean": -95.82457142857143,
+            "sd": 0.30253038977050706
+          },
+          "civiqs_net_approval_ind": {
+            "mean": -35.931428571428576,
+            "sd": 2.014491742249602
+          },
+          "civiqs_net_approval_rep": {
+            "mean": 66.14628571428571,
+            "sd": 0.8149474003309214
+          },
+          "civiqs_net_approval_age_18_34": {
+            "mean": -49.42285714285714,
+            "sd": 1.517211201043359
+          },
+          "civiqs_net_approval_age_35_49": {
+            "mean": -35.04057142857143,
+            "sd": 1.2260828749829795
+          },
+          "civiqs_net_approval_age_50_64": {
+            "mean": -8.133142857142857,
+            "sd": 1.1056611282903297
+          },
+          "civiqs_net_approval_age_65_up": {
+            "mean": -9.525714285714285,
+            "sd": 1.5683654301370522
+          },
+          "civiqs_net_approval_race_white": {
+            "mean": -11.233714285714287,
+            "sd": 1.158521083986311
+          },
+          "civiqs_net_approval_race_black": {
+            "mean": -81.68571428571428,
+            "sd": 0.6885323758931483
+          },
+          "civiqs_net_approval_race_hispanic": {
+            "mean": -37.82057142857143,
+            "sd": 1.5211951155561323
+          },
+          "civiqs_net_approval_race_other": {
+            "mean": -40.43371428571429,
+            "sd": 0.9413215720681298
+          },
+          "civiqs_net_approval_edu_noncollege": {
+            "mean": -17.52342857142857,
+            "sd": 1.5459431570720696
+          },
+          "civiqs_net_approval_edu_college": {
+            "mean": -31.149714285714285,
+            "sd": 0.6939556887577067
+          },
+          "civiqs_net_approval_edu_postgrad": {
+            "mean": -48.73542857142857,
+            "sd": 1.0288195732419336
+          },
+          "civiqs_net_approval_male": {
+            "mean": -13.545142857142856,
+            "sd": 1.237711739873387
+          },
+          "civiqs_net_approval_female": {
+            "mean": -35.23885714285715,
+            "sd": 1.0304868356108905
+          }
+        }
+      }
+    },
+    {
+      "round_id": "yougov-2026-w39-generic",
+      "forecast": {
+        "mean": 12.96,
+        "sd": 1.72786479062856
+      }
+    },
+    {
+      "round_id": "mc-2026-w39-approval",
+      "forecast": {
+        "mean": 41.75028571428571,
+        "sd": 1.2471553090525485
+      }
+    },
+    {
+      "round_id": "aaii-2026-09-24",
+      "forecast": {
+        "mean": -26.410857142857143,
+        "sd": 13.673412441221654
+      }
+    }
+  ]
+}

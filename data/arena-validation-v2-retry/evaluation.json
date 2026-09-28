@@ -1,0 +1,529 @@
+{
+  "strategies": {
+    "official_persistence": {
+      "records": [
+        {
+          "round_id": "aaii-2026-09-24",
+          "metric": "crps",
+          "group": {
+            "source_name": "aaii",
+            "unit": "percentage points (bullish minus bearish)",
+            "population": "",
+            "metric": "aaii_bull_bear_spread",
+            "cells": [],
+            "scoring_metric": "crps"
+          },
+          "loss": 8.25371562498571,
+          "persistence_loss": 8.25371562498571,
+          "persistence_source": "record.persistence",
+          "skill": 0.0,
+          "marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 0.0,
+            "0.95": 0.0
+          }
+        }
+      ],
+      "mean_skill": 0.0,
+      "paired_count": 1,
+      "by_metric": {
+        "crps": {
+          "count": 1,
+          "mean_loss": 8.25371562498571,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": 0.0,
+          "aggregate_skill": 0.0,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 0.0,
+            "0.95": 0.0
+          }
+        }
+      },
+      "by_group": [
+        {
+          "source_name": "aaii",
+          "unit": "percentage points (bullish minus bearish)",
+          "population": "",
+          "metric": "aaii_bull_bear_spread",
+          "cells": [],
+          "scoring_metric": "crps",
+          "count": 1,
+          "mean_loss": 8.25371562498571,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": 0.0,
+          "aggregate_skill": 0.0,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 0.0,
+            "0.95": 0.0
+          }
+        }
+      ],
+      "record_hash": "sha256:ac17838265d17ac76e0a0310d5993465994ee815e67fdaf8ec1906e133708004"
+    },
+    "persistence": {
+      "records": [
+        {
+          "round_id": "aaii-2026-09-24",
+          "metric": "crps",
+          "group": {
+            "source_name": "aaii",
+            "unit": "percentage points (bullish minus bearish)",
+            "population": "",
+            "metric": "aaii_bull_bear_spread",
+            "cells": [],
+            "scoring_metric": "crps"
+          },
+          "loss": 5.448133361427431,
+          "persistence_loss": 8.25371562498571,
+          "persistence_source": "record.persistence",
+          "skill": 0.3399174857763696,
+          "marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        }
+      ],
+      "mean_skill": 0.3399174857763696,
+      "paired_count": 1,
+      "by_metric": {
+        "crps": {
+          "count": 1,
+          "mean_loss": 5.448133361427431,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": 0.3399174857763696,
+          "aggregate_skill": 0.3399174857763696,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        }
+      },
+      "by_group": [
+        {
+          "source_name": "aaii",
+          "unit": "percentage points (bullish minus bearish)",
+          "population": "",
+          "metric": "aaii_bull_bear_spread",
+          "cells": [],
+          "scoring_metric": "crps",
+          "count": 1,
+          "mean_loss": 5.448133361427431,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": 0.3399174857763696,
+          "aggregate_skill": 0.3399174857763696,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        }
+      ],
+      "record_hash": "sha256:50d3e2ff6558a16b5c83de0965aaa922fca560e0816cc516de3f7362c8b3a425"
+    },
+    "recent_mean": {
+      "records": [
+        {
+          "round_id": "aaii-2026-09-24",
+          "metric": "crps",
+          "group": {
+            "source_name": "aaii",
+            "unit": "percentage points (bullish minus bearish)",
+            "population": "",
+            "metric": "aaii_bull_bear_spread",
+            "cells": [],
+            "scoring_metric": "crps"
+          },
+          "loss": 4.653251235472289,
+          "persistence_loss": 8.25371562498571,
+          "persistence_source": "record.persistence",
+          "skill": 0.43622346020912917,
+          "marginal_interval_coverage": {
+            "0.5": 1.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        }
+      ],
+      "mean_skill": 0.43622346020912917,
+      "paired_count": 1,
+      "by_metric": {
+        "crps": {
+          "count": 1,
+          "mean_loss": 4.653251235472289,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": 0.43622346020912917,
+          "aggregate_skill": 0.43622346020912917,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 1.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        }
+      },
+      "by_group": [
+        {
+          "source_name": "aaii",
+          "unit": "percentage points (bullish minus bearish)",
+          "population": "",
+          "metric": "aaii_bull_bear_spread",
+          "cells": [],
+          "scoring_metric": "crps",
+          "count": 1,
+          "mean_loss": 4.653251235472289,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": 0.43622346020912917,
+          "aggregate_skill": 0.43622346020912917,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 1.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        }
+      ],
+      "record_hash": "sha256:457a894195e682ad5fa207ca547c020bfda81d70a07b926182604d683de5e5ea"
+    },
+    "baseline_ensemble": {
+      "records": [
+        {
+          "round_id": "aaii-2026-09-24",
+          "metric": "crps",
+          "group": {
+            "source_name": "aaii",
+            "unit": "percentage points (bullish minus bearish)",
+            "population": "",
+            "metric": "aaii_bull_bear_spread",
+            "cells": [],
+            "scoring_metric": "crps"
+          },
+          "loss": 3.6736913439177417,
+          "persistence_loss": 8.25371562498571,
+          "persistence_source": "record.persistence",
+          "skill": 0.5549045410776311,
+          "marginal_interval_coverage": {
+            "0.5": 1.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        }
+      ],
+      "mean_skill": 0.5549045410776311,
+      "paired_count": 1,
+      "by_metric": {
+        "crps": {
+          "count": 1,
+          "mean_loss": 3.6736913439177417,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": 0.5549045410776311,
+          "aggregate_skill": 0.5549045410776311,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 1.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        }
+      },
+      "by_group": [
+        {
+          "source_name": "aaii",
+          "unit": "percentage points (bullish minus bearish)",
+          "population": "",
+          "metric": "aaii_bull_bear_spread",
+          "cells": [],
+          "scoring_metric": "crps",
+          "count": 1,
+          "mean_loss": 3.6736913439177417,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": 0.5549045410776311,
+          "aggregate_skill": 0.5549045410776311,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 1.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        }
+      ],
+      "record_hash": "sha256:ce5b9f323e4275b8bca847b07338efdeb16beda4b685b37f67c8532c099445cd"
+    },
+    "ensemble": {
+      "records": [
+        {
+          "round_id": "aaii-2026-09-24",
+          "metric": "crps",
+          "group": {
+            "source_name": "aaii",
+            "unit": "percentage points (bullish minus bearish)",
+            "population": "",
+            "metric": "aaii_bull_bear_spread",
+            "cells": [],
+            "scoring_metric": "crps"
+          },
+          "loss": 3.8412955571456764,
+          "persistence_loss": 8.25371562498571,
+          "persistence_source": "record.persistence",
+          "skill": 0.534598024492475,
+          "marginal_interval_coverage": {
+            "0.5": 1.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        }
+      ],
+      "mean_skill": 0.534598024492475,
+      "paired_count": 1,
+      "by_metric": {
+        "crps": {
+          "count": 1,
+          "mean_loss": 3.8412955571456764,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": 0.534598024492475,
+          "aggregate_skill": 0.534598024492475,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 1.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        }
+      },
+      "by_group": [
+        {
+          "source_name": "aaii",
+          "unit": "percentage points (bullish minus bearish)",
+          "population": "",
+          "metric": "aaii_bull_bear_spread",
+          "cells": [],
+          "scoring_metric": "crps",
+          "count": 1,
+          "mean_loss": 3.8412955571456764,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": 0.534598024492475,
+          "aggregate_skill": 0.534598024492475,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 1.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        }
+      ],
+      "record_hash": "sha256:334f6b359cac20e2e2e6a09517b4638a08e2342ee8f340a14e87b919eaf13660"
+    },
+    "llm": {
+      "records": [
+        {
+          "round_id": "aaii-2026-09-24",
+          "metric": "crps",
+          "group": {
+            "source_name": "aaii",
+            "unit": "percentage points (bullish minus bearish)",
+            "population": "",
+            "metric": "aaii_bull_bear_spread",
+            "cells": [],
+            "scoring_metric": "crps"
+          },
+          "loss": 5.593589362137104,
+          "persistence_loss": 8.25371562498571,
+          "persistence_source": "record.persistence",
+          "skill": 0.3222943924546967,
+          "marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        }
+      ],
+      "mean_skill": 0.3222943924546967,
+      "paired_count": 1,
+      "by_metric": {
+        "crps": {
+          "count": 1,
+          "mean_loss": 5.593589362137104,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": 0.3222943924546967,
+          "aggregate_skill": 0.3222943924546967,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        }
+      },
+      "by_group": [
+        {
+          "source_name": "aaii",
+          "unit": "percentage points (bullish minus bearish)",
+          "population": "",
+          "metric": "aaii_bull_bear_spread",
+          "cells": [],
+          "scoring_metric": "crps",
+          "count": 1,
+          "mean_loss": 5.593589362137104,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": 0.3222943924546967,
+          "aggregate_skill": 0.3222943924546967,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        }
+      ],
+      "record_hash": "sha256:f83265822300413257244b86c6254d7c521b55d9f017dcc796c53db308934ffc"
+    }
+  },
+  "by_series": {
+    "official_persistence": {
+      "aaii_bull_bear_spread": {
+        "crps": {
+          "count": 1,
+          "mean_loss": 8.25371562498571,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": 0.0,
+          "aggregate_skill": 0.0,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 0.0,
+            "0.95": 0.0
+          }
+        }
+      }
+    },
+    "persistence": {
+      "aaii_bull_bear_spread": {
+        "crps": {
+          "count": 1,
+          "mean_loss": 5.448133361427431,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": 0.3399174857763696,
+          "aggregate_skill": 0.3399174857763696,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        }
+      }
+    },
+    "recent_mean": {
+      "aaii_bull_bear_spread": {
+        "crps": {
+          "count": 1,
+          "mean_loss": 4.653251235472289,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": 0.43622346020912917,
+          "aggregate_skill": 0.43622346020912917,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 1.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        }
+      }
+    },
+    "baseline_ensemble": {
+      "aaii_bull_bear_spread": {
+        "crps": {
+          "count": 1,
+          "mean_loss": 3.6736913439177417,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": 0.5549045410776311,
+          "aggregate_skill": 0.5549045410776311,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 1.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        }
+      }
+    },
+    "ensemble": {
+      "aaii_bull_bear_spread": {
+        "crps": {
+          "count": 1,
+          "mean_loss": 3.8412955571456764,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": 0.534598024492475,
+          "aggregate_skill": 0.534598024492475,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 1.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        }
+      }
+    },
+    "llm": {
+      "aaii_bull_bear_spread": {
+        "crps": {
+          "count": 1,
+          "mean_loss": 5.593589362137104,
+          "raw_loss_comparable": true,
+          "group_count": 1,
+          "paired_count": 1,
+          "mean_skill": 0.3222943924546967,
+          "aggregate_skill": 0.3222943924546967,
+          "aggregate_skill_kind": "loss_weighted_legacy",
+          "mean_marginal_interval_coverage": {
+            "0.5": 0.0,
+            "0.8": 1.0,
+            "0.95": 1.0
+          }
+        }
+      }
+    }
+  },
+  "warning": "Do not interpret cross-series mean CRPS as an official leaderboard score; units and target definitions differ."
+}

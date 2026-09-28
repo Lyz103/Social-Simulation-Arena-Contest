@@ -1,0 +1,15 @@
+{
+  "round_id": "civiqs-2026-w38-econ-now",
+  "predictions": {
+    "ensemble": {
+      "mean": -31.69,
+      "sd": 0.9591023489127637
+    },
+    "llm": {
+      "mean": -31.7,
+      "sd": 1.0
+    }
+  },
+  "input_hash": "sha256:9950c3aeab6047f1590ebcdf998791969c5c7b1cb7cf77f1c5c55b8ea48873f6",
+  "config_hash": "sha256:b502a7b465c7b5b895fee6ed99ab459c0eb25cab14824c906d23f0dcb0d2c76d"
+}

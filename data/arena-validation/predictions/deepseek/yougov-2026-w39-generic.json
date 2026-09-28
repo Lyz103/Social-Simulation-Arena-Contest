@@ -1,0 +1,15 @@
+{
+  "round_id": "yougov-2026-w39-generic",
+  "predictions": {
+    "ensemble": {
+      "mean": 11.049999999999999,
+      "sd": 2.441388618572125
+    },
+    "llm": {
+      "mean": 11.0,
+      "sd": 2.7
+    }
+  },
+  "input_hash": "sha256:71a96cb67501979f7d03de6f4b560602b2ec77b7cd019cc49eb22076f4a6855d",
+  "config_hash": "sha256:b502a7b465c7b5b895fee6ed99ab459c0eb25cab14824c906d23f0dcb0d2c76d"
+}

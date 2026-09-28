@@ -1,0 +1,19 @@
+{
+  "round_id": "civiqs-2026-w38-family-finances",
+  "predictions": {
+    "persistence": {
+      "mean": -29.9,
+      "sd": 0.6539974506115659
+    },
+    "recent_mean": {
+      "mean": -30.53333333333333,
+      "sd": 0.6539974506115659
+    },
+    "baseline_ensemble": {
+      "mean": -30.137499999999996,
+      "sd": 0.7223040094538408
+    }
+  },
+  "input_hash": "sha256:e4820d01c5f1fc8eb52498e733413208f2bc856a40426c146aeab67600f386ae",
+  "config_hash": "sha256:0e5510c7a485b43b4323cbf214332e4a6ee6afe1bf65dac457066010a16cc69e"
+}

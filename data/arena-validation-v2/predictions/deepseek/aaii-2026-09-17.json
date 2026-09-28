@@ -1,0 +1,15 @@
+{
+  "round_id": "aaii-2026-09-17",
+  "input_hash": "sha256:5f2504b0c81570b55a680aafb341dfb19bb1ed529a2bee414324a31bf6131d05",
+  "config_hash": "sha256:464321bb2d123ec570516211229dbb4d4947f1160825489754aaa0772fa3544e",
+  "predictions": {
+    "ensemble": {
+      "mean": -2.7800000000000002,
+      "sd": 9.602207748783279
+    },
+    "llm": {
+      "mean": -3.2,
+      "sd": 7.0
+    }
+  }
+}

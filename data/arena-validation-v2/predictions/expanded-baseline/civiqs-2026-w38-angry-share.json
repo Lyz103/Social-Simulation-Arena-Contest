@@ -1,0 +1,23 @@
+{
+  "round_id": "civiqs-2026-w38-angry-share",
+  "predictions": {
+    "rolling_persistence": {
+      "mean": 29.7,
+      "sd": 0.25
+    },
+    "rolling_recent_mean": {
+      "mean": 29.666666666666668,
+      "sd": 0.29953667926019056
+    },
+    "rolling_ewma": {
+      "mean": 29.62911273617719,
+      "sd": 0.31366431322213595
+    },
+    "rolling_local_trend": {
+      "mean": 29.729714285714284,
+      "sd": 0.25
+    }
+  },
+  "input_hash": "sha256:3d61718580eb931b61f22b03c91b38977882561c5db9fb57f650bfd2154cd76e",
+  "config_hash": "sha256:0dc98cc2b1cb82a9ac3b4708bbd765fa623d2563b88a38787ee6bc681c149c6a"
+}

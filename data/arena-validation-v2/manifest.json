@@ -1,0 +1,294 @@
+{
+  "site_generated_at": "2026-09-25T05:01:42Z",
+  "prepared_at": "2026-09-25T09:41:24.485851+00:00",
+  "commit": "c36106d158ca6053c778c34495832f70c85c597d",
+  "status_counts": {
+    "resolved": 60,
+    "awaiting_resolution": 7,
+    "locked": 10,
+    "open": 68
+  },
+  "selected": 14,
+  "types": {
+    "continuous_normal": 12,
+    "profile_energy": 2
+  },
+  "selection": "All resolved scoreable rounds with explicit answer-window snapshots at or before lock minus 24h; no score-based selection.",
+  "limitations": [
+    "Snapshots downloaded now; historical availability is asserted by official archive, not independently verified.",
+    "Historical LLM knowledge contamination cannot be excluded.",
+    "No live search; no tuning on these labels; ranking rounds excluded."
+  ],
+  "snapshots": [
+    {
+      "round_id": "yougov-2026-w38-generic",
+      "url": "https://raw.githubusercontent.com/Social-Atoms/social-sim-arena/c36106d158ca6053c778c34495832f70c85c597d/locks/yougov-2026-w38-generic.json",
+      "sha256": "d2d9bfd67a2b10d5bd18eecb7c682790bef2ccd987937c8b32310ef7e4d648f4",
+      "frozen_at": "2026-09-12T10:43:57Z"
+    },
+    {
+      "round_id": "mc-2026-w38-approval",
+      "url": "https://raw.githubusercontent.com/Social-Atoms/social-sim-arena/c36106d158ca6053c778c34495832f70c85c597d/locks/mc-2026-w38-approval.json",
+      "sha256": "8aec1c153587d26829656c5bd14a33332419c93002cb62439bb38f1ca4177acd",
+      "frozen_at": "2026-09-13T11:49:57Z"
+    },
+    {
+      "round_id": "aaii-2026-09-17",
+      "url": "https://raw.githubusercontent.com/Social-Atoms/social-sim-arena/c36106d158ca6053c778c34495832f70c85c597d/locks/aaii-2026-09-17.json",
+      "sha256": "b68b949a9f2b107cc34355bd9a0f1c77a37804d9e923d1002d9f7de5bbadb0d8",
+      "frozen_at": "2026-09-14T12:45:19Z"
+    },
+    {
+      "round_id": "civiqs-2026-w38-angry-share",
+      "url": "https://raw.githubusercontent.com/Social-Atoms/social-sim-arena/c36106d158ca6053c778c34495832f70c85c597d/locks/civiqs-2026-w38-angry-share.json",
+      "sha256": "863f1384511819eeca4525e14ea470edccdd2c79fb8126d50bf2947ff4c5a5ad",
+      "frozen_at": "2026-09-15T11:46:50Z"
+    },
+    {
+      "round_id": "civiqs-2026-w38-approval",
+      "url": "https://raw.githubusercontent.com/Social-Atoms/social-sim-arena/c36106d158ca6053c778c34495832f70c85c597d/locks/civiqs-2026-w38-approval.json",
+      "sha256": "d448fb321fc35d3c846f4fbbc5bf5075f64d0e7c3128e6c3fcbc351227f00607",
+      "frozen_at": "2026-09-15T11:46:50Z"
+    },
+    {
+      "round_id": "civiqs-2026-w38-econ-direction",
+      "url": "https://raw.githubusercontent.com/Social-Atoms/social-sim-arena/c36106d158ca6053c778c34495832f70c85c597d/locks/civiqs-2026-w38-econ-direction.json",
+      "sha256": "3ae47b1e21d05c20d03b5a553257263b86714fc8d5c1faf51b9cd5a2731c177f",
+      "frozen_at": "2026-09-15T11:46:50Z"
+    },
+    {
+      "round_id": "civiqs-2026-w38-family-finances",
+      "url": "https://raw.githubusercontent.com/Social-Atoms/social-sim-arena/c36106d158ca6053c778c34495832f70c85c597d/locks/civiqs-2026-w38-family-finances.json",
+      "sha256": "c2e1e5af2fa226c3ca9b12019cec0ce536eddd7cb0ad2a6bbc1c9f437515c895",
+      "frozen_at": "2026-09-15T11:46:50Z"
+    },
+    {
+      "round_id": "civiqs-profile-2026-w38",
+      "url": "https://raw.githubusercontent.com/Social-Atoms/social-sim-arena/c36106d158ca6053c778c34495832f70c85c597d/locks/civiqs-profile-2026-w38.json",
+      "sha256": "fbdb9f504ed31f09354b5871fc29685ccfa648b1802e6c020deb18c23784c869",
+      "frozen_at": "2026-09-15T21:22:40Z"
+    },
+    {
+      "round_id": "yougov-2026-w39-generic",
+      "url": "https://raw.githubusercontent.com/Social-Atoms/social-sim-arena/c36106d158ca6053c778c34495832f70c85c597d/locks/yougov-2026-w39-generic.json",
+      "sha256": "bdf07225d389f9fcfb9f7f8c53192590b514bf43bd18af239d966116284f099c",
+      "frozen_at": "2026-09-19T10:56:40Z"
+    },
+    {
+      "round_id": "mc-2026-w39-approval",
+      "url": "https://raw.githubusercontent.com/Social-Atoms/social-sim-arena/c36106d158ca6053c778c34495832f70c85c597d/locks/mc-2026-w39-approval.json",
+      "sha256": "9e4e3309be79a11fedf97b17d9bfc940ca7d118dd88692d78f6a63a95a37b9ce",
+      "frozen_at": "2026-09-20T11:31:17Z"
+    },
+    {
+      "round_id": "aaii-2026-09-24",
+      "url": "https://raw.githubusercontent.com/Social-Atoms/social-sim-arena/c36106d158ca6053c778c34495832f70c85c597d/locks/aaii-2026-09-24.json",
+      "sha256": "8437bd095856ac81b9230d3e9d7287b2993aaae6b65cdaa95e549a7b5404b282",
+      "frozen_at": "2026-09-21T12:45:50Z"
+    },
+    {
+      "round_id": "yougov-xtab-2026-w38",
+      "url": "https://raw.githubusercontent.com/Social-Atoms/social-sim-arena/c36106d158ca6053c778c34495832f70c85c597d/locks/yougov-xtab-2026-w38.json",
+      "sha256": "69c90ed60f02e531c1fcf5d9ea4d2b370534561ac12a785e9a63c8e438132eaa",
+      "frozen_at": "2026-09-12T10:43:57Z"
+    },
+    {
+      "round_id": "civiqs-2026-w38-econ-now",
+      "url": "https://raw.githubusercontent.com/Social-Atoms/social-sim-arena/c36106d158ca6053c778c34495832f70c85c597d/locks/civiqs-2026-w38-econ-now.json",
+      "sha256": "54269e4826485da478cfd044572fcb94239355b6c30be1ec16db1e8d2e76b16d",
+      "frozen_at": "2026-09-15T11:46:50Z"
+    },
+    {
+      "round_id": "civiqs-2026-w38-inflation-concern",
+      "url": "https://raw.githubusercontent.com/Social-Atoms/social-sim-arena/c36106d158ca6053c778c34495832f70c85c597d/locks/civiqs-2026-w38-inflation-concern.json",
+      "sha256": "1fbd899696e7da0c8e1d75ba4c7df7cd9dbf82d9fcb6429da075c72d59f6d17a",
+      "frozen_at": "2026-09-15T11:46:50Z"
+    }
+  ],
+  "excluded": [
+    {
+      "round_id": "umich-2026-08-prelim",
+      "reason": "historically corrected snapshot excluded"
+    },
+    {
+      "round_id": "civiqs-2026-w33-approval",
+      "reason": "no explicit answer-window frozen snapshot"
+    },
+    {
+      "round_id": "mc-2026-w34-approval",
+      "reason": "no explicit answer-window frozen snapshot"
+    },
+    {
+      "round_id": "yougov-2026-w34-approval",
+      "reason": "no explicit answer-window frozen snapshot"
+    },
+    {
+      "round_id": "yougov-2026-w34-generic",
+      "reason": "no explicit answer-window frozen snapshot"
+    },
+    {
+      "round_id": "civiqs-2026-w34-approval",
+      "reason": "no explicit answer-window frozen snapshot"
+    },
+    {
+      "round_id": "trends-2026-08-29-iphone",
+      "reason": "no explicit answer-window frozen snapshot"
+    },
+    {
+      "round_id": "trends-2026-08-29-tesla",
+      "reason": "no explicit answer-window frozen snapshot"
+    },
+    {
+      "round_id": "wiki-2026-08-30-taylor-swift",
+      "reason": "no explicit answer-window frozen snapshot"
+    },
+    {
+      "round_id": "wiki-2026-08-30-trump",
+      "reason": "no explicit answer-window frozen snapshot"
+    },
+    {
+      "round_id": "mc-2026-w35-approval",
+      "reason": "no explicit answer-window frozen snapshot"
+    },
+    {
+      "round_id": "yougov-2026-w35-approval",
+      "reason": "no explicit answer-window frozen snapshot"
+    },
+    {
+      "round_id": "yougov-2026-w35-generic",
+      "reason": "no explicit answer-window frozen snapshot"
+    },
+    {
+      "round_id": "aaii-2026-08-27",
+      "reason": "no explicit answer-window frozen snapshot"
+    },
+    {
+      "round_id": "civiqs-2026-w35-approval",
+      "reason": "no explicit answer-window frozen snapshot"
+    },
+    {
+      "round_id": "civiqs-ind-2026-w35",
+      "reason": "no explicit answer-window frozen snapshot"
+    },
+    {
+      "round_id": "civiqs-rep-2026-w35",
+      "reason": "no explicit answer-window frozen snapshot"
+    },
+    {
+      "round_id": "umich-2026-08-final",
+      "reason": "no explicit answer-window frozen snapshot"
+    },
+    {
+      "round_id": "trends-basket-2026-09-05",
+      "reason": "no explicit answer-window frozen snapshot"
+    },
+    {
+      "round_id": "wiki-top10-2026-09-06",
+      "reason": "no explicit answer-window frozen snapshot"
+    },
+    {
+      "round_id": "yougov-2026-w36-approval",
+      "reason": "no explicit answer-window frozen snapshot"
+    },
+    {
+      "round_id": "yougov-2026-w36-generic",
+      "reason": "no explicit answer-window frozen snapshot"
+    },
+    {
+      "round_id": "mc-2026-w36-approval",
+      "reason": "no explicit answer-window frozen snapshot"
+    },
+    {
+      "round_id": "aaii-2026-09-03",
+      "reason": "no explicit answer-window frozen snapshot"
+    },
+    {
+      "round_id": "civiqs-2026-w36-approval",
+      "reason": "no explicit answer-window frozen snapshot"
+    },
+    {
+      "round_id": "civiqs-age3549-2026-w36",
+      "reason": "no explicit answer-window frozen snapshot"
+    },
+    {
+      "round_id": "civiqs-age5064-2026-w36",
+      "reason": "no explicit answer-window frozen snapshot"
+    },
+    {
+      "round_id": "civiqs-hisp-2026-w36",
+      "reason": "no explicit answer-window frozen snapshot"
+    },
+    {
+      "round_id": "civiqs-ind-2026-w36",
+      "reason": "no explicit answer-window frozen snapshot"
+    },
+    {
+      "round_id": "civiqs-male-2026-w36",
+      "reason": "no explicit answer-window frozen snapshot"
+    },
+    {
+      "round_id": "civiqs-rep-2026-w36",
+      "reason": "no explicit answer-window frozen snapshot"
+    },
+    {
+      "round_id": "trends-basket-2026-09-12",
+      "reason": "no explicit answer-window frozen snapshot"
+    },
+    {
+      "round_id": "wiki-top10-2026-09-13",
+      "reason": "no explicit answer-window frozen snapshot"
+    },
+    {
+      "round_id": "yougov-2026-w37-generic",
+      "reason": "no explicit answer-window frozen snapshot"
+    },
+    {
+      "round_id": "sce-2026-08-infl1y",
+      "reason": "no explicit answer-window frozen snapshot"
+    },
+    {
+      "round_id": "sce-2026-08-infl3y",
+      "reason": "no explicit answer-window frozen snapshot"
+    },
+    {
+      "round_id": "mc-2026-w37-approval",
+      "reason": "no explicit answer-window frozen snapshot"
+    },
+    {
+      "round_id": "aaii-2026-09-10",
+      "reason": "no explicit answer-window frozen snapshot"
+    },
+    {
+      "round_id": "civiqs-2026-w37-approval",
+      "reason": "no explicit answer-window frozen snapshot"
+    },
+    {
+      "round_id": "umich-2026-09-prelim",
+      "reason": "no explicit answer-window frozen snapshot"
+    },
+    {
+      "round_id": "umich-party-2026-09-dem",
+      "reason": "no explicit answer-window frozen snapshot"
+    },
+    {
+      "round_id": "umich-party-2026-09-ind",
+      "reason": "no explicit answer-window frozen snapshot"
+    },
+    {
+      "round_id": "umich-party-2026-09-rep",
+      "reason": "no explicit answer-window frozen snapshot"
+    },
+    {
+      "round_id": "civiqs-profile-2026-w37",
+      "reason": "no explicit answer-window frozen snapshot"
+    },
+    {
+      "round_id": "trends-basket-2026-09-19",
+      "reason": "no explicit answer-window frozen snapshot"
+    },
+    {
+      "round_id": "wiki-top10-2026-09-20",
+      "reason": "no explicit answer-window frozen snapshot"
+    }
+  ]
+}

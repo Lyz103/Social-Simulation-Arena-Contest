@@ -1,0 +1,19 @@
+{
+  "round_id": "yougov-2026-w38-generic",
+  "predictions": {
+    "persistence": {
+      "mean": 11.0,
+      "sd": 1.8639957487153058
+    },
+    "recent_mean": {
+      "mean": 7.666666666666667,
+      "sd": 1.8639957487153058
+    },
+    "baseline_ensemble": {
+      "mean": 9.75,
+      "sd": 2.465491192013348
+    }
+  },
+  "input_hash": "sha256:bda5cf371e04c881f217c710d9a23777b9ef191fa89c15d30cd6190446ad03a9",
+  "config_hash": "sha256:0e5510c7a485b43b4323cbf214332e4a6ee6afe1bf65dac457066010a16cc69e"
+}

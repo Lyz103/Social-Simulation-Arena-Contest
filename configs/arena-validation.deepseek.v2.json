@@ -1,0 +1,42 @@
+{
+  "pipeline": {
+    "entrant": "validation-deepseek-flash-input-v2",
+    "mode": "snapshot",
+    "research_policy": "disabled",
+    "allow_baseline_fallback": false,
+    "repair_attempts": 1,
+    "max_elapsed_seconds": 480
+  },
+  "run_db": "../data/arena-validation-v2/runs.sqlite3",
+  "models": [
+    {
+      "member_id": "deepseek-flash",
+      "kind": "chat_completions",
+      "model": "deepseek-flash",
+      "endpoint": "https://api.deepseek.com/chat/completions",
+      "api_key_env": "SSA_LLM_API_KEY",
+      "timeout": 300,
+      "max_attempts": 2,
+      "strict_schema": false
+    }
+  ],
+  "prompt": {
+    "model_params": {
+      "temperature": 0,
+      "max_tokens": 16384
+    }
+  },
+  "ensemble": {
+    "failure_policy": "strict",
+    "weights": {
+      "llm": 0.6,
+      "persistence": 0.25,
+      "recent_mean": 0.15
+    }
+  },
+  "context": {
+    "strict_snapshot": true,
+    "history_points": 24,
+    "profile_history_points": 12
+  }
+}

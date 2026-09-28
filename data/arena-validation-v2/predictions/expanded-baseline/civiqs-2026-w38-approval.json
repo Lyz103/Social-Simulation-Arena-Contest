@@ -1,0 +1,23 @@
+{
+  "round_id": "civiqs-2026-w38-approval",
+  "predictions": {
+    "rolling_persistence": {
+      "mean": -24.8,
+      "sd": 0.8258329128825024
+    },
+    "rolling_recent_mean": {
+      "mean": -23.566666666666666,
+      "sd": 0.9680736886552934
+    },
+    "rolling_ewma": {
+      "mean": -23.727552491888794,
+      "sd": 0.9178738737905308
+    },
+    "rolling_local_trend": {
+      "mean": -24.950857142857142,
+      "sd": 0.9191879646109999
+    }
+  },
+  "input_hash": "sha256:58b7141e2359ca4b80949d1716765f56252aae0a45d76bf35ce1a463f6a6f4a9",
+  "config_hash": "sha256:0dc98cc2b1cb82a9ac3b4708bbd765fa623d2563b88a38787ee6bc681c149c6a"
+}

@@ -1,0 +1,29 @@
+{
+  "successful_rounds": 14,
+  "returned_models": [
+    "deepseek-flash"
+  ],
+  "successful_run_usage": {
+    "prompt_tokens": 29321,
+    "completion_tokens": 61191,
+    "total_tokens": 90512
+  },
+  "note": "Usage covers saved successful runs, including returned length-retry attempts when archived by the client; excludes failed runs and superseded configurations. Not a billing total.",
+  "pipeline_config_hashes": [
+    "sha256:b502a7b465c7b5b895fee6ed99ab459c0eb25cab14824c906d23f0dcb0d2c76d"
+  ],
+  "context_configs": [
+    {
+      "item_chars": 600,
+      "long_window": 10,
+      "max_chars": 14000,
+      "max_documents": 8,
+      "max_per_section": 4,
+      "max_per_source": 3,
+      "max_token_upper_bound": 16000,
+      "recent_window": 3,
+      "strict_snapshot": true
+    }
+  ],
+  "degraded_rounds": []
+}

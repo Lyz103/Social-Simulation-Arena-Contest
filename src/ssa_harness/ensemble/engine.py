@@ -23,11 +23,15 @@ DEFAULT_WEIGHTS = {
     "recent_mean": 0.15,
 }
 
+POLICY_MATCH_FIELDS = frozenset(
+    {"target_type", "source_name", "metric", "population", "unit"}
+)
+
 
 class EnsembleEngine:
     """Combine validated LLM forecasts and statistical baselines."""
 
-    VERSION = "ensemble-v2"
+    VERSION = "ensemble-v3"
 
     def __init__(
         self,
@@ -37,6 +41,7 @@ class EnsembleEngine:
         max_sd: float | None = None,
         baseline_factory: BaselineFactory | None = None,
         failure_policy: str = "strict",
+        task_policies: Sequence[Mapping[str, Any]] | None = None,
     ) -> None:
         if (
             not math.isfinite(min_sd)
@@ -48,17 +53,109 @@ class EnsembleEngine:
             raise ValueError("unknown failure policy")
         self.failure_policy = failure_policy
         self.configured_weights = dict(DEFAULT_WEIGHTS if weights is None else weights)
+        self.task_policies = self._validate_policies(task_policies)
         self.min_sd = float(min_sd)
         self.max_sd = float(max_sd) if max_sd is not None else None
         self.baseline_factory = baseline_factory or BaselineFactory()
         self.validator = PredictionValidator()
+
+    @staticmethod
+    def _validate_policies(policies):
+        if policies is None:
+            return []
+        if not isinstance(policies, (list, tuple)):
+            raise ValueError("task_policies must be a list")
+        result = []
+        for policy in policies:
+            if not isinstance(policy, Mapping) or set(policy) - {
+                "match", "weights", "sd_scale"
+            }:
+                raise ValueError("invalid task policy fields")
+            match = policy.get("match")
+            if (
+                not isinstance(match, Mapping)
+                or set(match) - POLICY_MATCH_FIELDS
+                or any(not isinstance(value, str) for value in match.values())
+            ):
+                raise ValueError("task policy match must use allowed exact string fields")
+            scale = policy.get("sd_scale", 1.0)
+            if (
+                isinstance(scale, bool)
+                or not isinstance(scale, (int, float))
+                or not math.isfinite(scale)
+                or scale <= 0
+            ):
+                raise ValueError("task policy sd_scale must be finite and positive")
+            normalized = {"match": dict(match), "sd_scale": float(scale)}
+            if "weights" in policy:
+                weights = policy["weights"]
+                if (
+                    not isinstance(weights, Mapping)
+                    or not weights
+                    or any(not isinstance(key, str) or not key for key in weights)
+                    or any(
+                        isinstance(value, bool)
+                        or not isinstance(value, (int, float))
+                        or not math.isfinite(value)
+                        or value < 0
+                        for value in weights.values()
+                    )
+                    or not any(value > 0 for value in weights.values())
+                ):
+                    raise InvalidEnsembleWeights("invalid task policy weights")
+                normalized["weights"] = {
+                    key: float(value) for key, value in weights.items()
+                }
+            result.append(normalized)
+        return result
+
+    def resolve_policy(self, request: Any) -> dict[str, Any]:
+        """Select exact task metadata matches; ties are errors, never list-order wins."""
+        matches = [
+            (index, policy)
+            for index, policy in enumerate(self.task_policies)
+            if all(
+                (target_type(request) if key == "target_type" else field(request, key, ""))
+                == value
+                for key, value in policy["match"].items()
+            )
+        ]
+        if matches:
+            specificity = max(len(policy["match"]) for _, policy in matches)
+            selected = [
+                item for item in matches if len(item[1]["match"]) == specificity
+            ]
+            if len(selected) != 1:
+                raise ValueError("ambiguous task policies at the same specificity")
+            index, policy = selected[0]
+        else:
+            index, policy = None, {}
+        return {
+            "index": index,
+            "match": dict(policy.get("match", {})),
+            "configured_weights": dict(policy.get("weights", self.configured_weights)),
+            "policy_sd_scale": policy.get("sd_scale", 1.0),
+        }
 
     def combine(
         self,
         request: Any,
         llm_predictions: Sequence[Any],
         baselines: Sequence[ForecastMember | Mapping[str, Any]] | None = None,
+        *,
+        sd_scale: float = 1.0,
     ) -> FinalPrediction:
+        policy = self.resolve_policy(request)
+        if (
+            isinstance(sd_scale, bool)
+            or not isinstance(sd_scale, (int, float))
+            or not math.isfinite(sd_scale)
+            or sd_scale <= 0
+        ):
+            raise ValueError("sd_scale must be finite and positive")
+        effective_scale = policy["policy_sd_scale"] * sd_scale
+        if not math.isfinite(effective_scale) or effective_scale <= 0:
+            raise ValueError("combined sd_scale must be finite and positive")
         members, failures = [], []
         for index, item in enumerate(llm_predictions):
             try:
@@ -102,16 +199,30 @@ class EnsembleEngine:
         if not members:
             raise InvalidEnsembleMember("ensemble has no members")
 
-        weights = self._weights(members)
+        weights = self._weights(members, policy["configured_weights"])
+        active_members = [member for member in members if weights[member.member_id] > 0]
         kind = target_type(request)
         if kind == "continuous_normal":
-            prediction, warnings = self._numeric(request, members, weights)
+            prediction, warnings = self._numeric(request, active_members, weights)
         elif kind == "profile_energy":
-            prediction, warnings = self._profile(request, members, weights)
+            prediction, warnings = self._profile(request, active_members, weights)
         elif kind == "ranking_list":
-            prediction, warnings = self._ranking(request, members, weights)
+            prediction, warnings = self._ranking(request, active_members, weights)
         else:
             raise InvalidEnsembleMember(f"unsupported target type: {kind}")
+
+        if kind != "ranking_list" and effective_scale != 1:
+            normals = (
+                prediction["cells"].values() if kind == "profile_energy" else [prediction]
+            )
+            for normal in normals:
+                normal["sd"] *= effective_scale
+            warnings.append("sd scale applied: " + str(effective_scale))
+        policy.update(
+            global_sd_scale=float(sd_scale),
+            effective_sd_scale=effective_scale if kind != "ranking_list" else 1.0,
+            normalized_weights=dict(weights),
+        )
 
         # Final validation also canonicalizes numeric and ranking output.
         prediction = self.validator.parse(prediction, request)
@@ -125,10 +236,14 @@ class EnsembleEngine:
             ensemble_version=self.VERSION,
             warnings=warnings,
             degraded=bool(failures)
-            or not any(
-                member.member_type == "llm" and weights[member.member_id] > 0
-                for member in members
+            or (
+                policy["configured_weights"].get("llm", 0) > 0
+                and not any(
+                    member.member_type == "llm" and weights[member.member_id] > 0
+                    for member in members
+                )
             ),
+            policy=policy,
         )
 
     def _llm_members(
@@ -202,7 +317,9 @@ class EnsembleEngine:
         except (KeyError, TypeError, ValueError) as exc:
             raise InvalidEnsembleMember("invalid baseline member mapping") from exc
 
-    def _weights(self, members: list[ForecastMember]) -> dict[str, float]:
+    def _weights(
+        self, members: list[ForecastMember], configured_weights: Mapping[str, float]
+    ) -> dict[str, float]:
         raw: dict[str, float] = {}
         type_counts: dict[str, int] = {}
         for member in members:
@@ -210,7 +327,7 @@ class EnsembleEngine:
         for member in members:
             if member.member_id in raw:
                 raise InvalidEnsembleMember(f"duplicate member_id: {member.member_id}")
-            configured = self.configured_weights.get(member.member_type, 0.0)
+            configured = configured_weights.get(member.member_type, 0.0)
             value = (
                 member.weight
                 if member.weight is not None

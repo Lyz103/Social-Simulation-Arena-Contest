@@ -1,0 +1,5232 @@
+[
+  {
+    "asof": "2026-09-12T14:00:00Z",
+    "board_id": "topline",
+    "candidates": [],
+    "cells": [],
+    "deadline": "2026-09-13T14:00:00Z",
+    "domain": "elections",
+    "forecast_for": null,
+    "history": [
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-03-28",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 6.0
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-04-04",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 2.0
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-04-11",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 5.0
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-04-18",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 5.0
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-04-25",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 5.0
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-05-02",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 3.0
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-05-10",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 5.0
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-05-16",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 3.0
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-05-24",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 5.0
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-05-30",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 4.0
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-06-06",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 4.0
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-06-14",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 2.0
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-06-20",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 2.0
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-06-27",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 3.0
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-07-04",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 3.0
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-07-11",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 4.0
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-07-18",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 5.0
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-07-26",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 4.0
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-08-01",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 4.0
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-08-08",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 6.0
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-08-15",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 7.0
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-08-22",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 6.0
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-08-29",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 6.0
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-09-06",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 11.0
+      }
+    ],
+    "maximum": null,
+    "metadata": {
+      "snapshot_commit": "c36106d158ca6053c778c34495832f70c85c597d",
+      "snapshot_frozen_at": "2026-09-12T10:43:57Z"
+    },
+    "metric": "yougov_generic_margin",
+    "minimum": null,
+    "population": "",
+    "question": "Economist/YouGov generic congressional ballot: the Democratic margin (Democratic percent minus Republican percent) for the 2026 US House elections",
+    "ranking_spec": {},
+    "release_at": "2026-09-15T14:00:00Z",
+    "request_id": "",
+    "round_id": "yougov-2026-w38-generic",
+    "source_domains": [],
+    "source_name": "economist_yougov",
+    "target_end": null,
+    "target_start": null,
+    "target_type": "continuous_normal",
+    "unit": "net points, Democratic minus Republican"
+  },
+  {
+    "asof": "2026-09-12T14:00:00Z",
+    "board_id": "profile",
+    "candidates": [],
+    "cells": [
+      "yougov_xtab_approve_dem",
+      "yougov_xtab_approve_ind",
+      "yougov_xtab_approve_rep",
+      "yougov_xtab_approve_age_under_30",
+      "yougov_xtab_approve_age_30_44",
+      "yougov_xtab_approve_age_45_64",
+      "yougov_xtab_approve_age_65_up",
+      "yougov_xtab_approve_race_white",
+      "yougov_xtab_approve_race_black",
+      "yougov_xtab_approve_race_hispanic",
+      "yougov_xtab_approve_male",
+      "yougov_xtab_approve_female",
+      "yougov_xtab_approve_edu_hs_or_less",
+      "yougov_xtab_approve_edu_some_college",
+      "yougov_xtab_approve_edu_college_grad",
+      "yougov_xtab_approve_edu_postgrad"
+    ],
+    "deadline": "2026-09-13T14:00:00Z",
+    "domain": "public-opinion",
+    "forecast_for": null,
+    "history": [
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-06-15",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_dem": 6.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-06-22",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_dem": 4.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-06-29",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_dem": 3.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-07-06",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_dem": 3.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-07-13",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_dem": 4.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-07-20",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_dem": 4.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-07-27",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_dem": 3.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-08-02",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_dem": 4.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-08-10",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_dem": 2.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-08-17",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_dem": 5.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-08-24",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_dem": 2.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-08-31",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_dem": 4.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-06-15",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_ind": 28.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-06-22",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_ind": 28.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-06-29",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_ind": 27.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-07-06",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_ind": 24.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-07-13",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_ind": 26.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-07-20",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_ind": 30.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-07-27",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_ind": 24.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-08-02",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_ind": 24.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-08-10",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_ind": 26.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-08-17",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_ind": 29.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-08-24",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_ind": 28.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-08-31",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_ind": 23.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-06-15",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_rep": 84.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-06-22",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_rep": 80.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-06-29",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_rep": 83.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-07-06",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_rep": 86.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-07-13",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_rep": 84.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-07-20",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_rep": 80.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-07-27",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_rep": 83.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-08-02",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_rep": 83.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-08-10",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_rep": 80.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-08-17",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_rep": 82.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-08-24",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_rep": 84.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-08-31",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_rep": 79.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-06-15",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_age_under_30": 34.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-06-22",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_age_under_30": 24.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-06-29",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_age_under_30": 29.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-07-06",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_age_under_30": 29.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-07-13",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_age_under_30": 29.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-07-20",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_age_under_30": 29.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-07-27",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_age_under_30": 33.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-08-02",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_age_under_30": 34.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-08-10",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_age_under_30": 27.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-08-17",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_age_under_30": 30.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-08-24",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_age_under_30": 31.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-08-31",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_age_under_30": 29.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-06-15",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_age_30_44": 39.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-06-22",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_age_30_44": 39.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-06-29",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_age_30_44": 36.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-07-06",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_age_30_44": 35.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-07-13",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_age_30_44": 35.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-07-20",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_age_30_44": 36.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-07-27",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_age_30_44": 35.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-08-02",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_age_30_44": 32.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-08-10",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_age_30_44": 35.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-08-17",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_age_30_44": 33.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-08-24",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_age_30_44": 32.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-08-31",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_age_30_44": 31.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-06-15",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_age_45_64": 45.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-06-22",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_age_45_64": 44.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-06-29",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_age_45_64": 43.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-07-06",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_age_45_64": 47.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-07-13",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_age_45_64": 43.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-07-20",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_age_45_64": 46.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-07-27",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_age_45_64": 40.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-08-02",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_age_45_64": 45.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-08-10",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_age_45_64": 41.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-08-17",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_age_45_64": 46.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-08-24",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_age_45_64": 46.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-08-31",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_age_45_64": 41.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-06-15",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_age_65_up": 43.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-06-22",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_age_65_up": 42.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-06-29",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_age_65_up": 46.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-07-06",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_age_65_up": 43.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-07-13",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_age_65_up": 48.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-07-20",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_age_65_up": 41.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-07-27",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_age_65_up": 43.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-08-02",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_age_65_up": 42.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-08-10",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_age_65_up": 42.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-08-17",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_age_65_up": 45.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-08-24",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_age_65_up": 43.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-08-31",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_age_65_up": 43.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-06-15",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_race_white": 46.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-06-22",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_race_white": 45.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-06-29",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_race_white": 46.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-07-06",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_race_white": 48.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-07-13",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_race_white": 47.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-07-20",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_race_white": 45.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-07-27",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_race_white": 45.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-08-02",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_race_white": 46.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-08-10",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_race_white": 45.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-08-17",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_race_white": 45.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-08-24",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_race_white": 46.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-08-31",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_race_white": 43.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-06-15",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_race_black": 14.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-06-22",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_race_black": 10.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-06-29",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_race_black": 12.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-07-06",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_race_black": 14.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-07-13",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_race_black": 11.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-07-20",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_race_black": 13.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-07-27",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_race_black": 11.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-08-02",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_race_black": 9.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-08-10",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_race_black": 8.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-08-17",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_race_black": 14.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-08-24",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_race_black": 14.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-08-31",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_race_black": 12.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-06-15",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_race_hispanic": 40.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-06-22",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_race_hispanic": 36.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-06-29",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_race_hispanic": 35.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-07-06",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_race_hispanic": 31.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-07-13",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_race_hispanic": 31.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-07-20",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_race_hispanic": 38.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-07-27",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_race_hispanic": 36.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-08-02",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_race_hispanic": 37.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-08-10",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_race_hispanic": 31.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-08-17",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_race_hispanic": 40.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-08-24",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_race_hispanic": 31.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-08-31",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_race_hispanic": 32.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-06-15",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_male": 47.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-06-22",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_male": 44.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-06-29",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_male": 46.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-07-06",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_male": 45.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-07-13",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_male": 44.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-07-20",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_male": 44.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-07-27",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_male": 44.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-08-02",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_male": 45.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-08-10",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_male": 44.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-08-17",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_male": 45.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-08-24",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_male": 45.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-08-31",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_male": 42.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-06-15",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_female": 36.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-06-22",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_female": 35.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-06-29",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_female": 34.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-07-06",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_female": 36.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-07-13",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_female": 37.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-07-20",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_female": 36.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-07-27",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_female": 34.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-08-02",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_female": 35.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-08-10",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_female": 33.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-08-17",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_female": 36.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-08-24",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_female": 35.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-08-31",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_female": 33.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-06-15",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_edu_hs_or_less": 47.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-06-22",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_edu_hs_or_less": 50.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-06-29",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_edu_hs_or_less": 48.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-07-06",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_edu_hs_or_less": 48.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-07-13",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_edu_hs_or_less": 50.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-07-20",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_edu_hs_or_less": 46.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-07-27",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_edu_hs_or_less": 44.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-08-02",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_edu_hs_or_less": 50.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-08-10",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_edu_hs_or_less": 48.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-08-17",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_edu_hs_or_less": 50.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-08-24",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_edu_hs_or_less": 47.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-08-31",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_edu_hs_or_less": 44.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-06-15",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_edu_some_college": 46.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-06-22",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_edu_some_college": 36.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-06-29",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_edu_some_college": 39.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-07-06",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_edu_some_college": 42.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-07-13",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_edu_some_college": 38.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-07-20",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_edu_some_college": 40.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-07-27",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_edu_some_college": 41.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-08-02",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_edu_some_college": 40.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-08-10",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_edu_some_college": 38.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-08-17",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_edu_some_college": 39.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-08-24",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_edu_some_college": 40.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-08-31",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_edu_some_college": 38.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-06-15",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_edu_college_grad": 36.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-06-22",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_edu_college_grad": 34.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-06-29",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_edu_college_grad": 34.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-07-06",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_edu_college_grad": 34.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-07-13",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_edu_college_grad": 35.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-07-20",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_edu_college_grad": 39.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-07-27",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_edu_college_grad": 34.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-08-02",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_edu_college_grad": 36.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-08-10",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_edu_college_grad": 35.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-08-17",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_edu_college_grad": 36.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-08-24",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_edu_college_grad": 34.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-08-31",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_edu_college_grad": 32.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-06-15",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_edu_postgrad": 31.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-06-22",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_edu_postgrad": 31.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-06-29",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_edu_postgrad": 35.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-07-06",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_edu_postgrad": 33.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-07-13",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_edu_postgrad": 32.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-07-20",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_edu_postgrad": 27.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-07-27",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_edu_postgrad": 32.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-08-02",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_edu_postgrad": 23.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-08-10",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_edu_postgrad": 24.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-08-17",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_edu_postgrad": 31.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-08-24",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_edu_postgrad": 34.0
+        }
+      },
+      {
+        "available_at": "2026-09-12T10:43:57Z",
+        "date": "2026-08-31",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "yougov_xtab_approve_edu_postgrad": 33.0
+        }
+      }
+    ],
+    "maximum": null,
+    "metadata": {
+      "snapshot_commit": "c36106d158ca6053c778c34495832f70c85c597d",
+      "snapshot_frozen_at": "2026-09-12T10:43:57Z"
+    },
+    "metric": "yougov_xtab_approve_dem",
+    "minimum": null,
+    "population": "",
+    "question": "Economist/YouGov weekly tracker: Donald Trump's job approval among US registered voters, broken into the survey's own sixteen crosstab cells, for the wave released in the week of Monday Sep 14. Forecast the percentage approving in each subgroup as the tracker workbook reports it for that wave. These are measured cells of one survey, not a model's subgroup estimates: they move with the national mood and they also move apart, and the whole profile is scored.",
+    "ranking_spec": {},
+    "release_at": "2026-09-15T14:00:00Z",
+    "request_id": "",
+    "round_id": "yougov-xtab-2026-w38",
+    "source_domains": [],
+    "source_name": "yougov_xtab",
+    "target_end": null,
+    "target_start": null,
+    "target_type": "profile_energy",
+    "unit": "percent approving"
+  },
+  {
+    "asof": "2026-09-13T14:00:00Z",
+    "board_id": "topline",
+    "candidates": [],
+    "cells": [],
+    "deadline": "2026-09-14T14:00:00Z",
+    "domain": "public-opinion",
+    "forecast_for": null,
+    "history": [
+      {
+        "available_at": "2026-09-13T11:49:57Z",
+        "date": "2026-04-07",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 44.0
+      },
+      {
+        "available_at": "2026-09-13T11:49:57Z",
+        "date": "2026-04-11",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 43.84
+      },
+      {
+        "available_at": "2026-09-13T11:49:57Z",
+        "date": "2026-04-17",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 42.0
+      },
+      {
+        "available_at": "2026-09-13T11:49:57Z",
+        "date": "2026-04-18",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 44.46
+      },
+      {
+        "available_at": "2026-09-13T11:49:57Z",
+        "date": "2026-04-25",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 44.73
+      },
+      {
+        "available_at": "2026-09-13T11:49:57Z",
+        "date": "2026-05-02",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 43.9
+      },
+      {
+        "available_at": "2026-09-13T11:49:57Z",
+        "date": "2026-05-09",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 43.18
+      },
+      {
+        "available_at": "2026-09-13T11:49:57Z",
+        "date": "2026-05-16",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 42.08
+      },
+      {
+        "available_at": "2026-09-13T11:49:57Z",
+        "date": "2026-05-23",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 43.31
+      },
+      {
+        "available_at": "2026-09-13T11:49:57Z",
+        "date": "2026-05-30",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 42.57
+      },
+      {
+        "available_at": "2026-09-13T11:49:57Z",
+        "date": "2026-06-06",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 43.87
+      },
+      {
+        "available_at": "2026-09-13T11:49:57Z",
+        "date": "2026-06-13",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 43.1
+      },
+      {
+        "available_at": "2026-09-13T11:49:57Z",
+        "date": "2026-06-20",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 43.12
+      },
+      {
+        "available_at": "2026-09-13T11:49:57Z",
+        "date": "2026-06-27",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 42.62
+      },
+      {
+        "available_at": "2026-09-13T11:49:57Z",
+        "date": "2026-07-04",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 44.73
+      },
+      {
+        "available_at": "2026-09-13T11:49:57Z",
+        "date": "2026-07-11",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 44.76
+      },
+      {
+        "available_at": "2026-09-13T11:49:57Z",
+        "date": "2026-07-18",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 43.56
+      },
+      {
+        "available_at": "2026-09-13T11:49:57Z",
+        "date": "2026-07-25",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 45.18
+      },
+      {
+        "available_at": "2026-09-13T11:49:57Z",
+        "date": "2026-08-01",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 42.79
+      },
+      {
+        "available_at": "2026-09-13T11:49:57Z",
+        "date": "2026-08-08",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 42.5
+      },
+      {
+        "available_at": "2026-09-13T11:49:57Z",
+        "date": "2026-08-15",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 42.87
+      },
+      {
+        "available_at": "2026-09-13T11:49:57Z",
+        "date": "2026-08-22",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 43.12
+      },
+      {
+        "available_at": "2026-09-13T11:49:57Z",
+        "date": "2026-08-29",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 41.04
+      },
+      {
+        "available_at": "2026-09-13T11:49:57Z",
+        "date": "2026-09-05",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 41.73
+      }
+    ],
+    "maximum": null,
+    "metadata": {
+      "snapshot_commit": "c36106d158ca6053c778c34495832f70c85c597d",
+      "snapshot_frozen_at": "2026-09-13T11:49:57Z"
+    },
+    "metric": "mc_approval",
+    "minimum": null,
+    "population": "",
+    "question": "Morning Consult weekly tracker: percent of US registered voters who approve of Donald Trump's job performance",
+    "ranking_spec": {},
+    "release_at": "2026-09-16T14:00:00Z",
+    "request_id": "",
+    "round_id": "mc-2026-w38-approval",
+    "source_domains": [],
+    "source_name": "morning_consult",
+    "target_end": null,
+    "target_start": null,
+    "target_type": "continuous_normal",
+    "unit": "% approve"
+  },
+  {
+    "asof": "2026-09-14T14:00:00Z",
+    "board_id": "topline",
+    "candidates": [],
+    "cells": [],
+    "deadline": "2026-09-15T14:00:00Z",
+    "domain": "consumer",
+    "forecast_for": null,
+    "history": [
+      {
+        "available_at": "2026-09-14T12:45:19Z",
+        "date": "2026-04-15",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -11.1
+      },
+      {
+        "available_at": "2026-09-14T12:45:19Z",
+        "date": "2026-04-22",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 11.6
+      },
+      {
+        "available_at": "2026-09-14T12:45:19Z",
+        "date": "2026-04-29",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -1.6
+      },
+      {
+        "available_at": "2026-09-14T12:45:19Z",
+        "date": "2026-05-06",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 5.3
+      },
+      {
+        "available_at": "2026-09-14T12:45:19Z",
+        "date": "2026-05-13",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 2.7
+      },
+      {
+        "available_at": "2026-09-14T12:45:19Z",
+        "date": "2026-05-20",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -11.9
+      },
+      {
+        "available_at": "2026-09-14T12:45:19Z",
+        "date": "2026-05-27",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -6.3
+      },
+      {
+        "available_at": "2026-09-14T12:45:19Z",
+        "date": "2026-06-03",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -0.7
+      },
+      {
+        "available_at": "2026-09-14T12:45:19Z",
+        "date": "2026-06-10",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -17.3
+      },
+      {
+        "available_at": "2026-09-14T12:45:19Z",
+        "date": "2026-06-17",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -2.8
+      },
+      {
+        "available_at": "2026-09-14T12:45:19Z",
+        "date": "2026-06-24",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 8.8
+      },
+      {
+        "available_at": "2026-09-14T12:45:19Z",
+        "date": "2026-07-01",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -10.9
+      },
+      {
+        "available_at": "2026-09-14T12:45:19Z",
+        "date": "2026-07-08",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -0.9
+      },
+      {
+        "available_at": "2026-09-14T12:45:19Z",
+        "date": "2026-07-15",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 12.0
+      },
+      {
+        "available_at": "2026-09-14T12:45:19Z",
+        "date": "2026-07-22",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -12.7
+      },
+      {
+        "available_at": "2026-09-14T12:45:19Z",
+        "date": "2026-07-29",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -11.1
+      },
+      {
+        "available_at": "2026-09-14T12:45:19Z",
+        "date": "2026-08-05",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -1.0
+      },
+      {
+        "available_at": "2026-09-14T12:45:19Z",
+        "date": "2026-08-12",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -3.2
+      },
+      {
+        "available_at": "2026-09-14T12:45:19Z",
+        "date": "2026-08-19",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -4.4
+      },
+      {
+        "available_at": "2026-09-14T12:45:19Z",
+        "date": "2026-08-26",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -11.5
+      },
+      {
+        "available_at": "2026-09-14T12:45:19Z",
+        "date": "2026-09-02",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 2.1
+      },
+      {
+        "available_at": "2026-09-14T12:45:19Z",
+        "date": "2026-09-09",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -1.3
+      }
+    ],
+    "maximum": null,
+    "metadata": {
+      "snapshot_commit": "c36106d158ca6053c778c34495832f70c85c597d",
+      "snapshot_frozen_at": "2026-09-14T12:45:19Z"
+    },
+    "metric": "aaii_bull_bear_spread",
+    "minimum": null,
+    "population": "",
+    "question": "AAII Investor Sentiment Survey: percent of AAII members bullish about the stock market's direction over the next six months, minus percent bearish (the bull-bear spread)",
+    "ranking_spec": {},
+    "release_at": "2026-09-17T14:00:00Z",
+    "request_id": "",
+    "round_id": "aaii-2026-09-17",
+    "source_domains": [],
+    "source_name": "aaii",
+    "target_end": null,
+    "target_start": null,
+    "target_type": "continuous_normal",
+    "unit": "percentage points (bullish minus bearish)"
+  },
+  {
+    "asof": "2026-09-15T14:00:00Z",
+    "board_id": "topline",
+    "candidates": [],
+    "cells": [],
+    "deadline": "2026-09-16T14:00:00Z",
+    "domain": "public-opinion",
+    "forecast_for": null,
+    "history": [
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-03-27",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 28.3
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-04-03",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 28.7
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-04-10",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 28.9
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-04-17",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 28.9
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-04-24",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 29.0
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-05-01",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 29.0
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-05-08",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 29.0
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-05-15",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 29.3
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-05-22",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 29.6
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-05-29",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 29.6
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-06-05",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 29.3
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-06-12",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 29.0
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-06-19",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 28.9
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-06-26",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 28.9
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-07-03",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 28.8
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-07-10",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 28.7
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-07-17",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 28.9
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-07-24",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 29.2
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-07-31",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 29.4
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-08-07",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 29.7
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-08-14",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 29.8
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-08-21",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 29.6
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-08-28",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 29.7
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-09-04",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 29.7
+      }
+    ],
+    "maximum": null,
+    "metadata": {
+      "snapshot_commit": "c36106d158ca6053c778c34495832f70c85c597d",
+      "snapshot_frozen_at": "2026-09-15T11:46:50Z"
+    },
+    "metric": "civiqs_angry_share",
+    "minimum": null,
+    "population": "",
+    "question": "Civiqs daily tracker: percent of US registered voters who describe themselves as angry about the way things are going in the United States, as the dashboard shows it on Friday",
+    "ranking_spec": {},
+    "release_at": "2026-09-18T14:00:00Z",
+    "request_id": "",
+    "round_id": "civiqs-2026-w38-angry-share",
+    "source_domains": [],
+    "source_name": "civiqs",
+    "target_end": null,
+    "target_start": null,
+    "target_type": "continuous_normal",
+    "unit": "percent"
+  },
+  {
+    "asof": "2026-09-15T14:00:00Z",
+    "board_id": "topline",
+    "candidates": [],
+    "cells": [],
+    "deadline": "2026-09-16T14:00:00Z",
+    "domain": "public-opinion",
+    "forecast_for": null,
+    "history": [
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-03-27",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -19.8
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-04-03",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -21.3
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-04-10",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -22.0
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-04-17",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -21.0
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-04-24",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -19.9
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-05-01",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -19.8
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-05-08",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -20.0
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-05-15",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -20.1
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-05-22",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -21.2
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-05-29",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -21.9
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-06-05",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -21.4
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-06-12",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -20.8
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-06-19",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -20.8
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-06-26",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -21.0
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-07-03",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -22.0
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-07-10",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -22.4
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-07-17",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -21.5
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-07-24",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -22.7
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-07-31",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -22.8
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-08-07",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -23.9
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-08-14",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -24.2
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-08-21",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -22.6
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-08-28",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -23.3
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-09-04",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -24.8
+      }
+    ],
+    "maximum": null,
+    "metadata": {
+      "snapshot_commit": "c36106d158ca6053c778c34495832f70c85c597d",
+      "snapshot_frozen_at": "2026-09-15T11:46:50Z"
+    },
+    "metric": "civiqs_net_approval",
+    "minimum": null,
+    "population": "",
+    "question": "Civiqs daily tracker: Donald Trump's net job approval (percent approve minus percent disapprove) among US registered voters, as the dashboard shows it on Friday",
+    "ranking_spec": {},
+    "release_at": "2026-09-18T14:00:00Z",
+    "request_id": "",
+    "round_id": "civiqs-2026-w38-approval",
+    "source_domains": [],
+    "source_name": "civiqs",
+    "target_end": null,
+    "target_start": null,
+    "target_type": "continuous_normal",
+    "unit": "net points (approve minus disapprove)"
+  },
+  {
+    "asof": "2026-09-15T14:00:00Z",
+    "board_id": "topline",
+    "candidates": [],
+    "cells": [],
+    "deadline": "2026-09-16T14:00:00Z",
+    "domain": "consumer",
+    "forecast_for": null,
+    "history": [
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-03-27",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -37.4
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-04-03",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -39.3
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-04-10",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -39.3
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-04-17",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -38.5
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-04-24",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -38.0
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-05-01",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -38.1
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-05-08",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -38.4
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-05-15",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -39.1
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-05-22",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -39.2
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-05-29",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -39.1
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-06-05",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -37.5
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-06-12",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -35.8
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-06-19",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -34.0
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-06-26",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -32.8
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-07-03",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -31.8
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-07-10",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -32.1
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-07-17",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -32.6
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-07-24",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -33.7
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-07-31",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -34.8
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-08-07",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -35.9
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-08-14",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -36.0
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-08-21",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -38.4
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-08-28",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -37.9
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-09-04",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -38.0
+      }
+    ],
+    "maximum": null,
+    "metadata": {
+      "snapshot_commit": "c36106d158ca6053c778c34495832f70c85c597d",
+      "snapshot_frozen_at": "2026-09-15T11:46:50Z"
+    },
+    "metric": "civiqs_net_econ_direction",
+    "minimum": null,
+    "population": "",
+    "question": "Civiqs daily tracker: net direction of the nation's economy among US registered voters (getting better minus getting worse), as the dashboard shows it on Friday",
+    "ranking_spec": {},
+    "release_at": "2026-09-18T14:00:00Z",
+    "request_id": "",
+    "round_id": "civiqs-2026-w38-econ-direction",
+    "source_domains": [],
+    "source_name": "civiqs",
+    "target_end": null,
+    "target_start": null,
+    "target_type": "continuous_normal",
+    "unit": "net points (better minus worse)"
+  },
+  {
+    "asof": "2026-09-15T14:00:00Z",
+    "board_id": "topline",
+    "candidates": [],
+    "cells": [],
+    "deadline": "2026-09-16T14:00:00Z",
+    "domain": "consumer",
+    "forecast_for": null,
+    "history": [
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-03-27",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -28.6
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-04-03",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -31.7
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-04-10",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -32.9
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-04-17",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -33.0
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-04-24",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -32.9
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-05-01",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -33.2
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-05-08",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -33.1
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-05-15",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -33.8
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-05-22",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -34.4
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-05-29",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -33.9
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-06-05",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -33.2
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-06-12",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -32.6
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-06-19",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -32.4
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-06-26",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -32.1
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-07-03",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -31.1
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-07-10",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -30.0
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-07-17",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -30.4
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-07-24",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -31.3
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-07-31",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -31.8
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-08-07",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -32.3
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-08-14",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -32.6
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-08-21",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -32.5
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-08-28",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -31.3
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-09-04",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -31.6
+      }
+    ],
+    "maximum": null,
+    "metadata": {
+      "snapshot_commit": "c36106d158ca6053c778c34495832f70c85c597d",
+      "snapshot_frozen_at": "2026-09-15T11:46:50Z"
+    },
+    "metric": "civiqs_net_econ_now",
+    "minimum": null,
+    "population": "",
+    "question": "Civiqs daily tracker: net rating of the condition of the national economy among US registered voters (very or fairly good, minus very or fairly bad), as the dashboard shows it on Friday",
+    "ranking_spec": {},
+    "release_at": "2026-09-18T14:00:00Z",
+    "request_id": "",
+    "round_id": "civiqs-2026-w38-econ-now",
+    "source_domains": [],
+    "source_name": "civiqs",
+    "target_end": null,
+    "target_start": null,
+    "target_type": "continuous_normal",
+    "unit": "net points (good minus bad)"
+  },
+  {
+    "asof": "2026-09-15T14:00:00Z",
+    "board_id": "topline",
+    "candidates": [],
+    "cells": [],
+    "deadline": "2026-09-16T14:00:00Z",
+    "domain": "consumer",
+    "forecast_for": null,
+    "history": [
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-03-27",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -26.5
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-04-03",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -28.3
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-04-10",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -29.1
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-04-17",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -29.6
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-04-24",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -29.6
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-05-01",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -30.1
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-05-08",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -30.7
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-05-15",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -31.2
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-05-22",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -31.2
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-05-29",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -30.6
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-06-05",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -29.8
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-06-12",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -29.3
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-06-19",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -29.2
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-06-26",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -28.8
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-07-03",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -28.4
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-07-10",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -27.7
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-07-17",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -27.9
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-07-24",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -28.4
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-07-31",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -28.6
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-08-07",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -29.2
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-08-14",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -30.0
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-08-21",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -31.1
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-08-28",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -30.6
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-09-04",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -29.9
+      }
+    ],
+    "maximum": null,
+    "metadata": {
+      "snapshot_commit": "c36106d158ca6053c778c34495832f70c85c597d",
+      "snapshot_frozen_at": "2026-09-15T11:46:50Z"
+    },
+    "metric": "civiqs_net_family_finances",
+    "minimum": null,
+    "population": "",
+    "question": "Civiqs daily tracker: net change in the respondent's own family finances over the last year among US registered voters (gotten better minus gotten worse), as the dashboard shows it on Friday",
+    "ranking_spec": {},
+    "release_at": "2026-09-18T14:00:00Z",
+    "request_id": "",
+    "round_id": "civiqs-2026-w38-family-finances",
+    "source_domains": [],
+    "source_name": "civiqs",
+    "target_end": null,
+    "target_start": null,
+    "target_type": "continuous_normal",
+    "unit": "net points (better minus worse)"
+  },
+  {
+    "asof": "2026-09-15T14:00:00Z",
+    "board_id": "topline",
+    "candidates": [],
+    "cells": [],
+    "deadline": "2026-09-16T14:00:00Z",
+    "domain": "consumer",
+    "forecast_for": null,
+    "history": [
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-03-27",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 52.8
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-04-03",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 52.8
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-04-10",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 52.5
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-04-17",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 52.6
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-04-24",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 53.6
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-05-01",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 54.7
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-05-08",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 55.3
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-05-15",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 54.4
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-05-22",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 53.9
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-05-29",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 53.4
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-06-05",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 53.8
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-06-12",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 54.0
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-06-19",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 54.5
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-06-26",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 55.4
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-07-03",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 56.3
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-07-10",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 57.8
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-07-17",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 57.4
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-07-24",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 58.4
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-07-31",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 58.5
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-08-07",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 60.3
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-08-14",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 60.3
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-08-21",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 56.9
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-08-28",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 59.6
+      },
+      {
+        "available_at": "2026-09-15T11:46:50Z",
+        "date": "2026-09-04",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 59.6
+      }
+    ],
+    "maximum": null,
+    "metadata": {
+      "snapshot_commit": "c36106d158ca6053c778c34495832f70c85c597d",
+      "snapshot_frozen_at": "2026-09-15T11:46:50Z"
+    },
+    "metric": "civiqs_net_inflation_concern",
+    "minimum": null,
+    "population": "",
+    "question": "Civiqs daily tracker: net concern about the impact of inflation on consumer goods among US registered voters (very or somewhat concerned, minus a little or not at all concerned), as the dashboard shows it on Friday",
+    "ranking_spec": {},
+    "release_at": "2026-09-18T14:00:00Z",
+    "request_id": "",
+    "round_id": "civiqs-2026-w38-inflation-concern",
+    "source_domains": [],
+    "source_name": "civiqs",
+    "target_end": null,
+    "target_start": null,
+    "target_type": "continuous_normal",
+    "unit": "net points (concerned minus not concerned)"
+  },
+  {
+    "asof": "2026-09-15T22:00:00Z",
+    "board_id": "profile",
+    "candidates": [],
+    "cells": [
+      "civiqs_net_approval_dem",
+      "civiqs_net_approval_ind",
+      "civiqs_net_approval_rep",
+      "civiqs_net_approval_age_18_34",
+      "civiqs_net_approval_age_35_49",
+      "civiqs_net_approval_age_50_64",
+      "civiqs_net_approval_age_65_up",
+      "civiqs_net_approval_race_white",
+      "civiqs_net_approval_race_black",
+      "civiqs_net_approval_race_hispanic",
+      "civiqs_net_approval_race_other",
+      "civiqs_net_approval_edu_noncollege",
+      "civiqs_net_approval_edu_college",
+      "civiqs_net_approval_edu_postgrad",
+      "civiqs_net_approval_male",
+      "civiqs_net_approval_female"
+    ],
+    "deadline": "2026-09-16T22:00:00Z",
+    "domain": "public-opinion",
+    "forecast_for": null,
+    "history": [
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-06-19",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_dem": -96.1
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-06-26",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_dem": -96.1
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-07-03",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_dem": -96.2
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-07-10",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_dem": -96.1
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-07-17",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_dem": -96.0
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-07-24",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_dem": -96.1
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-07-31",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_dem": -96.1
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-08-07",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_dem": -96.2
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-08-14",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_dem": -96.3
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-08-21",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_dem": -95.5
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-08-28",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_dem": -95.7
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-09-04",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_dem": -95.9
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-06-19",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_ind": -30.6
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-06-26",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_ind": -30.8
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-07-03",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_ind": -33.0
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-07-10",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_ind": -33.1
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-07-17",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_ind": -30.8
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-07-24",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_ind": -32.4
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-07-31",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_ind": -32.4
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-08-07",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_ind": -33.3
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-08-14",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_ind": -34.4
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-08-21",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_ind": -31.1
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-08-28",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_ind": -33.9
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-09-04",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_ind": -35.6
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-06-19",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_rep": 74.3
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-06-26",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_rep": 74.3
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-07-03",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_rep": 73.3
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-07-10",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_rep": 72.6
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-07-17",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_rep": 72.9
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-07-24",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_rep": 71.3
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-07-31",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_rep": 71.2
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-08-07",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_rep": 70.2
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-08-14",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_rep": 68.3
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-08-21",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_rep": 68.3
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-08-28",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_rep": 68.0
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-09-04",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_rep": 66.8
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-06-19",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_age_18_34": -46.1
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-06-26",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_age_18_34": -45.9
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-07-03",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_age_18_34": -47.1
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-07-10",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_age_18_34": -47.1
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-07-17",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_age_18_34": -46.6
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-07-24",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_age_18_34": -47.7
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-07-31",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_age_18_34": -48.0
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-08-07",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_age_18_34": -48.6
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-08-14",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_age_18_34": -49.6
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-08-21",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_age_18_34": -46.3
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-08-28",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_age_18_34": -47.7
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-09-04",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_age_18_34": -49.4
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-06-19",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_age_35_49": -33.9
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-06-26",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_age_35_49": -34.1
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-07-03",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_age_35_49": -35.1
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-07-10",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_age_35_49": -34.8
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-07-17",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_age_35_49": -33.6
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-07-24",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_age_35_49": -34.3
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-07-31",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_age_35_49": -34.7
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-08-07",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_age_35_49": -35.8
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-08-14",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_age_35_49": -36.9
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-08-21",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_age_35_49": -34.4
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-08-28",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_age_35_49": -35.1
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-09-04",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_age_35_49": -35.1
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-06-19",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_age_50_64": -2.3
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-06-26",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_age_50_64": -2.1
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-07-03",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_age_50_64": -3.6
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-07-10",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_age_50_64": -4.4
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-07-17",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_age_50_64": -3.6
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-07-24",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_age_50_64": -5.4
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-07-31",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_age_50_64": -6.2
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-08-07",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_age_50_64": -7.0
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-08-14",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_age_50_64": -8.5
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-08-21",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_age_50_64": -8.7
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-08-28",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_age_50_64": -7.5
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-09-04",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_age_50_64": -7.9
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-06-19",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_age_65_up": -3.6
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-06-26",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_age_65_up": -3.6
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-07-03",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_age_65_up": -4.9
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-07-10",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_age_65_up": -4.7
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-07-17",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_age_65_up": -4.0
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-07-24",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_age_65_up": -4.8
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-07-31",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_age_65_up": -4.4
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-08-07",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_age_65_up": -4.9
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-08-14",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_age_65_up": -5.9
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-08-21",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_age_65_up": -3.8
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-08-28",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_age_65_up": -5.6
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-09-04",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_age_65_up": -9.0
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-06-19",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_race_white": -5.8
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-06-26",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_race_white": -5.7
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-07-03",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_race_white": -7.2
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-07-10",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_race_white": -7.5
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-07-17",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_race_white": -6.7
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-07-24",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_race_white": -7.9
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-07-31",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_race_white": -8.1
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-08-07",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_race_white": -8.9
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-08-14",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_race_white": -10.3
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-08-21",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_race_white": -8.5
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-08-28",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_race_white": -9.7
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-09-04",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_race_white": -10.9
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-06-19",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_race_black": -81.5
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-06-26",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_race_black": -81.5
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-07-03",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_race_black": -82.0
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-07-10",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_race_black": -81.9
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-07-17",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_race_black": -81.7
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-07-24",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_race_black": -82.1
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-07-31",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_race_black": -82.3
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-08-07",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_race_black": -82.5
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-08-14",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_race_black": -82.9
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-08-21",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_race_black": -81.3
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-08-28",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_race_black": -82.2
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-09-04",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_race_black": -81.8
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-06-19",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_race_hispanic": -36.2
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-06-26",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_race_hispanic": -36.3
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-07-03",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_race_hispanic": -36.6
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-07-10",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_race_hispanic": -36.0
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-07-17",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_race_hispanic": -34.6
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-07-24",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_race_hispanic": -35.6
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-07-31",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_race_hispanic": -36.3
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-08-07",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_race_hispanic": -37.0
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-08-14",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_race_hispanic": -37.3
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-08-21",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_race_hispanic": -34.3
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-08-28",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_race_hispanic": -35.8
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-09-04",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_race_hispanic": -37.8
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-06-19",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_race_other": -37.8
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-06-26",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_race_other": -38.2
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-07-03",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_race_other": -39.2
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-07-10",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_race_other": -39.0
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-07-17",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_race_other": -38.1
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-07-24",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_race_other": -39.3
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-07-31",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_race_other": -40.5
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-08-07",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_race_other": -41.2
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-08-14",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_race_other": -41.9
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-08-21",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_race_other": -41.4
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-08-28",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_race_other": -40.4
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-09-04",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_race_other": -40.5
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-06-19",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_edu_noncollege": -13.3
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-06-26",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_edu_noncollege": -13.2
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-07-03",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_edu_noncollege": -14.7
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-07-10",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_edu_noncollege": -14.6
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-07-17",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_edu_noncollege": -13.8
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-07-24",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_edu_noncollege": -14.9
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-07-31",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_edu_noncollege": -15.1
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-08-07",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_edu_noncollege": -15.9
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-08-14",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_edu_noncollege": -16.9
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-08-21",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_edu_noncollege": -14.1
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-08-28",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_edu_noncollege": -14.8
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-09-04",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_edu_noncollege": -17.4
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-06-19",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_edu_college": -26.9
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-06-26",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_edu_college": -26.7
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-07-03",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_edu_college": -27.7
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-07-10",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_edu_college": -28.0
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-07-17",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_edu_college": -27.5
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-07-24",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_edu_college": -28.5
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-07-31",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_edu_college": -28.8
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-08-07",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_edu_college": -29.5
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-08-14",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_edu_college": -30.7
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-08-21",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_edu_college": -31.2
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-08-28",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_edu_college": -31.1
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-09-04",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_edu_college": -30.8
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-06-19",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_edu_postgrad": -45.6
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-06-26",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_edu_postgrad": -45.8
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-07-03",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_edu_postgrad": -46.5
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-07-10",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_edu_postgrad": -46.9
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-07-17",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_edu_postgrad": -45.8
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-07-24",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_edu_postgrad": -46.9
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-07-31",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_edu_postgrad": -47.4
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-08-07",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_edu_postgrad": -47.9
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-08-14",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_edu_postgrad": -49.1
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-08-21",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_edu_postgrad": -48.2
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-08-28",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_edu_postgrad": -49.8
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-09-04",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_edu_postgrad": -48.5
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-06-19",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_male": -8.2
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-06-26",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_male": -8.1
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-07-03",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_male": -9.4
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-07-10",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_male": -9.6
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-07-17",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_male": -8.5
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-07-24",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_male": -9.7
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-07-31",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_male": -10.1
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-08-07",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_male": -11.2
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-08-14",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_male": -12.7
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-08-21",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_male": -10.8
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-08-28",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_male": -11.7
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-09-04",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_male": -13.2
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-06-19",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_female": -32.2
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-06-26",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_female": -32.3
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-07-03",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_female": -33.4
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-07-10",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_female": -33.5
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-07-17",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_female": -32.9
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-07-24",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_female": -33.9
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-07-31",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_female": -34.0
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-08-07",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_female": -34.5
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-08-14",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_female": -35.3
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-08-21",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_female": -33.4
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-08-28",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_female": -33.7
+        }
+      },
+      {
+        "available_at": "2026-09-15T21:22:40Z",
+        "date": "2026-09-04",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": {
+          "civiqs_net_approval_female": -35.2
+        }
+      }
+    ],
+    "maximum": null,
+    "metadata": {
+      "snapshot_commit": "c36106d158ca6053c778c34495832f70c85c597d",
+      "snapshot_frozen_at": "2026-09-15T21:22:40Z"
+    },
+    "metric": "civiqs_net_approval",
+    "minimum": null,
+    "population": "",
+    "question": "Civiqs daily tracker, Trump net approval among registered voters, full 16-cell demographic profile, Friday Sep 18 dashboard values",
+    "ranking_spec": {},
+    "release_at": "2026-09-18T22:00:00Z",
+    "request_id": "",
+    "round_id": "civiqs-profile-2026-w38",
+    "source_domains": [],
+    "source_name": "civiqs",
+    "target_end": null,
+    "target_start": null,
+    "target_type": "profile_energy",
+    "unit": "net points (approve minus disapprove)"
+  },
+  {
+    "asof": "2026-09-19T14:00:00Z",
+    "board_id": "topline",
+    "candidates": [],
+    "cells": [],
+    "deadline": "2026-09-20T14:00:00Z",
+    "domain": "elections",
+    "forecast_for": null,
+    "history": [
+      {
+        "available_at": "2026-09-19T10:56:40Z",
+        "date": "2026-04-04",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 2.0
+      },
+      {
+        "available_at": "2026-09-19T10:56:40Z",
+        "date": "2026-04-11",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 5.0
+      },
+      {
+        "available_at": "2026-09-19T10:56:40Z",
+        "date": "2026-04-18",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 5.0
+      },
+      {
+        "available_at": "2026-09-19T10:56:40Z",
+        "date": "2026-04-25",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 5.0
+      },
+      {
+        "available_at": "2026-09-19T10:56:40Z",
+        "date": "2026-05-02",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 3.0
+      },
+      {
+        "available_at": "2026-09-19T10:56:40Z",
+        "date": "2026-05-10",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 5.0
+      },
+      {
+        "available_at": "2026-09-19T10:56:40Z",
+        "date": "2026-05-16",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 3.0
+      },
+      {
+        "available_at": "2026-09-19T10:56:40Z",
+        "date": "2026-05-24",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 5.0
+      },
+      {
+        "available_at": "2026-09-19T10:56:40Z",
+        "date": "2026-05-30",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 4.0
+      },
+      {
+        "available_at": "2026-09-19T10:56:40Z",
+        "date": "2026-06-06",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 4.0
+      },
+      {
+        "available_at": "2026-09-19T10:56:40Z",
+        "date": "2026-06-14",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 2.0
+      },
+      {
+        "available_at": "2026-09-19T10:56:40Z",
+        "date": "2026-06-20",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 2.0
+      },
+      {
+        "available_at": "2026-09-19T10:56:40Z",
+        "date": "2026-06-27",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 3.0
+      },
+      {
+        "available_at": "2026-09-19T10:56:40Z",
+        "date": "2026-07-04",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 3.0
+      },
+      {
+        "available_at": "2026-09-19T10:56:40Z",
+        "date": "2026-07-11",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 4.0
+      },
+      {
+        "available_at": "2026-09-19T10:56:40Z",
+        "date": "2026-07-18",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 5.0
+      },
+      {
+        "available_at": "2026-09-19T10:56:40Z",
+        "date": "2026-07-26",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 4.0
+      },
+      {
+        "available_at": "2026-09-19T10:56:40Z",
+        "date": "2026-08-01",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 4.0
+      },
+      {
+        "available_at": "2026-09-19T10:56:40Z",
+        "date": "2026-08-08",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 6.0
+      },
+      {
+        "available_at": "2026-09-19T10:56:40Z",
+        "date": "2026-08-15",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 7.0
+      },
+      {
+        "available_at": "2026-09-19T10:56:40Z",
+        "date": "2026-08-22",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 6.0
+      },
+      {
+        "available_at": "2026-09-19T10:56:40Z",
+        "date": "2026-08-29",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 6.0
+      },
+      {
+        "available_at": "2026-09-19T10:56:40Z",
+        "date": "2026-09-06",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 11.0
+      },
+      {
+        "available_at": "2026-09-19T10:56:40Z",
+        "date": "2026-09-12",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 12.0
+      }
+    ],
+    "maximum": null,
+    "metadata": {
+      "snapshot_commit": "c36106d158ca6053c778c34495832f70c85c597d",
+      "snapshot_frozen_at": "2026-09-19T10:56:40Z"
+    },
+    "metric": "yougov_generic_margin",
+    "minimum": null,
+    "population": "",
+    "question": "Economist/YouGov generic congressional ballot: the Democratic margin (Democratic percent minus Republican percent) for the 2026 US House elections",
+    "ranking_spec": {},
+    "release_at": "2026-09-22T14:00:00Z",
+    "request_id": "",
+    "round_id": "yougov-2026-w39-generic",
+    "source_domains": [],
+    "source_name": "economist_yougov",
+    "target_end": null,
+    "target_start": null,
+    "target_type": "continuous_normal",
+    "unit": "net points, Democratic minus Republican"
+  },
+  {
+    "asof": "2026-09-20T14:00:00Z",
+    "board_id": "topline",
+    "candidates": [],
+    "cells": [],
+    "deadline": "2026-09-21T14:00:00Z",
+    "domain": "public-opinion",
+    "forecast_for": null,
+    "history": [
+      {
+        "available_at": "2026-09-20T11:31:17Z",
+        "date": "2026-04-11",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 43.84
+      },
+      {
+        "available_at": "2026-09-20T11:31:17Z",
+        "date": "2026-04-17",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 42.0
+      },
+      {
+        "available_at": "2026-09-20T11:31:17Z",
+        "date": "2026-04-18",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 44.46
+      },
+      {
+        "available_at": "2026-09-20T11:31:17Z",
+        "date": "2026-04-25",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 44.73
+      },
+      {
+        "available_at": "2026-09-20T11:31:17Z",
+        "date": "2026-05-02",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 43.9
+      },
+      {
+        "available_at": "2026-09-20T11:31:17Z",
+        "date": "2026-05-09",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 43.18
+      },
+      {
+        "available_at": "2026-09-20T11:31:17Z",
+        "date": "2026-05-16",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 42.08
+      },
+      {
+        "available_at": "2026-09-20T11:31:17Z",
+        "date": "2026-05-23",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 43.31
+      },
+      {
+        "available_at": "2026-09-20T11:31:17Z",
+        "date": "2026-05-30",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 42.57
+      },
+      {
+        "available_at": "2026-09-20T11:31:17Z",
+        "date": "2026-06-06",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 43.87
+      },
+      {
+        "available_at": "2026-09-20T11:31:17Z",
+        "date": "2026-06-13",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 43.1
+      },
+      {
+        "available_at": "2026-09-20T11:31:17Z",
+        "date": "2026-06-20",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 43.12
+      },
+      {
+        "available_at": "2026-09-20T11:31:17Z",
+        "date": "2026-06-27",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 42.62
+      },
+      {
+        "available_at": "2026-09-20T11:31:17Z",
+        "date": "2026-07-04",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 44.73
+      },
+      {
+        "available_at": "2026-09-20T11:31:17Z",
+        "date": "2026-07-11",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 44.76
+      },
+      {
+        "available_at": "2026-09-20T11:31:17Z",
+        "date": "2026-07-18",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 43.56
+      },
+      {
+        "available_at": "2026-09-20T11:31:17Z",
+        "date": "2026-07-25",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 45.18
+      },
+      {
+        "available_at": "2026-09-20T11:31:17Z",
+        "date": "2026-08-01",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 42.79
+      },
+      {
+        "available_at": "2026-09-20T11:31:17Z",
+        "date": "2026-08-08",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 42.5
+      },
+      {
+        "available_at": "2026-09-20T11:31:17Z",
+        "date": "2026-08-15",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 42.87
+      },
+      {
+        "available_at": "2026-09-20T11:31:17Z",
+        "date": "2026-08-22",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 43.12
+      },
+      {
+        "available_at": "2026-09-20T11:31:17Z",
+        "date": "2026-08-29",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 41.04
+      },
+      {
+        "available_at": "2026-09-20T11:31:17Z",
+        "date": "2026-09-05",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 41.73
+      },
+      {
+        "available_at": "2026-09-20T11:31:17Z",
+        "date": "2026-09-12",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 41.94
+      }
+    ],
+    "maximum": null,
+    "metadata": {
+      "snapshot_commit": "c36106d158ca6053c778c34495832f70c85c597d",
+      "snapshot_frozen_at": "2026-09-20T11:31:17Z"
+    },
+    "metric": "mc_approval",
+    "minimum": null,
+    "population": "",
+    "question": "Morning Consult weekly tracker: percent of US registered voters who approve of Donald Trump's job performance",
+    "ranking_spec": {},
+    "release_at": "2026-09-23T14:00:00Z",
+    "request_id": "",
+    "round_id": "mc-2026-w39-approval",
+    "source_domains": [],
+    "source_name": "morning_consult",
+    "target_end": null,
+    "target_start": null,
+    "target_type": "continuous_normal",
+    "unit": "% approve"
+  },
+  {
+    "asof": "2026-09-21T14:00:00Z",
+    "board_id": "topline",
+    "candidates": [],
+    "cells": [],
+    "deadline": "2026-09-22T14:00:00Z",
+    "domain": "consumer",
+    "forecast_for": null,
+    "history": [
+      {
+        "available_at": "2026-09-21T12:45:50Z",
+        "date": "2026-04-22",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 11.6
+      },
+      {
+        "available_at": "2026-09-21T12:45:50Z",
+        "date": "2026-04-29",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -1.6
+      },
+      {
+        "available_at": "2026-09-21T12:45:50Z",
+        "date": "2026-05-06",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 5.3
+      },
+      {
+        "available_at": "2026-09-21T12:45:50Z",
+        "date": "2026-05-13",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 2.7
+      },
+      {
+        "available_at": "2026-09-21T12:45:50Z",
+        "date": "2026-05-20",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -11.9
+      },
+      {
+        "available_at": "2026-09-21T12:45:50Z",
+        "date": "2026-05-27",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -6.3
+      },
+      {
+        "available_at": "2026-09-21T12:45:50Z",
+        "date": "2026-06-03",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -0.7
+      },
+      {
+        "available_at": "2026-09-21T12:45:50Z",
+        "date": "2026-06-10",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -17.3
+      },
+      {
+        "available_at": "2026-09-21T12:45:50Z",
+        "date": "2026-06-17",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -2.8
+      },
+      {
+        "available_at": "2026-09-21T12:45:50Z",
+        "date": "2026-06-24",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 8.8
+      },
+      {
+        "available_at": "2026-09-21T12:45:50Z",
+        "date": "2026-07-01",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -10.9
+      },
+      {
+        "available_at": "2026-09-21T12:45:50Z",
+        "date": "2026-07-08",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -0.9
+      },
+      {
+        "available_at": "2026-09-21T12:45:50Z",
+        "date": "2026-07-15",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 12.0
+      },
+      {
+        "available_at": "2026-09-21T12:45:50Z",
+        "date": "2026-07-22",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -12.7
+      },
+      {
+        "available_at": "2026-09-21T12:45:50Z",
+        "date": "2026-07-29",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -11.1
+      },
+      {
+        "available_at": "2026-09-21T12:45:50Z",
+        "date": "2026-08-05",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -1.0
+      },
+      {
+        "available_at": "2026-09-21T12:45:50Z",
+        "date": "2026-08-12",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -3.2
+      },
+      {
+        "available_at": "2026-09-21T12:45:50Z",
+        "date": "2026-08-19",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -4.4
+      },
+      {
+        "available_at": "2026-09-21T12:45:50Z",
+        "date": "2026-08-26",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -11.5
+      },
+      {
+        "available_at": "2026-09-21T12:45:50Z",
+        "date": "2026-09-02",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": 2.1
+      },
+      {
+        "available_at": "2026-09-21T12:45:50Z",
+        "date": "2026-09-09",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -1.3
+      },
+      {
+        "available_at": "2026-09-21T12:45:50Z",
+        "date": "2026-09-16",
+        "provenance": "official_answer_window_snapshot_asserted",
+        "value": -24.5
+      }
+    ],
+    "maximum": null,
+    "metadata": {
+      "snapshot_commit": "c36106d158ca6053c778c34495832f70c85c597d",
+      "snapshot_frozen_at": "2026-09-21T12:45:50Z"
+    },
+    "metric": "aaii_bull_bear_spread",
+    "minimum": null,
+    "population": "",
+    "question": "AAII Investor Sentiment Survey: percent of AAII members bullish about the stock market's direction over the next six months, minus percent bearish (the bull-bear spread)",
+    "ranking_spec": {},
+    "release_at": "2026-09-24T14:00:00Z",
+    "request_id": "",
+    "round_id": "aaii-2026-09-24",
+    "source_domains": [],
+    "source_name": "aaii",
+    "target_end": null,
+    "target_start": null,
+    "target_type": "continuous_normal",
+    "unit": "percentage points (bullish minus bearish)"
+  }
+]

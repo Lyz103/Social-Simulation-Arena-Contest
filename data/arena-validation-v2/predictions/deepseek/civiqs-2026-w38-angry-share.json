@@ -1,0 +1,15 @@
+{
+  "round_id": "civiqs-2026-w38-angry-share",
+  "input_hash": "sha256:3d61718580eb931b61f22b03c91b38977882561c5db9fb57f650bfd2154cd76e",
+  "config_hash": "sha256:464321bb2d123ec570516211229dbb4d4947f1160825489754aaa0772fa3544e",
+  "predictions": {
+    "ensemble": {
+      "mean": 29.695,
+      "sd": 0.41849930306592703
+    },
+    "llm": {
+      "mean": 29.7,
+      "sd": 0.5
+    }
+  }
+}

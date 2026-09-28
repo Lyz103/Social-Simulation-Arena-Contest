@@ -1,0 +1,216 @@
+{
+  "site_generated_at": "2026-09-25T05:01:42Z",
+  "prepared_at": "2026-09-25T09:41:24.485851+00:00",
+  "commit": "c36106d158ca6053c778c34495832f70c85c597d",
+  "status_counts": {
+    "resolved": 60,
+    "awaiting_resolution": 7,
+    "locked": 10,
+    "open": 68
+  },
+  "selected": 1,
+  "types": {
+    "continuous_normal": 1
+  },
+  "selection": "Supplemental retry of the single failed v2 round; selected by execution failure, not score. Keep separate from the uniform-config 13-round experiment.",
+  "limitations": [
+    "Snapshots downloaded now; historical availability is asserted by official archive, not independently verified.",
+    "Historical LLM knowledge contamination cannot be excluded.",
+    "No live search; no tuning on these labels; ranking rounds excluded."
+  ],
+  "snapshots": [
+    {
+      "round_id": "aaii-2026-09-24",
+      "url": "https://raw.githubusercontent.com/Social-Atoms/social-sim-arena/c36106d158ca6053c778c34495832f70c85c597d/locks/aaii-2026-09-24.json",
+      "sha256": "8437bd095856ac81b9230d3e9d7287b2993aaae6b65cdaa95e549a7b5404b282",
+      "frozen_at": "2026-09-21T12:45:50Z"
+    }
+  ],
+  "excluded": [
+    {
+      "round_id": "umich-2026-08-prelim",
+      "reason": "historically corrected snapshot excluded"
+    },
+    {
+      "round_id": "civiqs-2026-w33-approval",
+      "reason": "no explicit answer-window frozen snapshot"
+    },
+    {
+      "round_id": "mc-2026-w34-approval",
+      "reason": "no explicit answer-window frozen snapshot"
+    },
+    {
+      "round_id": "yougov-2026-w34-approval",
+      "reason": "no explicit answer-window frozen snapshot"
+    },
+    {
+      "round_id": "yougov-2026-w34-generic",
+      "reason": "no explicit answer-window frozen snapshot"
+    },
+    {
+      "round_id": "civiqs-2026-w34-approval",
+      "reason": "no explicit answer-window frozen snapshot"
+    },
+    {
+      "round_id": "trends-2026-08-29-iphone",
+      "reason": "no explicit answer-window frozen snapshot"
+    },
+    {
+      "round_id": "trends-2026-08-29-tesla",
+      "reason": "no explicit answer-window frozen snapshot"
+    },
+    {
+      "round_id": "wiki-2026-08-30-taylor-swift",
+      "reason": "no explicit answer-window frozen snapshot"
+    },
+    {
+      "round_id": "wiki-2026-08-30-trump",
+      "reason": "no explicit answer-window frozen snapshot"
+    },
+    {
+      "round_id": "mc-2026-w35-approval",
+      "reason": "no explicit answer-window frozen snapshot"
+    },
+    {
+      "round_id": "yougov-2026-w35-approval",
+      "reason": "no explicit answer-window frozen snapshot"
+    },
+    {
+      "round_id": "yougov-2026-w35-generic",
+      "reason": "no explicit answer-window frozen snapshot"
+    },
+    {
+      "round_id": "aaii-2026-08-27",
+      "reason": "no explicit answer-window frozen snapshot"
+    },
+    {
+      "round_id": "civiqs-2026-w35-approval",
+      "reason": "no explicit answer-window frozen snapshot"
+    },
+    {
+      "round_id": "civiqs-ind-2026-w35",
+      "reason": "no explicit answer-window frozen snapshot"
+    },
+    {
+      "round_id": "civiqs-rep-2026-w35",
+      "reason": "no explicit answer-window frozen snapshot"
+    },
+    {
+      "round_id": "umich-2026-08-final",
+      "reason": "no explicit answer-window frozen snapshot"
+    },
+    {
+      "round_id": "trends-basket-2026-09-05",
+      "reason": "no explicit answer-window frozen snapshot"
+    },
+    {
+      "round_id": "wiki-top10-2026-09-06",
+      "reason": "no explicit answer-window frozen snapshot"
+    },
+    {
+      "round_id": "yougov-2026-w36-approval",
+      "reason": "no explicit answer-window frozen snapshot"
+    },
+    {
+      "round_id": "yougov-2026-w36-generic",
+      "reason": "no explicit answer-window frozen snapshot"
+    },
+    {
+      "round_id": "mc-2026-w36-approval",
+      "reason": "no explicit answer-window frozen snapshot"
+    },
+    {
+      "round_id": "aaii-2026-09-03",
+      "reason": "no explicit answer-window frozen snapshot"
+    },
+    {
+      "round_id": "civiqs-2026-w36-approval",
+      "reason": "no explicit answer-window frozen snapshot"
+    },
+    {
+      "round_id": "civiqs-age3549-2026-w36",
+      "reason": "no explicit answer-window frozen snapshot"
+    },
+    {
+      "round_id": "civiqs-age5064-2026-w36",
+      "reason": "no explicit answer-window frozen snapshot"
+    },
+    {
+      "round_id": "civiqs-hisp-2026-w36",
+      "reason": "no explicit answer-window frozen snapshot"
+    },
+    {
+      "round_id": "civiqs-ind-2026-w36",
+      "reason": "no explicit answer-window frozen snapshot"
+    },
+    {
+      "round_id": "civiqs-male-2026-w36",
+      "reason": "no explicit answer-window frozen snapshot"
+    },
+    {
+      "round_id": "civiqs-rep-2026-w36",
+      "reason": "no explicit answer-window frozen snapshot"
+    },
+    {
+      "round_id": "trends-basket-2026-09-12",
+      "reason": "no explicit answer-window frozen snapshot"
+    },
+    {
+      "round_id": "wiki-top10-2026-09-13",
+      "reason": "no explicit answer-window frozen snapshot"
+    },
+    {
+      "round_id": "yougov-2026-w37-generic",
+      "reason": "no explicit answer-window frozen snapshot"
+    },
+    {
+      "round_id": "sce-2026-08-infl1y",
+      "reason": "no explicit answer-window frozen snapshot"
+    },
+    {
+      "round_id": "sce-2026-08-infl3y",
+      "reason": "no explicit answer-window frozen snapshot"
+    },
+    {
+      "round_id": "mc-2026-w37-approval",
+      "reason": "no explicit answer-window frozen snapshot"
+    },
+    {
+      "round_id": "aaii-2026-09-10",
+      "reason": "no explicit answer-window frozen snapshot"
+    },
+    {
+      "round_id": "civiqs-2026-w37-approval",
+      "reason": "no explicit answer-window frozen snapshot"
+    },
+    {
+      "round_id": "umich-2026-09-prelim",
+      "reason": "no explicit answer-window frozen snapshot"
+    },
+    {
+      "round_id": "umich-party-2026-09-dem",
+      "reason": "no explicit answer-window frozen snapshot"
+    },
+    {
+      "round_id": "umich-party-2026-09-ind",
+      "reason": "no explicit answer-window frozen snapshot"
+    },
+    {
+      "round_id": "umich-party-2026-09-rep",
+      "reason": "no explicit answer-window frozen snapshot"
+    },
+    {
+      "round_id": "civiqs-profile-2026-w37",
+      "reason": "no explicit answer-window frozen snapshot"
+    },
+    {
+      "round_id": "trends-basket-2026-09-19",
+      "reason": "no explicit answer-window frozen snapshot"
+    },
+    {
+      "round_id": "wiki-top10-2026-09-20",
+      "reason": "no explicit answer-window frozen snapshot"
+    }
+  ],
+  "parent_experiment": "arena-validation-v2"
+}

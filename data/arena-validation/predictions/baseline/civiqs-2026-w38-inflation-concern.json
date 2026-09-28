@@ -1,0 +1,19 @@
+{
+  "round_id": "civiqs-2026-w38-inflation-concern",
+  "predictions": {
+    "persistence": {
+      "mean": 59.6,
+      "sd": 1.1334741748729737
+    },
+    "recent_mean": {
+      "mean": 58.699999999999996,
+      "sd": 1.1334741748729737
+    },
+    "baseline_ensemble": {
+      "mean": 59.262499999999996,
+      "sd": 1.2143341612192136
+    }
+  },
+  "input_hash": "sha256:b4561062c0be91d8fe01615987356a60888d175d4d196ada001c2931f3726097",
+  "config_hash": "sha256:0e5510c7a485b43b4323cbf214332e4a6ee6afe1bf65dac457066010a16cc69e"
+}

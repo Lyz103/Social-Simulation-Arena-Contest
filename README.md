@@ -3,6 +3,8 @@
 
 完整使用说明见 [docs/USAGE.md](docs/USAGE.md)，包含接口规范、配置字段、密钥、实时联调、数据源和 HTTP 服务。
 
+预测输入、官方平均 skill、可选统计基线与按任务校准的更新见 [docs/FORECAST_OPTIMIZATION.md](docs/FORECAST_OPTIMIZATION.md)。真实旧题重跑仅用于开发验证，不代表独立测试集或比赛成绩。
+
 统一的 Social Simulation Arena 预测工程，Python 3.10+。检索、上下文、Prompt 和集成模块位于同一级目录。当前提供可运行的离线全链路、官方接口适配、可配置模型 HTTP 客户端、HTTP endpoint、运行归档、计分和按时间划分的校准工具。
 
 **验证边界：离线/本地 HTTP 测试不等于真实预测效果。** 本地样例与校准样例均为合成数据；尚未使用真实模型/Tavily 密钥联调，也没有宣称在真实留出集上击败 Persistence。
@@ -172,4 +174,3 @@ python -m ssa_harness calibrate `
 `evaluate --records file.json` 评估已产生预测；`backtest --config snapshot.json --cases cases.json` 在快照模式逐题运行。样本真值只交给评分器，不传给 predictor。指标是 CRPS、完整 Profile Energy score、开放列表 RBO loss 和固定候选 Kendall distance。Profile 使用官方相同的 400 点确定性样本和 seed，正态分位数的独立实现与固定官方样例在 1e-7 容差内比对。
 
 与 Snapshot/Backtester 同学的接口及真实数据验收要求见 `docs/INTEGRATION.md`。实施状态见 `docs/IMPLEMENTATION_STATUS.md`。
-

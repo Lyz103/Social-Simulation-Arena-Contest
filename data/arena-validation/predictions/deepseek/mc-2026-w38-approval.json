@@ -1,0 +1,15 @@
+{
+  "round_id": "mc-2026-w38-approval",
+  "predictions": {
+    "ensemble": {
+      "mean": 41.927,
+      "sd": 1.4727163704788837
+    },
+    "llm": {
+      "mean": 42.0,
+      "sd": 1.6
+    }
+  },
+  "input_hash": "sha256:2c05538edc10f435385d390901cdccc4fe0391cdfe1cb9049fcbf479b1e86bf4",
+  "config_hash": "sha256:b502a7b465c7b5b895fee6ed99ab459c0eb25cab14824c906d23f0dcb0d2c76d"
+}

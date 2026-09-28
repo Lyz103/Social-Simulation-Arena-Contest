@@ -35,3 +35,4 @@ class FinalPrediction:
     ensemble_version: str
     warnings: list[str]
     degraded: bool = False
+    policy: dict[str, Any] = field(default_factory=dict)

@@ -1,0 +1,19 @@
+{
+  "round_id": "civiqs-2026-w38-econ-now",
+  "predictions": {
+    "persistence": {
+      "mean": -31.6,
+      "sd": 0.888787538855576
+    },
+    "recent_mean": {
+      "mean": -31.8,
+      "sd": 0.888787538855576
+    },
+    "baseline_ensemble": {
+      "mean": -31.674999999999997,
+      "sd": 0.89404602187189
+    }
+  },
+  "input_hash": "sha256:9950c3aeab6047f1590ebcdf998791969c5c7b1cb7cf77f1c5c55b8ea48873f6",
+  "config_hash": "sha256:0e5510c7a485b43b4323cbf214332e4a6ee6afe1bf65dac457066010a16cc69e"
+}

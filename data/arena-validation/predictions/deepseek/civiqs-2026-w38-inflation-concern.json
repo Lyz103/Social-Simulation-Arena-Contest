@@ -1,0 +1,15 @@
+{
+  "round_id": "civiqs-2026-w38-inflation-concern",
+  "predictions": {
+    "ensemble": {
+      "mean": 59.044999999999995,
+      "sd": 1.5347248880635214
+    },
+    "llm": {
+      "mean": 58.9,
+      "sd": 1.7
+    }
+  },
+  "input_hash": "sha256:b4561062c0be91d8fe01615987356a60888d175d4d196ada001c2931f3726097",
+  "config_hash": "sha256:b502a7b465c7b5b895fee6ed99ab459c0eb25cab14824c906d23f0dcb0d2c76d"
+}
